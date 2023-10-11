@@ -10,6 +10,7 @@ body {
   height: 100%;
   font-family: "Encode Sans", sans-serif;
 }
+/* Container */
 
 .container {
   width: 100%;
@@ -39,10 +40,12 @@ body {
   width: 100%;
   margin: 10px;
   font-size: 18px;
+  cursor: pointer;
 }
+/* right side */
+
 .right {
   margin-top: 40px;
-  /* margin: 0 auto; */
 
   align-items: center;
   width: 60%;
@@ -58,6 +61,7 @@ body {
 .right nav .logo h3 {
   font-size: 25px;
   font-weight: 500;
+  cursor: pointer;
 }
 .right nav ul {
   width: 60%;
@@ -82,10 +86,6 @@ body {
 }
 .container .right section {
   margin-top: 100px;
-  /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; */
 }
 .container .right section h3 {
   margin-top: 120px;
@@ -116,8 +116,10 @@ body {
   font-weight: 300;
   text-transform: uppercase;
   background-color: #fe3b00;
+  cursor: pointer;
 }
 
+/* left side */
 
 .container .left {
   display: flex;
@@ -128,6 +130,14 @@ body {
   background-color: #e9d61b;
   border-radius: 2px;
 }
+.container .left .image-box {
+  position: absolute;
+  top: 60px;
+  left: 700px;
+}
+.container .left .image-box img {
+  width: 72%;
+}
 .container .left .icon {
   width: 100%;
   height: 40px;
@@ -136,8 +146,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* align-items: center; */
+
   text-align: center;
+  cursor: pointer;
 }
 .container .left .icon i {
   padding-left: 35px;
@@ -157,18 +168,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-.left .one .box span{
-    width: 60%;
-    /* margin-top: 10px; */
-    
+.left .one .box span {
+  width: 60%;
 }
-.left .one .box .dot{
-    position: relative;
-    top: -10px;
-    left: 30px;
-    
-    /* font-size: 80px; */
-    /* font-size: 40px; */
+.left .one .box .dot {
+  position: relative;
+  top: -10px;
+  left: 30px;
 }
 .left .one .box .zero {
   width: 60%;
@@ -178,7 +184,7 @@ body {
   font-weight: 600;
 }
 .left .one .box .two {
-    margin-top: 5px;
+  margin-top: 5px;
   font-size: 50px;
   font-weight: 500;
   color: #fff;
@@ -186,36 +192,34 @@ body {
 }
 
 .left .one .box .three {
-    margin-top: 5px;
+  margin-top: 5px;
   font-size: 40px;
   font-weight: 400;
   color: #fff;
   margin-left: 25px;
 }
 .left .one .box .four {
-    margin-top: 5px;
+  margin-top: 5px;
   font-size: 30px;
   font-weight: 400;
   color: #fff;
   margin-left: 30px;
 }
 .left .one .box .five {
-    margin-top: 15px;
+  margin-top: 15px;
   font-size: 18px;
   font-weight: 400;
   color: #fff;
   margin-left: 35px;
 }
 
-
-.left .up{
-    margin-left: 270px;
-
+.left .up {
+  margin-left: 270px;
 }
-.left .up i{
-    background-color: #000;
-    color: rgb(207, 207, 207);
-    border-radius: 100px;
-    padding: 3px;
-    
+.left .up i {
+  background-color: #000;
+  color: rgb(207, 207, 207);
+  border-radius: 100px;
+  padding: 3px;
+  cursor: pointer;
 }
