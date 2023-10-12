@@ -111,3 +111,20 @@
 // for separate functionality in code
 // particular work - particular function
 // block of code
+
+// day 46 js part 3
+
+// Objects
+// Car - properties & method
+// tyre,headlight,seat,stearing
+// 4 tyre, 2 headlight, 4 seat, 1 stearing
+
+// {}
+
+// {
+//     tyre:4,
+//     headlight:2,
+//     seats:4,
+//     stearing:1,
+//     bhaiKaCar:false
+// }
