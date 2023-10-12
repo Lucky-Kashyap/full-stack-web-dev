@@ -54,7 +54,64 @@
 
 // alert(a);
 
-// prompt
+// prompt -- question
 //console.log()
 // console.error()
 // console.warn()
+
+// day 47 - js
+
+// var a = prompt("enter age");
+
+// console.log(a);
+// var username = prompt('enter name');
+
+// alert(username);
+
+// console.log("hey");
+
+// console.error('error');
+
+// console.warn('warning');
+
+//variable
+// user input
+
+// var ans = prompt('name please');
+// ans = prompt('renmae yourself');
+
+// console.log(ans);
+
+// ask two names from user
+
+// var firstName = prompt('first name');
+// var lastName = prompt('last name');
+
+// console.log(firstName);
+// console.log(lastName);
+
+// ask name and age
+
+// var user_name = prompt('name ');
+
+// var age = prompt('age ');
+
+// console.log(user_name,age);
+
+// ask name and age and print age + 2
+
+// var user_name = prompt("name ");
+
+// var age = parseInt(prompt("age "));
+// var age = Number(prompt("age "));
+
+// age += 2;
+
+// age = parseInt(age);
+
+// console.log(user_name, age);
+
+// if
+// else
+// if | else if | else
+// ternary operator
