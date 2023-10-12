@@ -228,3 +228,60 @@
 // console.log(user_name[3]);
 
 // console.log(user_name[-1]); // undefined
+
+// day 49 js - 6
+
+// array method
+
+// var arr = [1,2,3,4,5];
+
+// arr.push(10);  // add element from last
+
+// arr.pop();    // remove element from last
+
+// arr.shift();   // reomve element from first index
+// arr.unshift(10);  // add element in first index
+// console.log(arr);
+
+// var arr = [1, 2, 3, 4, 5];
+
+// var newArr = arr.splice(0,4);
+
+// console.log(newArr);
+
+// console.log(arr);
+
+// console.log(arr.length);
+
+// loops - for , while , foreach
+
+// for repetition task
+
+// print 4 time 'hello'
+
+// for(let i=0;i<4;i++){
+//     console.log('Hello');
+// }
+
+// for(var i=0;i<50;i++){
+//     console.log(i);
+// }
+
+// print 50 number in the row and exclude 6
+
+// for (var i = 0; i < 50; i++) {
+//   if (i == 6) {
+//     continue;
+//   }
+
+//   console.log(i);
+// }
+
+// var i = 0;
+
+// while (i < 5) {
+//   console.log(i);
+//   i++;
+// }
+
+// day 50 js - 7
