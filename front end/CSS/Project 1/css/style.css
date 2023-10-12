@@ -1,3 +1,7 @@
+@font-face {
+    font-family: lucky;
+    src: url(/assets/DMSans_18pt-ExtraLight.ttf);
+}
 *{
     margin: 0;
     padding: 0;
@@ -24,9 +28,14 @@ nav h1{
     font-size: 30px;
     margin-right: 300px;
     font-weight: 400;
+    font-family: lucky;
+    letter-spacing: -2px;
 }
 nav h3{
     font-size: 20px;
     font-weight: 300;
     margin-right:50px;
+}
+.fashion{
+    font-size: 120px;
 }
