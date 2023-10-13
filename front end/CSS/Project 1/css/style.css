@@ -1,67 +1,131 @@
-@import url('https://fonts.googleapis.com/css2?family=Laila:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Laila:wght@600&display=swap");
 @font-face {
+  font-family: lucky;
+  src: url(/assets/DMSans_18pt-ExtraLight.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(212, 212, 212); */
+  padding: 0 20%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+  font-family: lucky;
+  /* background-color: rgb(234, 234, 234); */
+}
+nav h1 {
+  font-size: 30px;
+  margin-right: 300px;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+nav h3 {
+  font-size: 20px;
+  font-family: lucky;
+  font-weight: 600;
+  margin-right: 80px;
+}
+.fashion {
+  font-size: 100px;
+  font-family: "Laila", serif;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  /* background-color: orange; */
+}
+.image p{
+    width: 250px;
+    position: absolute;
+    z-index: 3;
+    top: 34%;
+    left: 20%;
     font-family: lucky;
-    src: url(/assets/DMSans_18pt-ExtraLight.ttf);
+    font-size: 15px;
+    font-weight: 600;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.img1 {
+  width: 20%;
+  rotate: -12deg;
+  margin-right: -10px;
 }
-html,body{
-    width: 100%;
-    height: 100%;
+.img2 {
+  width: 30%;
+  z-index: 1;
 }
-.main{
-    width: 100%;
-    height: 100%;
-    /* background-color: rgb(212, 212, 212); */
-    padding: 0 20%;
+.img3 {
+  width: 20%;
+  rotate: 12deg;
+  margin-left: -10px;
+  z-index: 2;
 }
-nav{
+.image .curved-text{
+    width: 10%;
+    position: absolute;
+    top: 180px;
+    right: 350px;
+    z-index: 4;
+    animation: rotate 20s linear infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.btm-text {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 100%;
+  height: 10%;
+  /* background-color: red; */
+}
+.btm-text > button {
+  padding: 15px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  border-radius: 2px;
+}
+.btm-right {
+    display: flex;
+  width: 60%;
+  height: 100%;
+  /* background-color: rebeccapurple; */
+}
+.btm-part{
     display: flex;
     align-items: center;
-    width: 100%;
-    height: 10%;
+
+    gap:20px;
+    width: calc(100%/3);
+    height: 100%;
+    padding: 0 1%;
     font-family: lucky;
-    /* background-color: rgb(234, 234, 234); */
+    /* background-color: blue; */
 }
-nav h1{
-    font-size: 30px;
-    margin-right: 300px;
-    font-weight: 600;
-    letter-spacing: -2px;
-}
-nav h3{
-    font-size: 20px;
-    font-family: lucky;
-    font-weight: 600;
-    margin-right:80px;
-}
-.fashion{
-    font-size: 100px;
-    font-family: 'Laila', serif;
-}
-.image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50%;
-    /* background-color: orange; */
-}
-.img1{
-    width: 20%;
-    rotate: -12deg;
-    margin-right: -10px;
-}
-.img2{
-    width: 30%;
-    z-index: 1;
-}
-.img3{
-    width: 20%;
-    rotate: 12deg;
-    margin-left: -10px;
-    z-index: 2;
+.btm-part h3{
+    font-size: 40px;
+    color: rgb(220, 61, 61);
 }
