@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@600&display=swap');
 @font-face {
     font-family: lucky;
     src: url(/assets/DMSans_18pt-ExtraLight.ttf);
@@ -22,20 +23,45 @@ nav{
     align-items: center;
     width: 100%;
     height: 10%;
+    font-family: lucky;
     /* background-color: rgb(234, 234, 234); */
 }
 nav h1{
     font-size: 30px;
     margin-right: 300px;
-    font-weight: 400;
-    font-family: lucky;
+    font-weight: 600;
     letter-spacing: -2px;
 }
 nav h3{
     font-size: 20px;
-    font-weight: 300;
-    margin-right:50px;
+    font-family: lucky;
+    font-weight: 600;
+    margin-right:80px;
 }
 .fashion{
-    font-size: 120px;
+    font-size: 100px;
+    font-family: 'Laila', serif;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    /* background-color: orange; */
+}
+.img1{
+    width: 20%;
+    rotate: -12deg;
+    margin-right: -10px;
+}
+.img2{
+    width: 30%;
+    z-index: 1;
+}
+.img3{
+    width: 20%;
+    rotate: 12deg;
+    margin-left: -10px;
+    z-index: 2;
 }
