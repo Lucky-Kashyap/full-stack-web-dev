@@ -368,3 +368,28 @@
 // }
 
 // const apple = num => num;
+
+// DOM
+
+// selection of an HTMl element in JS
+
+// changing the value of an HTML element with JS
+
+// changing the CSS of an HTMl element with JS
+
+// console.log(document);
+
+// in order to change anythin in the HTML with JS you need to do this:
+// 1. select the HTML
+// 2. change the data you want to change
+
+var heading = document.querySelector("h1");
+
+// console.log(heading);
+
+// heading.innerHTML='Full stack WEB DEV';
+
+// console.log(heading.textContent);
+// console.log(heading.innerHTML);
+// console.log(heading.innerText);
+// console.log(heading.tagName);
