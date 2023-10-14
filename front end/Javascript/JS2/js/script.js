@@ -328,13 +328,43 @@
 
 // a.forEach((el) => console.log(el + " is good..!"));
 
-// use case when ever you have an array and you want to perform 
+// use case when ever you have an array and you want to perform
 // a particular operation on every member of the array
-
 
 // functions
 
 // es 5 es 6
 
+// function statement, function expression, function anonymous
 
+// 1.
 
+// function apple(){
+// function statement
+// }
+
+// 2. function exression
+
+// const apple = function(){
+
+// }
+
+// 3. anonymous function
+
+// function(){
+
+// }
+
+// es 6 function  arrow function , arrow function with one parameter , arrow function with impicit return
+
+// fat arrow function
+
+// const apple =()=>{
+
+// }
+
+// const apple = (val)=>{
+
+// }
+
+// const apple = num => num;
