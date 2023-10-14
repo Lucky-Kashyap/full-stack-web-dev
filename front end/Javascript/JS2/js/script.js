@@ -285,3 +285,56 @@
 // }
 
 // day 50 js - 7
+
+// print 50 numbers in the row and exclude 6
+
+// for(var a =1;a<=50;a++){
+//     if(a!=6){
+//         console.log(a);
+//     }
+// }
+
+// for - tab use hota hain jab aapke pass initializer, limiter and changes ke baarein me pta hai
+
+// while - jab sirf apke pass final destination pta ho
+
+// print hello until num become less than 3
+
+// var num =30;
+
+// while(num>3){
+//     console.log('Hello');
+
+//     num--;
+// }
+
+// forEach ---  sabke liyein run krna
+
+// for each only run with array
+
+// var arr = [1, 2, 3, 4, 5, 6];
+
+// arr.forEach((el) => console.log(el * 2));
+
+// console.log(arr);
+
+// a is an array which will be given to for each loop and this loop
+// will take a function as a parameter and that function will take a parameter
+// as named el
+
+// var a = ["lucky", "ajay", "arun", "nikita", "shiv", "anjali"];
+
+// a.forEach((el) => console.log(el));
+
+// a.forEach((el) => console.log(el + " is good..!"));
+
+// use case when ever you have an array and you want to perform 
+// a particular operation on every member of the array
+
+
+// functions
+
+// es 5 es 6
+
+
+
