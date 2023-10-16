@@ -2,8 +2,122 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 html,body{
     width: 100%;
     height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.container header{
+    width: 100%;
+    border-bottom: 1px solid rgb(209, 205, 205);
+    /* margin: 0 auto; */
+    text-align: center;
+    /* position: fixed; */
+}
+.container nav{
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.container nav .logo{
+    width: 20%;
+    cursor: pointer;
+}
+.container nav .navigation{
+    width: 55%;
+}
+.container nav .btn{
+    width: 20%;
+}
+.container nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container nav ul li {
+    width: 20%;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+.container nav ul li a{
+    text-decoration: none;
+}
+
+.container nav .btn button{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #e5e7eb;;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+/* Banner section */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+.banner .left{
+    width: 40%;
+}
+.banner .left h1{
+    padding-top: 100px;
+    letter-spacing: 1px;
+    font-size: 48px;
+    color: rgba(26, 20, 20, 0.705);
+}
+.banner .left p{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #c4c9c9;
+}
+.banner .left .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #c4c9c9;
+    border-radius: 5px;
+    margin-top: 20px;
+    position: relative;
+}
+.banner .left .box .free {
+    margin-left: 70px;
+}
+.banner .left .box .free h2{
+    font-size: 18px;
+    color: #293030;
+    text-align: left;
+    /* margin: 0; */
+} 
+.banner .left .box .arrow{
+    font-size: 25px;
+    color: #4e5252;
+    font-weight: 100;
+}
+
+.banner .left .box img{
+    position: absolute;
+    top:-23%;
+    left: 2px;
+    width: 90px;
+}
+.banner .right{
+    width: 50%;
+}
+.banner .right img{
+    width: 100%;
 }
