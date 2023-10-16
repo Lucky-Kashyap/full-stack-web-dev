@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 html,
 body {
@@ -11,114 +11,107 @@ body {
   height: 100%;
   background-color: #2b180f;
 }
-.container{
-    width: 100%;
-    height: 100%;
-    /* background-color: transparent; */
+.container {
+  width: 100%;
+  height: 100%;
 }
-.container nav{
-    width: 100%;
-    height: 20%;
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+.container nav {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
-.container nav .logo{
-    width: 40%;
-    text-align: center;
-    padding-top: 10px;
-    /* margin: 0 auto; */
+.container nav .logo {
+  width: 40%;
+  text-align: center;
 }
-.container nav .logo img{
-    /* margin-top: 20px; */
-    width: 20%;
+.container nav .logo img {
+  width: 20%;
+  margin-top: 10px;
 }
-.container nav i{
-    width: 10%;
-    margin-left: 20px;
-    color: #fff;
+.container nav i {
+  width: 10%;
+  margin-left: 20px;
+  color: #fff;
+  font-size: 20px;
 }
-.container nav .cart{
-    width: 15%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 500;
+.container nav .cart {
+  width: 13%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* gap: 10px; */
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  padding-right: 10px;
 }
-
 
 /* left */
-.container .banner{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
+.container .banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
 }
 
-.container .banner .left{
-    width: 40%;
-    padding-left: 10px;
+.container .banner .left {
+  width: 45%;
+  margin-left: 10px;
 }
-.container .banner .left p{
-    font-size: 20px;
-    letter-spacing: 2px;
-    line-height: 30px;
-    margin-bottom: 10px;
+.container .banner .left p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  margin-bottom: 10px;
 }
-.container .banner .left h1{
-    font-size: 100px;
-    font-weight: 700;
-    text-transform: uppercase;
+.container .banner .left h1 {
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
-.container .banner .left .btn{
-    width: 50%;
-    height: 30%;
-    text-align: center;
-    background-color: #fff;
-    padding: 18px;
-    color: #543019;
-    border-radius: 150px;
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: uppercase;
-    /* position: relative; */
-    /* transition:1s ease-in; */
+.container .banner .left .btn {
+  width: 50%;
+  height: 30%;
+  text-align: center;
+  background-color: #fff;
+  padding: 18px;
+  color: #543019;
+  border-radius: 150px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  /* position: relative; */
+  /* transition:1s ease-in; */
 }
-.container .banner .left .btn:hover{
-    /* position:absolute; */
-    /* top: 20px; */
-    /* background-image: url('../img/btn\ hover.webp');
-    background-position: center;
-    background-size: cover;
-    width: 500px;
-    height: 50px; */
+
+.container .right {
+  width: 50%;
 }
-.container .right{
-    /* position: absolute; */
-    /* top: 0; */
-    background-image: url('../img/peanuts\ back.webp');
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #2b180f;
-    /* background-attachment: fixed; */
+.container .right .peanut {
+  z-index: 3;
+  width: 100%;
 }
-.container .banner .right .img-1 img{
-    width: 55%;
+.container .banner .right .img-1 .creamy {
+  /* width: 40%; */
+  position: absolute;
+  top: 200px;
+  right: 290px;
 }
-.container .right .img-2 img{
-   width: 60%;
+.container .right .img-1 img {
+  width: 30%;
 }
-.container .right .img-2{
-    position: absolute;
-    top: 250px;
-    left: 840px;
-    z-index: 2;
+.container .right .img-2 img {
+  width: 30%;
+}
+.container .right .img-2 .creamy-bite {
+  position: absolute;
+  top: 320px;
+  right: 80px;
+
+  z-index: 2;
 }
