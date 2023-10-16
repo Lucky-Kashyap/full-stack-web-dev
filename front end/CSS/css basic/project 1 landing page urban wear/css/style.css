@@ -31,6 +31,12 @@ body {
   height: 10%;
   /* background-color: #333; */
 }
+.nav .center-nav .active {
+  border-bottom: 1.6px solid #000;
+}
+.nav .center-nav a {
+  padding: 4px 0;
+}
 .left-nav {
   display: flex;
   justify-content: center;
@@ -69,8 +75,144 @@ body {
   height: 100%;
   /* background-color: aquamarine; */
 }
+.left #back-text {
+  position: absolute;
+  left: 40%;
+  top: 10%;
+  font-size: 250px;
+  font-weight: 700;
+  color: #f1f1f1;
+  /* z-index: 1; */
+}
+.left .social {
+  width: 7%;
+  height: 20%;
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: red; */
+}
+.social i {
+  font-size: 25px;
+}
+.left .text-area {
+  position: absolute;
+  top: 30%;
+  left: 14%;
+  /* background-color: #b2b2b2; */
+}
+.left .text-area p {
+  width: 30%;
+  color: #838383;
+  font-weight: 400;
+  margin-top: 10px;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+.left .text-area h3 {
+  font-size: 45px;
+  font-weight: 300;
+  color: #5c5b5b;
+}
+.left .text-area h1 {
+  font-size: 70px;
+  letter-spacing: 2px;
+}
+.left .text-area .btn {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: orangered;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 300;
+  margin-top: 20px;
+  /* text-align: center; */
+  /* margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+    background-color: #ecd829;
+    border-radius: 10px; */
+}
+.left .text-area .btn:hover {
+  background-color: transparent;
+  border: 1px solid #f45151;
+  color: #5c5b5b;
+}
 .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40%;
   height: 100%;
   background-color: #ecd829;
+}
+
+.right .text-right {
+  margin-left: 100px;
+  text-align: right;
+  /* font-size: 25px; */
+}
+.right .text-right .point {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 20px;
+}
+.right .text-right .point h1 {
+  font-size: 60px;
+  text-align: right;
+}
+.right .text-right .point h6 {
+  margin-top: -5%;
+  font-size: 60px;
+}
+.right .text-right .point .white {
+  color: #fff;
+}
+/* .right .text-right .point h6:nth-child(2){
+    color: #fff;
+} */
+.right .text-right .point h2 {
+  font-size: 50px;
+  text-align: right;
+  color: #fff;
+}
+.right .text-right .point h3 {
+  font-size: 40px;
+  text-align: right;
+  color: #fff;
+}
+.right .text-right .point h4 {
+  font-size: 30px;
+  text-align: right;
+  color: #fff;
+}
+.right .text-right .point h5 {
+  font-size: 20px;
+  text-align: right;
+  color: #fff;
+}
+.right .arrow {
+  width: 30%;
+  position: absolute;
+  bottom: 5%;
+  right: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right .arrow i {
+  border: 1px solid grey;
+  border-radius: 100%;
+  background-color: #241717;
+  color: #f5f4f4;
+  padding: 5px;
+  margin: 5px;
 }
