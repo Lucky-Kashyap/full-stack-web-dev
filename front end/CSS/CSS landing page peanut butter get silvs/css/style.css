@@ -14,6 +14,7 @@ body {
 .container{
     width: 100%;
     height: 100%;
+    /* background-color: transparent; */
 }
 .container nav{
     width: 100%;
@@ -49,4 +50,75 @@ body {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
+}
+
+
+/* left */
+.container .banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.container .banner .left{
+    width: 40%;
+    padding-left: 10px;
+}
+.container .banner .left p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.container .banner .left h1{
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container .banner .left .btn{
+    width: 50%;
+    height: 30%;
+    text-align: center;
+    background-color: #fff;
+    padding: 18px;
+    color: #543019;
+    border-radius: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    /* position: relative; */
+    /* transition:1s ease-in; */
+}
+.container .banner .left .btn:hover{
+    /* position:absolute; */
+    /* top: 20px; */
+    /* background-image: url('../img/btn\ hover.webp');
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 50px; */
+}
+.container .right{
+    /* position: absolute; */
+    /* top: 0; */
+    background-image: url('../img/peanuts\ back.webp');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2b180f;
+    /* background-attachment: fixed; */
+}
+.container .banner .right .img-1 img{
+    width: 55%;
+}
+.container .right .img-2 img{
+   width: 60%;
+}
+.container .right .img-2{
+    position: absolute;
+    top: 250px;
+    left: 840px;
+    z-index: 2;
 }
