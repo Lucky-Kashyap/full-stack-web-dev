@@ -31,8 +31,10 @@ body {
 .active {
   background-color: orange;
 }
-
-
+.on,.off{
+    padding: 1vw;
+}
+/* 
 .parent{
     width: 30%;
     height: 30%;
@@ -48,4 +50,4 @@ body {
     text-align: center;
     margin: 0 auto;
     background-color: yellow;
-}
+} */
