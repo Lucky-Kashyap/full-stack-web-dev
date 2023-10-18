@@ -31,3 +31,21 @@ body {
 .active {
   background-color: orange;
 }
+
+
+.parent{
+    width: 30%;
+    height: 30%;
+    background-color: red;
+}
+.parent h1{
+    color: white;
+    text-align: center;
+}
+.parent .child{
+    width: 40%;
+    height: 30%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: yellow;
+}
