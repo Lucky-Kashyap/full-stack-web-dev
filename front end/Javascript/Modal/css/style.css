@@ -26,6 +26,7 @@ body {
   border-radius: 5px;
   padding: 20px;
   box-shadow: 0 20px 45px -15px rgba(0, 0, 0, 0.254);
+  z-index: 1;
 }
 .card p {
   text-align: center;
@@ -42,6 +43,8 @@ body {
   display:block;
 }
 button{
+    position: absolute;
+    /* z-index: 0; */
     padding: 1vw 2vw;
     outline: none;
     border-radius: 5px;
