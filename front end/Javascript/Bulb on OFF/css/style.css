@@ -34,6 +34,9 @@ body {
 .on,.off{
     padding: 1vw;
 }
+.toggle{
+  padding: 1vw;
+}
 /* 
 .parent{
     width: 30%;
