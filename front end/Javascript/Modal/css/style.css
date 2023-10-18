@@ -9,31 +9,42 @@ body {
   height: 100%;
 }
 
-.background{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(238, 238, 238);
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(238, 238, 238);
 }
 
-.card{
-    position: relative;
-    width: 30vw;
-    background-color:#fff;
+.card {
+    display: none;
+  position: relative;
+  width: 30vw;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 20px 45px -15px rgba(0, 0, 0, 0.254);
+}
+.card p {
+  text-align: center;
+  font-size: 18px;
+  padding: 8px 12px;
+}
+.card span {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  cursor: pointer;
+}
+.show {
+  display:block;
+}
+button{
+    padding: 1vw 2vw;
+    outline: none;
     border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0 20px 45px -15px rgba(0, 0, 0, 0.254);
-}
-.card p{
-    text-align: center;
-    font-size: 18px;
-    padding:8px 12px;
-}
-.card span{
-    position: absolute;
-    right:-10px;
-    top: -10px;
+    border:2px solid #989898;
     cursor: pointer;
 }
