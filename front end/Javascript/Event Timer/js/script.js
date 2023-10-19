@@ -57,21 +57,64 @@
 //   }
 // }, 1000);
 
+let days = document.querySelector("#days h2");
+let hours = document.querySelector("#hours h2");
+let min = document.querySelector("#min h2");
+let sec = document.querySelector("#sec h2");
 
-let days = document.querySelector('#days h2');
-let hours = document.querySelector('#hours h2');
-let min = document.querySelector('#min h2');
-let sec = document.querySelector('#sec h2');
+// let today = new Date();
+// let futureDate = new Date(2024, 0, 1, 0, 0, 0, 0);
 
+// let diff = futureDate - today;
 
+// let seconds  = parseInt(diff/1000);
+// let minutes = parseInt((diff/(1000*60)));
+// let hoursDiff = parseInt((diff/(1000 * 60 * 60)));
+// let dayDiff = parseInt((diff/(1000 * 60 * 60 * 24)));
+
+// let seconds = Math.floor(diff / 1000);
+// let minutes = Math.floor(diff / (1000 * 60));
+// let hoursDiff = Math.floor(diff / (1000 * 60 * 60));
+// let dayDiff = Math.floor(diff / (1000 * 60 * 60 * 24));
+
+// hoursDiff = hoursDiff % 24;
+// minutes = minutes % 60;
+// seconds = seconds % 60; 
 
 setInterval(()=>{
-    let date = new Date();
+    let today = new Date();
+let futureDate = new Date(2024, 0, 1, 0, 0, 0, 0);
 
-    days.innerHTML=date.getDate();
-    hours.innerHTML=date.getHours();
-    min.innerHTML=date.getMinutes();
-    sec.innerHTML=date.getSeconds();
+let diff = futureDate - today;
+    let seconds = Math.floor(diff / 1000);
+let minutes = Math.floor(diff / (1000 * 60));
+let hoursDiff = Math.floor(diff / (1000 * 60 * 60));
+let dayDiff = Math.floor(diff / (1000 * 60 * 60 * 24));
 
-
+hoursDiff = hoursDiff % 24;
+minutes = minutes % 60;
+seconds = seconds % 60
+    days.innerHTML=dayDiff;
+    hours.innerHTML=hoursDiff;
+    min.innerHTML=minutes;
+    sec.innerHTML=seconds;
 },1000);
+
+// setInterval(() => {
+  //     let diff = futureDate-today;
+  //     let seconds  = parseInt(diff/1000);
+  // let minutes = parseInt((diff/(1000*60)));
+  // let hoursDiff = parseInt((diff/(1000 * 60 * 60)));
+  // let dayDiff = parseInt((diff/(1000 * 60 * 60 * 24)));
+    //   days.innerHTML=seconds;
+    //   hours.innerHTML=minutes;
+    //   min.innerHTML=hoursDiff;
+    //   sec.innerHTML=dayDiff;
+  // let date = new Date();
+  // days.innerHTML=date.getDate();
+  // hours.innerHTML=date.getHours();
+  // min.innerHTML=date.getMinutes();
+  // sec.innerHTML=date.getSeconds();
+// }, 1000);
+
+
