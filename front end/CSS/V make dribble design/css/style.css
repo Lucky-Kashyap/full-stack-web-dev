@@ -23,6 +23,9 @@ nav {
   width: 100%;
   height: 10%;
   padding: 0% 15%;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
   /* background-color: palegoldenrod; */
 }
 nav button {
@@ -60,21 +63,47 @@ nav button {
   justify-content: center;
   flex-direction: column;
   width: 50%;
+  /* gap: 5%; */
   height: 100%;
-  padding-left: 20%;
+  padding-left: 15%;
+  /* margin-top: 10%; */
   /* background-color: chartreuse; */
 }
-.left-part-1 h1{
-    font-size: 45px;
-    letter-spacing: 2px;
+.left-part-1 h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 5%;
+  color: #333;
 }
-.left-part-1 p{
-    font-size: 25px;
+.left-part-1 p {
+  font-size: 18px;
+  color: #ccc;
+}
+.left-part-1 .btn-part-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  width: 65%;
+  margin-top: 10%;
+  height: 15%;
+  /* background-color: #5c5c5c; */
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+
+.btn-inner-text h5 {
+  color: #969696;
+}
+
+.left-part-1 .btn-part-1 .btn-model {
+  width: 30%;
+  margin-top: -27px;
 }
 .right-part-1 {
   width: 50%;
   height: 100%;
 }
 .right-part-1 img {
-  width: 70%;
+  width: 65%;
 }
