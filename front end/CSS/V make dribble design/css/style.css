@@ -25,6 +25,12 @@ nav {
   padding: 0% 15%;
   position: sticky;
   top: 0;
+  /* position: fixed;
+ top: 0; */
+ /* overflow: hidden; */
+ /* z-index: 1; */
+ /* bottom: 0; */
+  /* top: 50px; */
   background-color: #fff;
   /* background-color: palegoldenrod; */
 }
