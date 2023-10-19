@@ -21,10 +21,12 @@ toggleBtn.addEventListener("click", () => {
   if(lightStatus == false){
     bulb.style.backgroundColor='orange';
     lightStatus=true;
+    toggleBtn.innerHTML='Off Bulb';
   }
   else{
     bulb.style.backgroundColor='#fff';
     lightStatus=false;
+    toggleBtn.innerHTML="ON Bulb";
   }
 
 
