@@ -1,7 +1,4 @@
-
-
 // let time = document.querySelector('h2');
-
 
 // function getTime(){
 //     time.innerHTML=new Date().getTime();
@@ -16,8 +13,6 @@
 
 // console.log(`Current time: ${hours}:${minutes}:${seconds}.${milliseconds}`);
 
-
-
 // console.log(new Date.getTime());
 
 // let t = new Date();
@@ -25,10 +20,7 @@
 // t.time();
 // console.log(t.getTime());
 
-
 // getTime();
-
-
 
 // setInterval(()=>{
 //         let time = document.querySelector('h2');
@@ -39,17 +31,27 @@
 //         time.innerHTML=t1;
 // },1000);
 
-
 let count = 60;
+let time = document.querySelector("h2");
 
-let id = setInterval(()=>{
-    let time = document.querySelector('h2');
+let btn = document.querySelector("button");
 
-    time.innerHTML=count--;
+btn.addEventListener("click", () => {
+  let id = setInterval(() => {
+    time.innerHTML = --count;
 
-    if(count==50){
-        time.innerHTML=0;
-        clearInterval(id);
+    if (count == 50) {
+      time.innerHTML = 0;
+      clearInterval(id);
     }
-},1000);
+  }, 1000);
+});
+// let id = setInterval(() => {
 
+//   time.innerHTML = count--;
+
+//   if (count == 50) {
+//     time.innerHTML = 0;
+//     clearInterval(id);
+//   }
+// }, 1000);
