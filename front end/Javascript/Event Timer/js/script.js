@@ -42,8 +42,14 @@
 
 let count = 60;
 
-setInterval(()=>{
+let id = setInterval(()=>{
     let time = document.querySelector('h2');
 
     time.innerHTML=count--;
+
+    if(count==50){
+        time.innerHTML=0;
+        clearInterval(id);
+    }
 },1000);
+
