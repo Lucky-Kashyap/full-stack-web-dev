@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.left,.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    font-size: 2vw;
+    /* background-color: pink; */
+}
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    position: absolute;
+    height: 100%;
+    background-color: bisque;
+    gap: 1vh;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+button{
+    padding: 1vw 2vw;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background-color:#fff;
+    font-size: 1vw;
+}
+
+/* .login-page{
+    display: none;
+}
+.hide{
+    display: block;
+} */
