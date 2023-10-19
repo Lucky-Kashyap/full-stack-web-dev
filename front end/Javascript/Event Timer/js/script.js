@@ -31,21 +31,22 @@
 //         time.innerHTML=t1;
 // },1000);
 
-let count = 60;
-let time = document.querySelector("h2");
+// let count = 60;
+// let time = document.querySelector("h2");
 
-let btn = document.querySelector("button");
+// let btn = document.querySelector("button");
 
-btn.addEventListener("click", () => {
-  let id = setInterval(() => {
-    time.innerHTML = --count;
+// btn.addEventListener("click", () => {
+//   let id = setInterval(() => {
+//     time.innerHTML = --count;
 
-    if (count == 50) {
-      time.innerHTML = 0;
-      clearInterval(id);
-    }
-  }, 1000);
-});
+//     if (count == 50) {
+//       time.innerHTML = 0;
+//       clearInterval(id);
+//     }
+//   }, 1000);
+// });
+
 // let id = setInterval(() => {
 
 //   time.innerHTML = count--;
@@ -55,3 +56,22 @@ btn.addEventListener("click", () => {
 //     clearInterval(id);
 //   }
 // }, 1000);
+
+
+let days = document.querySelector('#days h2');
+let hours = document.querySelector('#hours h2');
+let min = document.querySelector('#min h2');
+let sec = document.querySelector('#sec h2');
+
+
+
+setInterval(()=>{
+    let date = new Date();
+
+    days.innerHTML=date.getDate();
+    hours.innerHTML=date.getHours();
+    min.innerHTML=date.getMinutes();
+    sec.innerHTML=date.getSeconds();
+
+
+},1000);
