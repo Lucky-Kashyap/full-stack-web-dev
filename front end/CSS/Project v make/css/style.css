@@ -14,11 +14,11 @@ html,body{
 }
 .container header{
     width: 100%;
-    border-bottom: 1px solid rgb(209, 205, 205);
+    border-bottom: .4px solid rgb(209, 205, 205);
     /* margin: 0 auto; */
+    position:fixed;
     text-align: center;
-    position: sticky;
-    top:0;
+   
     background-color: #fff;
     /* background-color: #c4c9c9; */
     /* position: fixed; */
@@ -27,6 +27,7 @@ html,body{
    
     width: 100%;
     display: flex;
+
     /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
@@ -129,6 +130,7 @@ html,body{
     width: 90px;
 }
 .banner .right{
+    margin-top: 80px;
     width: 50%;
 }
 .banner .right img{
@@ -235,6 +237,7 @@ html,body{
     justify-content: space-between;
     align-items: center;
     gap: 100px;
+    padding: 40px 0;
 }
 .products article video{
     width: 50%;
