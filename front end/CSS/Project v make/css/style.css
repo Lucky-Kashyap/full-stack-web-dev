@@ -134,3 +134,135 @@ html,body{
 .banner .right img{
     width: 100%;
 }
+
+/* Ratings */
+
+.rating{
+    padding: 100px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.rating .rate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.rating .star{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+.rating .user{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 40px;
+    border-right: 2px solid rgb(209 213 219);
+}
+.rating .download{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 40px;
+    border-right: 2px solid rgb(209 213 219);
+
+}
+.rating .usages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+.rating .rate .star h3{
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+.rating .rate .star p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #4e5252;
+}
+.rating .rate .user h3{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+.rating .rate .user p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #4e5252;
+    text-align: center;
+}
+.rating .rate .download h3{
+    font-size: 50px;
+    font-weight: 500;
+    /* text-align: center; */
+}
+.rating .rate .download p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #4e5252;
+    text-align: center;
+}
+.rating .rate .usages h3{
+    font-size: 50px;
+    font-weight: 500;
+    /* text-align: center; */
+}
+.rating .rate .usages p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #4e5252;
+    text-align: center;
+}
+
+/* Producst */
+
+.products{
+    width: 80%;
+    margin: 0 auto;
+}
+.products article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.products article video{
+    width: 50%;
+    border-radius: 10px;
+}
+.products article aside h3{
+    font-size: 22px;
+    font-weight: 400;
+    color: #4a495b;
+    text-transform: uppercase;
+}
+.products article aside h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #6b6b6b;
+    line-height: 80px;
+}
+.products article aside p{
+    line-height: 30px;
+    color: #6b6b6b;
+    padding: 20px 0;
+}
+.products article aside .btn{
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(271.1deg,#171622 .53%,#4a495b 99.81%);
+}
