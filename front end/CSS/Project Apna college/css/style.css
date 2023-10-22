@@ -19,10 +19,18 @@ html,body{
 }
 .container{
     width: 100%;
+    height: 80px;
+position: fixed;
+background-color:whitesmoke;
+
 }
 .container header{
     width: 80%;
     margin: 0 auto;
+    /* position:fixed; */
+    /* top: 0; */
+    /* background-color: aliceblue; */
+    
 }
 .container header nav .logo{
     width: 30%;
@@ -100,4 +108,55 @@ html,body{
 }
 .banner .right img{
     width: 120%;
+}
+
+/* Why delta */
+.why-delta{
+    padding: 120px 0;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.why-delta .star p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #64666b;
+}
+/* Company */
+
+.company{
+    width: 80%;
+    margin: 0 auto;
+}
+.company h2{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.company h2 span{
+    color: #6674CC;
+    font-size: 32px;
+    font-weight: 500;
+}
+.company .company-section{
+    padding: 100px 0;
+}
+.company .company-section .box-1{
+    width: 80%;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    text-align: center;
+}
+.company .company-section img{
+    width: 14%;
+}
+.company p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #54565c;
 }
