@@ -324,3 +324,47 @@ html,body{
 
 /* playstore */
 
+.app-store{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.heading{
+    text-align: center;
+}
+.heading h3{
+    font-size: 50px;
+    font-weight: 700;
+}
+.app-store article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    gap: 10px;
+}
+/* .app-store article .qr{
+    width: 18%;
+} */
+.app-store article .qr-code{
+    width: 10%;
+}
+.app-store article .mobile-store{
+    width: 36%;
+}
+.app-store article .mobile-store h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.app-store article .mobile-store .image-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.app-store article .mobile{
+    width: 45%;
+}
+.app-store article .mobile img{
+    width: 100%;
+}
