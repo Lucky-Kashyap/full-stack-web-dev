@@ -437,7 +437,7 @@ body {
   margin-right: 10px;
 }
 .real-story .star .star-rate:hover {
-  transform: scale(3);
+  transform: scale(1.4);
 }
 
 /* Carosel */
