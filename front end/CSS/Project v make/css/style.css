@@ -409,7 +409,7 @@ body {
 .real-story .star .star-rate {
   text-align: center;
   padding: 14px;
-  transition: transform 0.3s ease;
+  /* transition: transform 1.4s cubic-bezier(0.19, 1, 0.22, 1); */
 }
 .real-story .star .star-rate h3 {
   font-size: 16px;
@@ -421,15 +421,12 @@ body {
 }
 .real-story .star .second {
   transform: rotate(10deg);
-  /* z-index: 1; */
 }
 .real-story .star .third {
   transform: rotate(-10deg);
-  /* z-index: 1; */
 }
 .real-story .star .four {
   transform: rotate(10deg);
-  /* z-index: 1; */
 }
 .real-story .star h4 {
   font-size: 22 px;
@@ -440,7 +437,7 @@ body {
   margin-right: 10px;
 }
 .real-story .star .star-rate:hover {
-  transform: scale(1.1);
+  transform: scale(3);
 }
 
 /* Carosel */
@@ -626,4 +623,38 @@ footer .footer-box .follow {
   margin-top: 50px;
   font-size: 14px;
   font-weight: 300;
+}
+
+/* Responsive code */
+
+@media only screen and (max-width: 920px) {
+  .banner .right img {
+    width: 100%;
+  }
+  .banner .left h1 {
+    font-size: 30px;
+  }
+  .container .banner .left .box {
+    width: 300px;
+    padding: 10px;
+  }
+  .container .banner .left .box img {
+    top: -10px;
+  }
+  .products article aside h1 {
+    font-size: 40px;
+  }
+  .products article video {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container .banner .left h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+  .container .banner {
+    flex-direction: column;
+  }
 }
