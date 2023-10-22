@@ -7,4 +7,10 @@ html,
 body {
   width: 100%;
   height: 100%;
+  /* background-color: coral; */
+}
+.main{
+  width: 100%;
+  height:100%;
+  background-color: aqua;
 }
