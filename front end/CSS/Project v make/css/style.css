@@ -14,16 +14,13 @@ html,body{
 }
 .container header{
     width: 100%;
-    border-bottom: .25px solid rgb(209, 205, 205);
-    /* margin: 0 auto; */
+    
     position:fixed;
-    /* top: 0; */
+    
     z-index: 1;
     text-align: center;
    
     background-color: #fff5f5;
-    /* background-color: #c4c9c9; */
-    /* position: fixed; */
 }
 .container nav{
    
@@ -527,4 +524,14 @@ width: 100%;
     font-weight: 400;
     top: 20px;
     right: 80px;
+  }
+
+  /* Footer background */
+
+  .footer-back{
+    width: 100%;
+    height: 200px;
+    background-image: url('../img/brandLighting.png');
+    background-size: cover;
+    background-position: center;
   }
