@@ -269,3 +269,58 @@ html,body{
     border-radius: 10px;
     background: linear-gradient(271.1deg,#171622 .53%,#4a495b 99.81%);
 }
+/* Use case */
+
+.use-case{
+    width: 80%;
+    margin: 0 auto;
+    padding: 130px 0;
+}
+.heading{
+    font-size: 40px;
+    color: #1c2222;
+    font-weight: 600;
+    text-align: center;
+}
+.use-case .image-box{
+    width: 50%;
+}
+.use-case img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tab-switch{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.tab-switch .tab-box{
+  width: 40%;
+  padding: 20px 0;
+}
+.tab-switch .tab-box h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #1c2222;
+}
+
+.tab-switch .tab-box p{
+    color: #293030;
+    font-size: 16px;
+    padding: 10px 0;
+}
+/* Hide show */
+
+/* .hide{
+
+    display: none;
+}
+.show{
+    display: block;
+} */
+
+
+/* playstore */
+
