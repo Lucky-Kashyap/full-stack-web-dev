@@ -55,3 +55,49 @@ html,body{
 /* .container header nav .course:hover .dropdown{
     display: block;
 } */
+
+/* Banner */
+
+.banner{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner .left h1{
+    margin-top: 100px;
+    font-size: 60px;
+    text-align: left;
+    font-weight: 400;
+}
+.banner .left h1 span{
+    font-size: 80px;
+    font-weight: 500;
+    color: #6674CC;
+} 
+.banner .left p{
+    margin: 30px 0;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: #565961;
+}
+
+.banner .left .btn button{
+    text-align: center;
+    width: 180px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    font-weight: 300;
+    background-color: #6674CC;
+}
+.banner .right{
+    width: 100%;
+}
+.banner .right img{
+    width: 120%;
+}
