@@ -409,6 +409,7 @@ body {
 .real-story .star .star-rate {
   text-align: center;
   padding: 14px;
+  transition: transform 0.5s ease;
   /* transition: transform 1.4s cubic-bezier(0.19, 1, 0.22, 1); */
 }
 .real-story .star .star-rate h3 {
@@ -437,7 +438,7 @@ body {
   margin-right: 10px;
 }
 .real-story .star .star-rate:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 
 /* Carosel */
