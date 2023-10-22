@@ -339,19 +339,21 @@ html,body{
 .app-store article{
     display: flex;
     flex-wrap: wrap;
+    /* flex-direction: column; */
     justify-content: space-between;
     align-items: center;
     padding: 30px 0;
     gap: 10px;
 }
-/* .app-store article .qr{
+.app-store article .qr{
     width: 18%;
-} */
-.app-store article .qr-code{
+} 
+ .app-store article .qr-code{
     width: 10%;
 }
 .app-store article .mobile-store{
-    width: 36%;
+    margin-left: -82px;
+    width: 30%;
 }
 .app-store article .mobile-store h2{
     font-size: 40px;
@@ -367,4 +369,81 @@ html,body{
 }
 .app-store article .mobile img{
     width: 100%;
+}
+
+/* Story */
+
+.real-story{
+    width: 90%;
+    margin:  0 auto;
+    /* padding: 50px 0; */
+    
+}
+.real-story .heading{
+    padding: 20px 0;
+    text-align: center;
+}
+.real-story .heading h3{
+    font-size: 50px;
+    color: #4a495b;
+    font-weight: 500;
+}
+.real-story .star {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.real-story .star .prod{
+width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    background: linear-gradient(127.29deg,#fcfafa 11.28%,#f8f9fd 93.05%);
+    box-shadow: 0px 0px 50px rgba(84, 105, 168, 0.09);
+    
+}
+.real-story .star .star-rate{
+    width: 30%;
+    /* background-color: #f6fdfd; */
+    box-shadow: 0px 0px 50px rgba(51, 71, 131, 0.09);
+
+    transform: rotate(-10deg);
+}
+.real-story .star .star-rate{
+    text-align: center;
+    padding: 14px;
+    transition: transform .3s ease;
+}
+.real-story .star .star-rate h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+.real-story .star .star-rate p{
+    font-size: 12px;
+    font-weight: 200;
+}
+.real-story .star .second{
+    transform:rotate(10deg) ;
+    /* z-index: 1; */
+}
+.real-story .star .third{
+    transform:rotate(-10deg) ;
+    /* z-index: 1; */
+}
+.real-story .star .four{
+    transform:rotate(10deg) ;
+    /* z-index: 1; */
+}
+.real-story .star h4{
+    font-size: 22px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 400;
+    padding: 30px 0;
+    text-align: right;
+    margin-right: 10px;
+}
+.real-story .star .star-rate:hover{
+    transform: scale(1.1);
 }
