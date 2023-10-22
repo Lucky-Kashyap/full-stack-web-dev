@@ -14,12 +14,14 @@ html,body{
 }
 .container header{
     width: 100%;
-    border-bottom: .4px solid rgb(209, 205, 205);
+    border-bottom: .25px solid rgb(209, 205, 205);
     /* margin: 0 auto; */
     position:fixed;
+    /* top: 0; */
+    z-index: 1;
     text-align: center;
    
-    background-color: #fff;
+    background-color: #fff5f5;
     /* background-color: #c4c9c9; */
     /* position: fixed; */
 }
@@ -437,7 +439,7 @@ width: 100%;
     /* z-index: 1; */
 }
 .real-story .star h4{
-    font-size: 22px;
+    font-size: 22   px;
     font-family: 'Shadows Into Light', cursive;
     font-weight: 400;
     padding: 30px 0;
@@ -447,3 +449,82 @@ width: 100%;
 .real-story .star .star-rate:hover{
     transform: scale(1.1);
 }
+
+/* Carosel */
+
+.carousel{
+    padding: 50px 0;
+}
+.carousel .heading {
+    text-align: center;
+  
+}
+
+.carousel .heading h3{
+    font-size: 50px;
+    color:#293030;
+}
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-300px * 7));
+    }
+  }
+  
+  .slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 40px 0;
+  }
+  
+  .slider::before,
+  .slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 170px;
+    position: absolute;
+    width: 300px;
+    z-index: 2;
+  }
+  
+  .slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+  
+  .slider::before {
+    left: 0;
+    top: 0;
+  }
+  
+  .slider .slide-track {
+    animation: scroll 30s linear infinite;
+    display: flex;
+    width: calc(300px * 14);
+  }
+  
+  .slider .slide {
+    height: 170px;
+    width: 300px;
+    position: relative;
+  }
+  .slider .slide video{
+    width: 100%;
+    border-radius: 10px;
+    padding: 2px;
+  }
+  .slider .slide h5{
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    top: 20px;
+    right: 80px;
+  }
