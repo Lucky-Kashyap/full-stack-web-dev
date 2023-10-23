@@ -89,8 +89,16 @@ a{
   flex-direction: column;
   gap: 10%;
 }
+.slider .slider-content h1{
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(66, 68, 61);
+}
 .slider .slider-content p{
   width: 30%;
+  font-size: 18px;
+  line-height: 25px;
+  color: #645b5b;
 }
 .slider .btn-content{
   display: flex;
