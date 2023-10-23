@@ -7,7 +7,12 @@ html,
 body {
   width: 100%;
   height: 100%;
-  /* background-color: coral; */
+  /*
+   background-color: coral; */
+}
+a{
+  text-decoration: none;
+  color: #333;
 }
 .main{
   width: 100%;
@@ -15,7 +20,9 @@ body {
   /* background-color: aqua; */
 }
 .nav{
+  padding: 0 6%;
   display: flex;
+  align-items: center;
   width: 100%;
   height: 10%;
   /* background-color: crimson; */
@@ -26,15 +33,44 @@ body {
   justify-content: space-evenly;
   width: 50%;
   height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
   /* background-color: #fff; */
 }
+.left-nav a img{
+  width: 100px;
+}
 .right-nav{
+  padding-left:20%;
+  /* padding-right:5%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   width: 50%;
   height: 100%;
   /* background-color: #5e1c1c; */
 }
+.right-nav a{
+  /* white-space: nowrap; */
+  /* width: calc(100%/4); */
+  /* width: 25%; */
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 5%;
+  
+}
+.right-nav a i{
+  margin-right: 5%;
+  font-size: 20px;
+}
+.right-nav a h3{
+  font-size: 14px;
+  font-weight: 400;
+}
+
 .slider{
   width: 100%;
   height: calc(70% - 10%);
-  background-color: orangered;
+  /* background-color: orangered; */
 }
