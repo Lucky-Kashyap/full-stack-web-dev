@@ -169,12 +169,12 @@ body {
   width: 90%;
   margin: 0 auto;
   padding: 40px 0;
-  gap: 20px;
+  gap: 10px;
 }
 .surface .box-1{
   width: 20%;
-  padding: 10px;
-  margin: 0 2px;
+  /* padding: 10px; */
+  /* margin: 0 2px; */
   background-color: aliceblue;
   margin-bottom: 40px;
 }
@@ -241,3 +241,56 @@ body {
 }
 
 
+/* Business */
+
+.business{
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.business .heading-business{
+  margin: 30px 0;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.business .business-box{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  /* gap: 28px; */
+}
+.business .business-box .box-1{
+  width: 250px;
+  height: 400px;
+  padding: 40px 0;
+  /* padding-right: 10px; */
+}
+.business .business-box .box-1 img{
+  width: 100%;
+}
+.business .business-box .box-1 h2{
+  margin: 20px 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+.business .business-box .box-1 p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #333;
+  margin: 10px 0;
+  text-align: justify;
+}
+.business .business-box .box-1 a{
+  color: rgb(0, 103, 184);
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.business .business-box .box-1 a:hover{
+  text-decoration: underline;
+}
