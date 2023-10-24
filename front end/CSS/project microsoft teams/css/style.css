@@ -10,10 +10,7 @@ body {
   /*
    background-color: coral; */
 }
-a{
-  text-decoration: none;
-  color: #333;
-}
+
 .main{
   width: 100%;
   height:100%;
@@ -100,6 +97,10 @@ a{
   line-height: 25px;
   color: #645b5b;
 }
+.slider a{
+  text-decoration: none;
+  color: #333;
+}
 .slider .btn-content{
   display: flex;
   align-items: center;
@@ -135,5 +136,23 @@ a{
 .play .box i{
   font-size: 16px;
   padding: 0 14px;
+}
+
+.x-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin:  0 auto;
+  text-align: center;
+  padding: 40px 10px;
+}
+.x-box .box-1 img{
+  padding: 10px;
+}
+.x-box .box-1 a{
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(24, 94, 148);;
 }
 
