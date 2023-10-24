@@ -11,12 +11,12 @@ body {
    background-color: coral; */
 }
 
-.main{
+.main {
   width: 100%;
-  height:100%;
+  height: 100%;
   /* background-color: aqua; */
 }
-.nav{
+.nav {
   padding: 0 6%;
   display: flex;
   align-items: center;
@@ -24,29 +24,26 @@ body {
   height: 10%;
   /* background-color: crimson; */
 }
-.left-nav{
+.left-nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   width: 50%;
   height: 100%;
-  font-family: 'Segoe UI',"Segoe UI"
-  "Helvetica Neue"
-  Helvetica
-  Arial
-  sans-serif sans-serif; 
+  font-family: "Segoe UI",
+    "Segoe UI" "Helvetica Neue" Helvetica Arial sans-serif sans-serif;
   font-size: 14px;
   /* background-color: #fff; */
 }
-.main .nav a{
+.main .nav a {
   color: #333;
   text-decoration: none;
 }
-.left-nav a img{
+.left-nav a img {
   width: 100px;
 }
-.right-nav{
-  padding-left:20%;
+.right-nav {
+  padding-left: 20%;
   /* padding-right:5%; */
   display: flex;
   align-items: center;
@@ -55,7 +52,7 @@ body {
   height: 100%;
   /* background-color: #5e1c1c; */
 }
-.right-nav a{
+.right-nav a {
   /* white-space: nowrap; */
   /* width: calc(100%/4); */
   /* width: 25%; */
@@ -63,30 +60,29 @@ body {
   align-items: center;
   /* justify-content: space-between; */
   gap: 5%;
-  
 }
-.right-nav a i{
+.right-nav a i {
   margin-right: 5%;
   font-size: 20px;
 }
-.right-nav a h3{
+.right-nav a h3 {
   font-size: 14px;
   font-weight: 400;
 }
 /* slider */
 
-.slider{
+.slider {
   display: flex;
   align-items: center;
   padding: 0 10%;
   width: 100%;
-  height:80%;
-  background-image: url('../img/Highlight-Slim-Multi-Canvas-M365-Anthem-Attract-Image-Create_VP4-1399x600.avif');
+  height: 80%;
+  background-image: url("../img/Highlight-Slim-Multi-Canvas-M365-Anthem-Attract-Image-Create_VP4-1399x600.avif");
   background-size: cover;
   background-position: center;
   /* background-color: orangered; */
 }
-.slider .slider-content{
+.slider .slider-content {
   width: 100%;
   height: 30%;
   display: flex;
@@ -94,27 +90,27 @@ body {
   flex-direction: column;
   gap: 10%;
 }
-.slider .slider-content h1{
+.slider .slider-content h1 {
   font-size: 40px;
   font-weight: 600;
   color: rgb(66, 68, 61);
 }
-.slider .slider-content p{
+.slider .slider-content p {
   width: 30%;
   font-size: 18px;
   line-height: 25px;
   color: #645b5b;
 }
-.slider a{
+.slider a {
   text-decoration: none;
   color: #333;
 }
-.slider .btn-content{
+.slider .btn-content {
   display: flex;
   align-items: center;
   gap: 2%;
 }
-.btn-1{
+.btn-1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -123,49 +119,49 @@ body {
   color: #fff;
   font-size: 16px;
   border-radius: 3px;
-  background-color:rgb(0, 103, 184);
+  background-color: rgb(0, 103, 184);
 }
-.btn-no{
+.btn-no {
   display: flex;
   align-items: center;
 }
-.btn-no a{
+.btn-no a {
   font-weight: 600;
 }
 
 /* play icons */
 
-.play{
+.play {
   width: 80%;
   margin: 0 auto;
   text-align: center;
   padding: 40px 0;
 }
-.play .box i{
+.play .box i {
   font-size: 16px;
   padding: 0 14px;
 }
 
-.x-box{
+.x-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 70%;
-  margin:  0 auto;
+  margin: 0 auto;
   text-align: center;
   padding: 40px 10px;
 }
-.x-box .box-1 img{
+.x-box .box-1 img {
   padding: 10px;
 }
-.x-box .box-1 a{
+.x-box .box-1 a {
   font-size: 18px;
   font-weight: 600;
-  color: rgb(24, 94, 148);;
+  color: rgb(24, 94, 148);
 }
 
 /* Surface */
-.surface{
+.surface {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -175,64 +171,64 @@ body {
   padding: 40px 0;
   gap: 10px;
 }
-.surface .box-1{
+.surface .box-1 {
   width: 20%;
   /* padding: 10px; */
   /* margin: 0 2px; */
   background-color: aliceblue;
   margin-bottom: 40px;
 }
-.surface .box-1 h2{
+.surface .box-1 h2 {
   font-size: 24px;
   font-weight: 600;
-  margin:4px 0;
+  margin: 4px 0;
 }
-.surface .box-1 p{
+.surface .box-1 p {
   margin: 10px 0;
   font-size: 18px;
   font-weight: 300;
   line-height: 24px;
 }
 
-.surface .box-1 a{
+.surface .box-1 a {
   color: rgb(0, 103, 184);
   font-size: 20px;
   text-decoration: none;
 }
 
-.surface .box-1 a:hover{
-  text-decoration:underline;
+.surface .box-1 a:hover {
+  text-decoration: underline;
 }
 
 /* innovation section */
 
-.innovation{
-  width:90%;
+.innovation {
+  width: 90%;
   height: 600px;
- 
+
   margin: 0 auto;
   background-image: url(../img/Highlight-Bing-AI-Open-Preview_VP4-1260x600.avif);
   background-position: center;
   background-size: cover;
 }
-.innovation .ai-wave{
+.innovation .ai-wave {
   width: 500px;
   padding-top: 200px;
   padding-left: 120px;
 }
-.innovation .ai-wave h2{
+.innovation .ai-wave h2 {
   font-size: 34px;
   font-weight: 600;
   margin-bottom: 20px;
   line-height: 38px;
 }
-.innovation .ai-wave p{
+.innovation .ai-wave p {
   color: #332b2b;
   font-size: 18px;
   line-height: 24px;
   margin-bottom: 30px;
 }
-.innovation .ai-wave button{
+.innovation .ai-wave button {
   width: 200px;
   height: 40px;
   font-size: 15px;
@@ -240,25 +236,24 @@ body {
   font-weight: 600;
   border: none;
   border-radius: 4px;
-  background-color:#0067b8;
+  background-color: #0067b8;
   cursor: pointer;
 }
 
-
 /* Business */
 
-.business{
+.business {
   width: 90%;
   margin: 0 auto;
   padding: 50px 0;
 }
-.business .heading-business{
+.business .heading-business {
   margin: 30px 0;
   font-size: 34px;
   font-weight: 600;
 }
 
-.business .business-box{
+.business .business-box {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -267,21 +262,21 @@ body {
 
   /* gap: 28px; */
 }
-.business .business-box .box-1{
+.business .business-box .box-1 {
   width: 250px;
   height: 400px;
   padding: 40px 0;
   /* padding-right: 10px; */
 }
-.business .business-box .box-1 img{
+.business .business-box .box-1 img {
   width: 100%;
 }
-.business .business-box .box-1 h2{
+.business .business-box .box-1 h2 {
   margin: 20px 0;
   font-size: 24px;
   font-weight: 600;
 }
-.business .business-box .box-1 p{
+.business .business-box .box-1 p {
   font-size: 16px;
   font-weight: 500;
   line-height: 23px;
@@ -289,26 +284,26 @@ body {
   margin: 10px 0;
   text-align: justify;
 }
-.business .business-box .box-1 a{
+.business .business-box .box-1 a {
   color: rgb(0, 103, 184);
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
 }
-.business .business-box .box-1 a:hover{
+.business .business-box .box-1 a:hover {
   text-decoration: underline;
 }
 /* blue print */
-.blue-print{
+.blue-print {
   width: 90%;
   height: 680px;
   margin: 0 auto;
-  background-image: url('../img/Highlight-Microsoft-Responsible-AI_VP4-1260x600.avif');
+  background-image: url("../img/Highlight-Microsoft-Responsible-AI_VP4-1260x600.avif");
   background-position: center;
   background-size: cover;
   position: relative;
 }
-.blue-print .box{
+.blue-print .box {
   width: 450px;
   position: absolute;
   top: 200px;
@@ -317,19 +312,19 @@ body {
   padding: 50px;
   /* margin-left: 120px; */
 }
-.blue-print .box h2{
+.blue-print .box h2 {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
 }
-.blue-print .box p{
+.blue-print .box p {
   padding: 10px 0;
   font-size: 20px;
   text-align: justify;
   font-weight: 500;
   line-height: 25px;
 }
-.blue-print .box button{
+.blue-print .box button {
   width: 340px;
   height: 44px;
   font-size: 14px;
@@ -337,45 +332,45 @@ body {
   font-weight: 600;
   border: none;
   border-radius: 4px;
-  background-color:#0067b8;
+  background-color: #0067b8;
   cursor: pointer;
   margin-top: 20px;
 }
 /* follow */
-.follow{
+.follow {
   width: 90%;
   margin: 0 auto;
   padding: 40px 0;
   display: flex;
   gap: 20px;
 }
-.follow h2{
+.follow h2 {
   font-size: 17px;
   font-weight: 400;
   color: #080707;
 }
-.follow img{
+.follow img {
   width: 2%;
 }
 /* footer  */
 
-footer{
+footer {
   width: 100%;
   background-color: #f2f2f2;
   padding: 20px;
 }
-footer .footer-box{
+footer .footer-box {
   display: flex;
   width: 90%;
   margin: 0 auto;
   padding: 10px 0;
   gap: 20px;
 }
-footer .footer-box .box{
+footer .footer-box .box {
   width: 15%;
   padding: 4px 10px;
 }
-footer .footer-box .box h3{
+footer .footer-box .box h3 {
   font-size: 20px;
   font-weight: 300;
   font-weight: 500;
@@ -383,21 +378,21 @@ footer .footer-box .box h3{
   margin-bottom: 10px;
 }
 
-footer .footer-box ul li{
+footer .footer-box ul li {
   font-size: 12px;
   font-weight: 100;
   color: #5a4c4c;
   padding: 10px 0;
   list-style-type: none;
 }
-footer .privacy{
+footer .privacy {
   width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-footer .privacy .box{
+footer .privacy .box {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -405,20 +400,19 @@ footer .privacy .box{
   font-size: 16px;
   color: #524e4e;
 }
-footer .privacy .box p{
+footer .privacy .box p {
   font-size: 13px;
   margin-left: 10px;
 }
-footer .privacy .contact ul{
+footer .privacy .contact ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-footer .privacy .contact ul li{
+footer .privacy .contact ul li {
   list-style-type: none;
   font-size: 12px;
   font-weight: 100;
   color: #524e4e;
   margin-left: 10px;
-
 }
