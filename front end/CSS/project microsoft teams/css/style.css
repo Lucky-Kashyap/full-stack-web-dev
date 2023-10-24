@@ -123,3 +123,17 @@ a{
 .btn-no a{
   font-weight: 600;
 }
+
+/* play icons */
+
+.play{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+}
+.play .box i{
+  font-size: 16px;
+  padding: 0 14px;
+}
+
