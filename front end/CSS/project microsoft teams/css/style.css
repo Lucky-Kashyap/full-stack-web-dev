@@ -294,3 +294,63 @@ body {
 .business .business-box .box-1 a:hover{
   text-decoration: underline;
 }
+/* blue print */
+.blue-print{
+  width: 90%;
+  height: 680px;
+  margin: 0 auto;
+  background-image: url('../img/Highlight-Microsoft-Responsible-AI_VP4-1260x600.avif');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.blue-print .box{
+  width: 450px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  background-color: #fff;
+  padding: 50px;
+  /* margin-left: 120px; */
+}
+.blue-print .box h2{
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.blue-print .box p{
+  padding: 10px 0;
+  font-size: 20px;
+  text-align: justify;
+  font-weight: 500;
+  line-height: 25px;
+}
+.blue-print .box button{
+  width: 340px;
+  height: 44px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  background-color:#0067b8;
+  cursor: pointer;
+  margin-top: 20px;
+}
+/* follow */
+.follow{
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: flex;
+  gap: 20px;
+}
+.follow h2{
+  font-size: 17px;
+  font-weight: 400;
+  color: #080707;
+}
+.follow img{
+  width: 2%;
+}
+/* footer  */
