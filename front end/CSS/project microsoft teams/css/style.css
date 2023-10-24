@@ -30,7 +30,11 @@ body {
   justify-content: space-evenly;
   width: 50%;
   height: 100%;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Segoe UI',"Segoe UI"
+  "Helvetica Neue"
+  Helvetica
+  Arial
+  sans-serif sans-serif; 
   font-size: 14px;
   /* background-color: #fff; */
 }
@@ -354,3 +358,67 @@ body {
   width: 2%;
 }
 /* footer  */
+
+footer{
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+footer .footer-box{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0;
+  gap: 20px;
+}
+footer .footer-box .box{
+  width: 15%;
+  padding: 4px 10px;
+}
+footer .footer-box .box h3{
+  font-size: 20px;
+  font-weight: 300;
+  font-weight: 500;
+  color: #685656;
+  margin-bottom: 10px;
+}
+
+footer .footer-box ul li{
+  font-size: 12px;
+  font-weight: 100;
+  color: #5a4c4c;
+  padding: 10px 0;
+  list-style-type: none;
+}
+footer .privacy{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .privacy .box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-left: 10px; */
+  font-size: 16px;
+  color: #524e4e;
+}
+footer .privacy .box p{
+  font-size: 13px;
+  margin-left: 10px;
+}
+footer .privacy .contact ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .privacy .contact ul li{
+  list-style-type: none;
+  font-size: 12px;
+  font-weight: 100;
+  color: #524e4e;
+  margin-left: 10px;
+
+}
