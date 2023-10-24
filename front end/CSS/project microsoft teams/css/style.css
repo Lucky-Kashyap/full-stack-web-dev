@@ -156,3 +156,42 @@ body {
   color: rgb(24, 94, 148);;
 }
 
+/* Surface */
+.surface{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px 0;
+  gap: 20px;
+}
+.surface .box-1{
+  width: 20%;
+  padding: 10px;
+  margin: 0 2px;
+  background-color: aliceblue;
+}
+.surface .box-1 h2{
+  font-size: 26px;
+  font-weight: 800;
+  margin:4px 0;
+}
+.surface .box-1 p{
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.surface .box-1 a{
+  color: rgb(0, 103, 184);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.surface .box-1 a:hover{
+  text-decoration:underline;
+}
+
