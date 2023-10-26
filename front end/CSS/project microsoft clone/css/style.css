@@ -170,9 +170,12 @@ body {
 /* main2 */
 
 .main2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 10%;
   width: 100%;
-  height: 100%;
+  height: 50%;
   padding: 0 10%;
   /* background-color: #0067B8; */
 }
@@ -181,7 +184,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 50%;
+  height: 100%;
   gap: 2%;
   /* background-color: #0067B8; */
 }
@@ -192,11 +195,11 @@ body {
   gap: 2%;
   width: calc(100% / 4);
   height: 100%;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 .products .product .img-con{
   width: 100%;
-  height: 50%;
+  height: 100%;
   /* background-color: #333; */
   background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Surface-Laptop-5-M1-Platinum-01-1?wid=297&hei=167&fit=crop');
   background-position: center;
@@ -206,7 +209,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: left;
-  padding-bottom: 5%;
+  /* padding-bottom: 5%; */
   gap: 1%;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
 }
@@ -214,6 +217,7 @@ body {
   font-size: 18px;
   font-weight: 600;
   text-decoration: none;
+  color: #0067B8;
 }
 .products .product .btn:hover{
   gap: 4%;
@@ -229,4 +233,16 @@ body {
 }
 .products .product .img-con4{
   background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSS-CP-Xbox-Series-S-Evergreen?wid=297&hei=167&fit=crop');
+}
+
+.main3{
+  width: 100%;
+  height: 70%;
+  background-color: #0067B8;
+  padding: 5% 8%;
+}
+.showcase{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
 }
