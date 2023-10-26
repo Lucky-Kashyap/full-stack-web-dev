@@ -244,5 +244,8 @@ body {
 .showcase{
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-XSX-CP-Xbox-Series-X?wid=297&hei=167&fit=crop');
+  background-position: center;
+  background-size: cover;
+  /* background-color: #fff; */
 }
