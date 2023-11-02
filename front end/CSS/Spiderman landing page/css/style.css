@@ -6,7 +6,7 @@
 html,
 body {
   width: 100vw;
-  /* height: 100vh; */
+  height: 100vh;
   font-family: "Oswald", sans-serif;
 }
 .container {
@@ -101,13 +101,14 @@ body {
   align-items: center;
 }
 .banner .spider {
-   margin-top: 100px;
+   margin-top:30px;
     
   width: 40vw;
+  margin-bottom: 30px;
 }
 .banner .spider h1 {
-  font-family: Oswald;
-  font-size: 90px;
+  font-family: 'Oswald','sans-serif';
+  font-size: 80px;
   font-weight: 700;
   line-height: 133px;
   letter-spacing: 0em;
@@ -121,9 +122,9 @@ background: linear-gradient(180deg, #568AF0 16.21%, rgba(255, 255, 255, -0.4) 63
 .banner .spider h2{
     text-transform: uppercase;
     color:rgb(218, 212, 212);
-font-size: 35px;
+font-size: 30px;
 font-weight: 400;
-margin-top: 20px;   
+margin-top: 10px;   
 }
 
 .banner .btn{
@@ -138,14 +139,14 @@ margin-top: 20px;
     /* flex-wrap: nowrap; */
     justify-content:center;
     align-items: center;
-    width: 202px;
+    width: 200px;
     height: 55.58px;
     border-radius: 16.27px;
 padding: 8.13px 9.49px 8.13px 8.13px 9.49px;
     box-shadow: 12.20134162902832px 16.268455505371094px 21.691274642944336px 0px rgba(0, 0, 0, 0.25);
     font-family: 'Lexend', sans-serif;
     
-font-size: 22px;
+font-size: 18px;
 font-weight: 700;
 line-height: 27px;
 letter-spacing: 0em;
@@ -195,4 +196,49 @@ cursor: pointer;
 .banner .about span{
     color: rgba(62, 162, 255, 1);
 }
+
+/* image slider */
+
+.image-slider{
+    width: 90vw;
+   
+    margin: 0 auto;
+    padding-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap:5px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.image-slider .image-box{
+    width: 15vw;
+    /* padding: 0 10px; */
+}
+.image-slider .image-box img{
+    width: 200px;
+    height:156px;
+}
+/* Dot */
+
+.dots{
+    width: 90vw;
+    margin: 0 auto;
+    
+}
+.dots .arrow{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.dots .arrow img{
+    width: 15px;
+    height: 15px;
+
+    color:rgba(217, 217, 217, 1);
+    ;
+}
+
 
