@@ -6,7 +6,7 @@
 html,
 body {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   font-family: "Oswald", sans-serif;
 }
 .container {
@@ -97,11 +97,12 @@ body {
   width: 90vw;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
 }
 .banner .spider {
-    padding:100px 0;
+   margin-top: 100px;
+    
   width: 40vw;
 }
 .banner .spider h1 {
@@ -153,6 +154,7 @@ position: relative;
 background-image: url('../assets/main_bg.png');
 background-position: center;
 background-size: cover;
+cursor: pointer;
 }
 .banner .btn .watch-now span{
     margin-top: 14px;
@@ -170,6 +172,27 @@ line-height: 27px;
 letter-spacing: 0em;
 text-align: left;
 color: rgba(62, 162, 255, 1);
+cursor: pointer;
+}
 
+.banner .about{
+    width: 40vw;
+    height: 30vh;
+    
+    background-image: url('../assets/Rectangle\ 5.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner .about p{
+    font-family: 'Red Rose','sans-serif';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.74px;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+}
+.banner .about span{
+    color: rgba(62, 162, 255, 1);
 }
 
