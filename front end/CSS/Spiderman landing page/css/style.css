@@ -17,3 +17,78 @@ html,body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.container header{
+    width: 90vw;
+    margin: 0 auto;
+    /* padding: 0 15px; */
+}
+.container header nav{
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 20px 0; */
+    padding:5px 0;
+
+}
+.container header nav .left{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container header nav .left ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.container header nav .left ul li .add{
+    color: #fff;
+    text-decoration: underline;
+}
+.container header nav .heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #3EA2FF;
+    position: relative;
+}
+.container header nav .heading .rect-one{
+    position: absolute;
+    top: 24px;
+    left: 65px;
+}
+.container header nav .heading .rect-two{
+    position: absolute;
+ left: 127px;
+ bottom: 60px;
+}
+.container header nav ul li{
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Red Rose', serif;
+}
+
+.container header nav ul li{
+    padding: 0 5px;
+    list-style-type: none;
+}
+.container header nav  .right{
+    width: 30vw;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.container header nav .right ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.container header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
