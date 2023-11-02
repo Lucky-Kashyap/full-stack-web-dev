@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/main_bg.png');
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
