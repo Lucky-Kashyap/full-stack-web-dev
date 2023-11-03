@@ -19,6 +19,7 @@ nav{
     width: 100%;
     height: 10%;
     padding: 0 5%;
+    
 }
 nav img{
     margin-top: 10px;
@@ -58,4 +59,51 @@ nav .cta button:hover{
     background-color: transparent;
     color: #222;
     border: 1x solid #222;
+}
+
+/* part-1 */
+
+.part-1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+    background-color: aliceblue;
+}
+.content-part {
+    width: 95%;
+    height: 100%;
+    /* background-color: #222; */
+    background-image: url('https://images.unsplash.com/photo-1544456203-0af5a69f5789?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding: 30px 50px;
+    gap: 10px;
+    /* background-color: #222; */
+    /* background: linear-gradient(#22222222,#22222200,#222); */
+    background: linear-gradient(#62f14f00,#ea606000,#00000090,#000);
+}
+.overlay h1{
+    font-size: 50px;
+}
+.overlay h4{
+    font-size: 25px;
+}
+.overlay p{
+    width:40%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 24px;
+    color: #f1f1f1ee;
 }
