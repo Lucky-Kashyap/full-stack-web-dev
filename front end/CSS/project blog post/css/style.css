@@ -6,6 +6,7 @@
 html,body{
     width: 100%;
     height: 100%;
+    font-family: 'Lato', sans-serif;
 }
 .main{
     width: 100%;
@@ -67,11 +68,15 @@ nav .cta button:hover{
     margin-top: 30px;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
     height: 90%;
     background-color: aliceblue;
 }
 .content-part {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     width: 95%;
     height: 100%;
     /* background-color: #222; */
@@ -83,22 +88,25 @@ nav .cta button:hover{
 }
 .overlay{
     display: flex;
-    flex-direction: column;
     justify-content:end;
-    width: 100%;
+    flex-direction: column;
+    width: 95%;
     height: 100%;
     color: #fff;
     padding: 30px 50px;
-    gap: 10px;
+    gap: 15px;
     /* background-color: #222; */
     /* background: linear-gradient(#22222222,#22222200,#222); */
     background: linear-gradient(#62f14f00,#ea606000,#00000090,#000);
 }
+
 .overlay h1{
     font-size: 50px;
+    margin: 10px;
 }
 .overlay h4{
     font-size: 25px;
+    margin: 10px;
 }
 .overlay p{
     width:40%;
@@ -106,4 +114,15 @@ nav .cta button:hover{
     word-spacing: 2px;
     line-height: 24px;
     color: #f1f1f1ee;
+    margin: 10px;
+}
+
+.ri-arrow-right-circle-line{
+    cursor: pointer;
+    font-size: 90px;
+    font-weight: 100;
+    position: absolute;
+    color: antiquewhite;
+    top: 500px;
+    right: 200px;
 }
