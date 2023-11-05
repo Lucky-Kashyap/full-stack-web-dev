@@ -2,7 +2,8 @@ import React from "react";
 
 const List = () => {
   return (
-    <React.Fragment>
+    // <React.Fragment>
+    <>
       <h2>Healthy Food</h2>
       <ul className="list-group">
         <li className="list-group-item">An item</li>
@@ -11,7 +12,8 @@ const List = () => {
         <li className="list-group-item">A fourth item</li>
         <li className="list-group-item">And a fifth one</li>
       </ul>
-    </React.Fragment>
+      {/* </React.Fragment> */}
+    </>
   );
 };
 
