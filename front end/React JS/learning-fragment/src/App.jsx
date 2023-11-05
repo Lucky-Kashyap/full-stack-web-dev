@@ -1,4 +1,5 @@
 import "./App.css";
+import List from "./components/List";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <li>Contact</li>
         <li>Testimonials</li>
       </ul>
+
+      <List />
     </div>
   );
 }
