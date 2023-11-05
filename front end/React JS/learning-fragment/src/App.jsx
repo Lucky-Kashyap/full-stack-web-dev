@@ -1,5 +1,6 @@
 import "./App.css";
 import List from "./components/List";
+import MapList from "./components/MapList";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         <li>Testimonials</li>
       </ul>
 
-      <List />
+      {/* <List /> */}
+      <MapList />
     </div>
   );
 }
