@@ -6,7 +6,7 @@ const ClockTimeDate = () => {
   const time = dateObj.toLocaleTimeString();
 
   return (
-    <p>
+    <p className="lead">
       This is the current time: {date} - {time}
     </p>
   );
