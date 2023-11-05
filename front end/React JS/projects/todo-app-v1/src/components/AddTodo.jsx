@@ -9,7 +9,7 @@ const AddTodo = () => {
           <input type="date" />
         </div>
         <div className="col-2">
-          <button className="btn btn-success">Add</button>
+          <button className="btn btn-success add">Add</button>
         </div>
       </div>
     </div>
