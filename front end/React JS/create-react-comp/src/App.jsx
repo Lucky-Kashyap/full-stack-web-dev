@@ -1,4 +1,5 @@
 import "./App.css";
+import Basic from "./components/Basic";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <p>creating component</p>
       <Header />
+      <Basic />
       <Footer />
     </>
   );
