@@ -1,5 +1,11 @@
 const MapList = () => {
-  const foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk"];
+  // const foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"];
+
+  const foodItems = [];
+
+  if (foodItems.length === 0) {
+    return <h3>I am still hungry</h3>;
+  }
 
   return (
     <>
