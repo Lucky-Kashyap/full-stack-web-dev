@@ -1,4 +1,8 @@
 function TodoItem({ todoName, todoDate }) {
+  // const handleDelete = (todoName) => {
+  //   const todo = todoItems.filter((item) => item.name !== todoName);
+  //   setTodoItems(todo);
+  // };
   return (
     <div className="container">
       <div className="row kg-row">

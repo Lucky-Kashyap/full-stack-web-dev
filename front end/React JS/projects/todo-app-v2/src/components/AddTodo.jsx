@@ -16,9 +16,12 @@ const AddTodo = ({ todoItems, setTodoItems }) => {
       dueDate: date.current.value,
     };
 
-    console.log(todo);
+    // console.log(todo);
 
     setTodoItems([...todoItems, todo]);
+
+    item.current.value = "";
+    date.current.value = "";
   };
 
   return (
