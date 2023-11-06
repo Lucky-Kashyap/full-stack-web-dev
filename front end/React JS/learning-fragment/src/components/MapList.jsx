@@ -1,5 +1,5 @@
-const MapList = () => {
-  const foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"];
+const MapList = ({ foodItems }) => {
+  // const foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"];
 
   // const foodItems = [];
 

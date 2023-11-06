@@ -21,7 +21,9 @@ function App() {
       </ul>
 
       {/* <List /> */}
-      <MapList />
+      <MapList
+        foodItems={["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"]}
+      />
     </div>
   );
 }
