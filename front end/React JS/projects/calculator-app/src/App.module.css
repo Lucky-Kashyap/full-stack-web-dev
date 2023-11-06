@@ -20,7 +20,10 @@ body {
 .display {
   margin: 10px;
   width: 200px;
+  text-align: center;
+  padding: 2px;
   font-size: 25px;
+  border-radius: 4px;
 }
 
 .buttonsContainer {
