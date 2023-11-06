@@ -1,4 +1,5 @@
 import "./App.css";
+import DataProp from "./components/DataProp";
 import List from "./components/List";
 import MapList from "./components/MapList";
 
@@ -24,6 +25,8 @@ function App() {
       <MapList
         foodItems={["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"]}
       />
+
+      <DataProp name="pass data as a props" description="Learning react js" />
     </div>
   );
 }
