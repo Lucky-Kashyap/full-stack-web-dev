@@ -13,6 +13,10 @@ const MapList = ({ foodItems }) => {
   // foodItems.length === 0 ? <h3>I am Still Hungry.</h3> : null;
 
   // console.log(styles);
+
+  const handleBuyButton = (foodItem) => {
+    console.log(`${foodItem} being bought....!!!!`);
+  };
   return (
     <>
       <h3 className={styles.food}>Food</h3>
@@ -29,7 +33,8 @@ const MapList = ({ foodItems }) => {
             {item}
             <button
               className={`${styles.button} btn btn-info`}
-              onClick={() => console.log("Buy Button Clicked...!!!")}
+              // onClick={() => console.log(`${item} Bought...!!!`)}
+              onClick={() => handleBuyButton(item)}
             >
               Buy
             </button>
