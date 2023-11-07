@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import Container from "./components/Container";
 import DataProp from "./components/DataProp";
@@ -7,13 +8,16 @@ import List from "./components/List";
 import MapList from "./components/MapList";
 
 function App() {
+  const [textToShow, setTextToShow] = useState("Food Item Entered by User");
   const foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"];
 
-  let textToShow = "Food Item Entered by User";
+  // let textToShow = "Food Item Entered by User";
 
   const handleOnChange = (e) => {
     console.log(e.target.value);
-    textToShow = e.target.value;
+    // textToShow = e.target.value;
+
+    setTextToShow(e.target.value);
   };
 
   return (
