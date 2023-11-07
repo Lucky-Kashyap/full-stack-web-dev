@@ -1,7 +1,10 @@
+import { useState } from "react";
 import Item from "./Item";
 import styles from "./MapList.module.css";
 
 const MapList = ({ foodItems }) => {
+  const [activeItems, setActiveItems] = useState([]);
+
   // const foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"];
 
   // const foodItems = [];
@@ -15,8 +18,12 @@ const MapList = ({ foodItems }) => {
 
   // console.log(styles);
 
-  const handleBuyButton = (foodItem) => {
-    console.log(`${foodItem} being bought....!!!!`);
+  const handleBuyButton = (foodItem, e) => {
+    // console.log(`${foodItem} being bought....!!!!`);
+
+    let newItems = [...activeItems, foodItem];
+
+    setActiveItems(newItems);
   };
   return (
     <>
@@ -30,7 +37,12 @@ const MapList = ({ foodItems }) => {
 
       <ul className="list-group">
         {foodItems.map((item, i) => (
-          <Item item={item} key={i} handleBuyButton={handleBuyButton} />
+          <Item
+            item={item}
+            key={i}
+            bought={activeItems.includes(item)}
+            handleBuyButton={(e) => handleBuyButton(item, e)}
+          />
         ))}
       </ul>
     </>
