@@ -1,3 +1,4 @@
+import Item from "./Item";
 import styles from "./MapList.module.css";
 
 const MapList = ({ foodItems }) => {
@@ -14,9 +15,9 @@ const MapList = ({ foodItems }) => {
 
   // console.log(styles);
 
-  const handleBuyButton = (foodItem) => {
-    console.log(`${foodItem} being bought....!!!!`);
-  };
+  // const handleBuyButton = (foodItem) => {
+  //   console.log(`${foodItem} being bought....!!!!`);
+  // };
   return (
     <>
       <h3 className={styles.food}>Food</h3>
@@ -29,16 +30,7 @@ const MapList = ({ foodItems }) => {
 
       <ul className="list-group">
         {foodItems.map((item, i) => (
-          <li className={`${styles["food-item"]} list-group-item`} key={i}>
-            {item}
-            <button
-              className={`${styles.button} btn btn-info`}
-              // onClick={() => console.log(`${item} Bought...!!!`)}
-              onClick={() => handleBuyButton(item)}
-            >
-              Buy
-            </button>
-          </li>
+          <Item item={item} key={i} />
         ))}
       </ul>
     </>
