@@ -20,7 +20,7 @@ const MapList = ({ foodItems }) => {
   };
   return (
     <>
-      <h3 className={styles.food}>Food</h3>
+      {/* <h3 className={styles.food}>Food</h3> */}
 
       {/* {foodItems.length === 0 ? <h3>I am Still Hungry.</h3> : null} */}
 

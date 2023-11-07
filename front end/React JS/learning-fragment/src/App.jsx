@@ -9,24 +9,36 @@ import MapList from "./components/MapList";
 
 function App() {
   const [textToShow, setTextToShow] = useState("Food Item Entered by User");
-  const foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"];
+  const [foodItems, setFoodItems] = useState([
+    "Dal",
+    "Green Vegetable",
+    "Roti",
+  ]);
 
   // let textToShow = "Food Item Entered by User";
 
-  const handleOnChange = (e) => {
-    console.log(e.target.value);
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      let newFoodItem = e.target.value;
+
+      e.target.value = "";
+      const newItems = [...foodItems, newFoodItem];
+
+      setFoodItems(newItems);
+    }
+    // console.log(e.target.value);
     // textToShow = e.target.value;
 
-    setTextToShow(e.target.value);
+    // setTextToShow(e.target.value);
   };
 
   return (
     <div>
       <Container>
         <Home />
-        <FoodInput handleOnChange={handleOnChange} />
+        <FoodInput handleKeyDown={handleKeyDown} />
         {/* <List /> */}
-        <p>{textToShow}</p>
+        {/* <p>{textToShow}</p> */}
         <MapList foodItems={foodItems} />
 
         {/* <DataProp name="pass data as a props" description="Learning react js" /> */}

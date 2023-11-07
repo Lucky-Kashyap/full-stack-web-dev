@@ -1,8 +1,8 @@
 const Home = () => {
   return (
     <>
-      <h1>React Fragments</h1>
-      <p>
+      <h1>Healthy Food</h1>
+      {/* <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
         natus rerum aliquid recusandae odit, magni nemo, corporis cumque ipsa
         alias neque assumenda nobis, minus impedit! Odit quia necessitatibus
@@ -14,7 +14,7 @@ const Home = () => {
         <li>Services</li>
         <li>Contact</li>
         <li>Testimonials</li>
-      </ul>
+      </ul> */}
     </>
   );
 };
