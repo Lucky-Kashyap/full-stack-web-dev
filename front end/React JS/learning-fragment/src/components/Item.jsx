@@ -6,7 +6,7 @@ const Item = ({ item, handleBuyButton }) => {
   // };
 
   return (
-    <li className={`${styles["food-item"]} list-group-item`}>
+    <li className={`${styles.foodItem}`}>
       {item}
       <button
         className={`${styles.button} btn btn-info`}
