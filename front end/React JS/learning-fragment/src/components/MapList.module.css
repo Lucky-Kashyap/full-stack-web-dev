@@ -11,3 +11,7 @@
   padding: 10px;
   background-color: rgb(99, 57, 65);
 }
+
+.button {
+  float: right;
+}

@@ -12,7 +12,7 @@ const MapList = ({ foodItems }) => {
   // const emptyMessage =
   // foodItems.length === 0 ? <h3>I am Still Hungry.</h3> : null;
 
-  console.log(styles);
+  // console.log(styles);
   return (
     <>
       <h3 className={styles.food}>Food</h3>
@@ -27,6 +27,12 @@ const MapList = ({ foodItems }) => {
         {foodItems.map((item, i) => (
           <li className={`${styles["food-item"]} list-group-item`} key={i}>
             {item}
+            <button
+              className={`${styles.button} btn btn-info`}
+              onClick={() => console.log("Buy Button Clicked...!!!")}
+            >
+              Buy
+            </button>
           </li>
         ))}
       </ul>

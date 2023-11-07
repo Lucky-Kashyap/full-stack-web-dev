@@ -38,9 +38,9 @@ function App() {
         <DataProp name="pass data as a props" description="Learning react js" />
       </Container>
 
-      <Container>
+      {/* <Container>
         <p>Above Code is all passing children </p>
-      </Container>
+      </Container> */}
     </div>
   );
 }
