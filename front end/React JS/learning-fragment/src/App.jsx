@@ -9,12 +9,20 @@ import MapList from "./components/MapList";
 function App() {
   const foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"];
 
+  let textToShow = "Food Item Entered by User";
+
+  const handleOnChange = (e) => {
+    console.log(e.target.value);
+    textToShow = e.target.value;
+  };
+
   return (
     <div>
       <Container>
         <Home />
-        <FoodInput />
+        <FoodInput handleOnChange={handleOnChange} />
         {/* <List /> */}
+        <p>{textToShow}</p>
         <MapList foodItems={foodItems} />
 
         {/* <DataProp name="pass data as a props" description="Learning react js" /> */}
