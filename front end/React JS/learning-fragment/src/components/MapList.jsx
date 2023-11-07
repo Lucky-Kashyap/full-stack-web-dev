@@ -15,9 +15,9 @@ const MapList = ({ foodItems }) => {
 
   // console.log(styles);
 
-  // const handleBuyButton = (foodItem) => {
-  //   console.log(`${foodItem} being bought....!!!!`);
-  // };
+  const handleBuyButton = (foodItem) => {
+    console.log(`${foodItem} being bought....!!!!`);
+  };
   return (
     <>
       <h3 className={styles.food}>Food</h3>
@@ -30,7 +30,7 @@ const MapList = ({ foodItems }) => {
 
       <ul className="list-group">
         {foodItems.map((item, i) => (
-          <Item item={item} key={i} />
+          <Item item={item} key={i} handleBuyButton={handleBuyButton} />
         ))}
       </ul>
     </>
