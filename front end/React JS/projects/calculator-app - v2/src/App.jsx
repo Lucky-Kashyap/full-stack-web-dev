@@ -4,16 +4,19 @@ import ButtonsContainer from "./components/ButtonsContainer";
 import Display from "./components/Display";
 
 function App() {
-  const [calVal, setCalVal] = useState("");
+  const [calVal, setCalVal] = useState(0);
 
   const onButtonClick = (buttonText) => {
     if (buttonText === "C") {
-      setCalVal("");
+      setCalVal(0);
+    } else if (buttonText === "X") {
+      const oneElement = calVal.substr(0, calVal.length - 1);
+      setCalVal(oneElement);
     } else if (buttonText === "=") {
       const result = eval(calVal);
       setCalVal(result);
     } else {
-      const newDisplayValue = calVal + buttonText;
+      const newDisplayValue = calVal === 0 ? buttonText : calVal + buttonText;
       setCalVal(newDisplayValue);
     }
   };
