@@ -5,6 +5,8 @@ import styles from "./MapList.module.css";
 const MapList = ({ foodItems }) => {
   const [activeItems, setActiveItems] = useState([]);
 
+  // foodItems = ["lucky", "divyanshu", "ajay"];
+
   // const foodItems = ["Dal", "Green Vegetable", "Roti", "Salad", "Milk", "Ghee"];
 
   // const foodItems = [];
