@@ -1,4 +1,4 @@
-function TodoItem({ todoName, todoDate }) {
+function TodoItem({ todoName, todoDate, onDeleteClick }) {
   // const handleDelete = (todoName) => {
   //   const todo = todoItems.filter((item) => item.name !== todoName);
   //   setTodoItems(todo);
@@ -9,7 +9,11 @@ function TodoItem({ todoName, todoDate }) {
         <div className="col-6">{todoName}</div>
         <div className="col-4">{todoDate}</div>
         <div className="col-2">
-          <button type="button" className="btn btn-danger delete">
+          <button
+            type="button"
+            className="btn btn-danger delete"
+            onClick={() => onDeleteClick(todoName)}
+          >
             Delete
           </button>
         </div>

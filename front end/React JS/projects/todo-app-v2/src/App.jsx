@@ -12,13 +12,18 @@ function App() {
     },
   ]);
 
+  const handleDeleteItem = (todoItemName) => {
+    const newTodoItems = todoItems.filter((item) => item.name !== todoItemName);
+    setTodoItems(newTodoItems);
+  };
+
   return (
     <div className="container text-center">
       <Heading />
       <div className="container text-center">
         <AddTodo todoItems={todoItems} setTodoItems={setTodoItems} />
 
-        <TodoItems todoItems={todoItems} />
+        <TodoItems todoItems={todoItems} onDeleteClick={handleDeleteItem} />
 
         {/* <AddTodoItem1 />
         <AddTodoItem2 /> */}
