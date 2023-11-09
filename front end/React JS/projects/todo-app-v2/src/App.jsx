@@ -20,9 +20,13 @@ function App() {
   return (
     <div className="container text-center">
       <Heading />
+
       <div className="container text-center">
         <AddTodo todoItems={todoItems} setTodoItems={setTodoItems} />
 
+        {todoItems.length === 0 ? (
+          <h2>There is nothing else to show you can add</h2>
+        ) : null}
         <TodoItems todoItems={todoItems} onDeleteClick={handleDeleteItem} />
 
         {/* <AddTodoItem1 />
