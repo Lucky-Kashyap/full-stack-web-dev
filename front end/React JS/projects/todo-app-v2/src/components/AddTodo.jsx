@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { BiMessageSquareAdd } from "react-icons/bi";
 
 const AddTodo = ({ todoItems, setTodoItems }) => {
   const item = useRef(null);
@@ -35,7 +36,7 @@ const AddTodo = ({ todoItems, setTodoItems }) => {
         </div>
         <div className="col-2">
           <button className="btn btn-success add" onClick={addTodo}>
-            Add
+            <BiMessageSquareAdd />
           </button>
         </div>
       </div>
