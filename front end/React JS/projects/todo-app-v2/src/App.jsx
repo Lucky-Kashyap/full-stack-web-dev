@@ -3,6 +3,7 @@ import "./App.css";
 import AddTodo from "./components/AddTodo";
 import Heading from "./components/Heading";
 import TodoItems from "./components/TodoItems";
+import NoITems from "./components/NoItems";
 
 function App() {
   const [todoItems, setTodoItems] = useState([
@@ -24,9 +25,7 @@ function App() {
       <div className="container text-center">
         <AddTodo todoItems={todoItems} setTodoItems={setTodoItems} />
 
-        {todoItems.length === 0 ? (
-          <h2>There is nothing else to show you can add</h2>
-        ) : null}
+        {todoItems.length === 0 ? <NoITems /> : null}
         <TodoItems todoItems={todoItems} onDeleteClick={handleDeleteItem} />
 
         {/* <AddTodoItem1 />
