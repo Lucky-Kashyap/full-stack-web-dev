@@ -16,9 +16,11 @@ function App() {
     } else if (buttonText === "=") {
       const result = String(eval(calVal));
       setCalVal(result);
-    } else if (calVal === "") {
-      setCalVal("0");
-    } else {
+    }
+    // else if (buttonText === "" && calVal === "") {
+    //   setCalVal("0");
+    // }
+    else {
       const newDisplayValue = calVal === "0" ? buttonText : calVal + buttonText;
       setCalVal(newDisplayValue);
     }
