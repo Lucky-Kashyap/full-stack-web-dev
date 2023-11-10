@@ -10,3 +10,11 @@
   browser without requiring any build steps
   and is not recommended for production. 
 }
+
+3. Making navbar
+
+
+4. Installing production{
+
+  Tailwind CSS is best integrated with build tools like Vite by Installing it as a PostCSS plugin.
+}
