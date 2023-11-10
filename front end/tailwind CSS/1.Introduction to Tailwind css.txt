@@ -1,0 +1,12 @@
+1. Introduction (what is tailwind css?)
+
+=> Benefits of using tailwind css that we easily style or customize out HTMl elements without leaving HTML file with the help of the classes.
+
+=> Not like Bootstrap(adds a lot of extra code and files to your website, which can affect its performance and loadng speed).
+
+2. Using play cdn.{
+
+  Play CDn is used to test Tailwind in the
+  browser without requiring any build steps
+  and is not recommended for production. 
+}
