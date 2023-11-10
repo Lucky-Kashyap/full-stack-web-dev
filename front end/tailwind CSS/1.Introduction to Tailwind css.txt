@@ -18,3 +18,8 @@
 
   Tailwind CSS is best integrated with build tools like Vite by Installing it as a PostCSS plugin.
 }
+
+5. Installing Tailwind CSS IntelliSense{
+   A VS code extension used for
+   suggesting classes
+}
