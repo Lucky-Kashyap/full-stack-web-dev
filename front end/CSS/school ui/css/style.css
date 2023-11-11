@@ -151,3 +151,85 @@ nav .navigation ul li i {
   margin-top: 20px;
   font-weight: 400;
 }
+
+/* Teacher */
+
+.teacher {
+  padding: 40px 0;
+  width: 100%;
+  margin: 40px 0;
+}
+.teacher h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.teacher p {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 60px;
+}
+
+.teacher section {
+  /* margin: 80px 0; */
+  margin: 0 auto;
+  width: 100%;
+  height: 300px;
+  padding: 30px 0;
+  background: #fff8d2;
+  position: relative;
+  text-align: center;
+}
+.teacher section .teacher-box {
+  position: absolute;
+  top: -50px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px 0; */
+  /* text-align: center; */
+  /* margin: 0 auto; */
+}
+.teacher section .teacher-box .box {
+  width: 20%;
+  padding: 10px;
+}
+
+.teacher section .teacher-box .box img {
+  width: 50%;
+}
+.teacher section .teacher-box .box h4 {
+  padding: 10px 0;
+  font-size: 15px;
+}
+.teacher section .teacher-box2 {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 10px 0; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 180px 0;
+}
+.teacher section .teacher-box2 .box {
+  width: 20%;
+  padding: 10px;
+}
+
+.teacher section .teacher-box2 .box img {
+  width: 50%;
+}
+.teacher section .teacher-box2 .box h4 {
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+.teacher .section2 {
+  margin: 200px 0;
+}
