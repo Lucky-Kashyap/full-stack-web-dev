@@ -16,13 +16,15 @@ header {
 .faculty {
   width: 96%;
   display: flex;
+  margin: 0 auto;
   height: 75px;
 
   justify-content: space-between;
 }
 .faculty .logo .school {
-  width: 100px;
-  height: 110px;
+  position: absolute;
+  top: -29px;
+  width: 7.5%;
 }
 .faculty .logo .railway {
   margin-top: 5px;
@@ -52,8 +54,6 @@ nav .navigation ul {
   align-items: center;
   list-style-type: none;
 }
-nav .navigation ul li {
-}
 nav .navigation ul li a {
   font-size: 12px;
   color: #fff;
@@ -61,4 +61,43 @@ nav .navigation ul li a {
 }
 nav .navigation ul li i {
   color: aliceblue;
+}
+
+/* banner */
+
+.banner {
+  width: 100%;
+  height: 450px;
+  background: #d3daff;
+}
+.banner .faculty {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.banner .faculty .left h2 {
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.banner .faculty .left p {
+  width: 80%;
+  color: #000;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 145.3%; /* 46.496px */
+  text-transform: capitalize;
+}
+.banner .faculty .right svg {
+  margin-top: 20px;
+  width: 510px;
+  height: 400px;
+  transform: rotate(-6deg);
 }
