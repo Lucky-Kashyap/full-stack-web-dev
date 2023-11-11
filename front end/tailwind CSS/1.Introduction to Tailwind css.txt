@@ -23,3 +23,7 @@
    A VS code extension used for
    suggesting classes
 }
+
+6. Font Family
+
+7. Font sizing
