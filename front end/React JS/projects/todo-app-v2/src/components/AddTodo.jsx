@@ -8,7 +8,8 @@ const AddTodo = ({ todoItems, setTodoItems }) => {
   // const item = useRef(null);
   // const date = useRef(null);
 
-  const addTodo = () => {
+  const addTodo = (e) => {
+    e.preventDefault();
     // setTodoItems({
     //   name: item.current.value,
     //   date: date.current.value,
