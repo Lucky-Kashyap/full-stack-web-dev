@@ -5,6 +5,8 @@ const AddTodo = ({ todoItems, setTodoItems }) => {
   const [item, setItem] = useState("");
   const [date, setDate] = useState("");
 
+  const noOfUpdates = useRef(0);
+
   // const item = useRef(null);
   // const date = useRef(null);
 
@@ -39,9 +41,12 @@ const AddTodo = ({ todoItems, setTodoItems }) => {
 
   const handleItem = (e) => {
     setItem(e.target.value);
+    noOfUpdates.current += 1;
   };
   const handleDate = (e) => {
     setDate(e.target.value);
+
+    console.log(`noOfUpdates are : ${noOfUpdates.current}`);
   };
 
   return (
