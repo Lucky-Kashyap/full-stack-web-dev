@@ -1,9 +1,12 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { BiMessageSquareAdd } from "react-icons/bi";
 
 const AddTodo = ({ todoItems, setTodoItems }) => {
-  const item = useRef(null);
-  const date = useRef(null);
+  const [item, setItem] = useState("");
+  const [date, setDate] = useState("");
+
+  // const item = useRef(null);
+  // const date = useRef(null);
 
   const addTodo = () => {
     // setTodoItems({
@@ -12,27 +15,46 @@ const AddTodo = ({ todoItems, setTodoItems }) => {
     //   ...todoItems,
     // });
 
-    const todo = {
-      name: item.current.value,
-      dueDate: date.current.value,
-    };
+    // const todo = {
+    //   name: item.current.value,
+    //   dueDate: date.current.value,
+    // };
 
     // console.log(todo);
 
+    const todo = {
+      name: item,
+      dueDate: date,
+    };
+
     setTodoItems([...todoItems, todo]);
 
-    item.current.value = "";
-    date.current.value = "";
+    // item.current.value = "";
+    // date.current.value = "";
+  };
+
+  const handleItem = (e) => {
+    setItem(e.target.value);
+  };
+  const handleDate = (e) => {
+    setDate(e.target.value);
   };
 
   return (
     <div className="container">
       <div className="row">
         <div className="col-6">
-          <input type="text" ref={item} placeholder="Enter data" />
+          {/* <input type="text" ref={item} placeholder="Enter data" /> */}
+          <input
+            type="text"
+            value={item}
+            onChange={handleItem}
+            placeholder="Enter data"
+          />
         </div>
         <div className="col-4">
-          <input type="date" ref={date} />
+          {/* <input type="date" ref={date} /> */}
+          <input type="date" value={date} onChange={handleDate} />
         </div>
         <div className="col-2">
           <button className="btn btn-success add" onClick={addTodo}>
