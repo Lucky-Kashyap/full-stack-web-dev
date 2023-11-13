@@ -29,6 +29,9 @@ const AddTodo = ({ todoItems, setTodoItems }) => {
 
     setTodoItems([...todoItems, todo]);
 
+    setItem("");
+    setDate("");
+
     // item.current.value = "";
     // date.current.value = "";
   };
