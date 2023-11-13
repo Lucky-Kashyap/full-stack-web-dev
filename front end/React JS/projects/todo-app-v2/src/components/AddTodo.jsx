@@ -30,7 +30,9 @@ const AddTodo = ({ todoItems, setTodoItems }) => {
       dueDate: date,
     };
 
-    setTodoItems([...todoItems, todo]);
+    // setTodoItems([...todoItems, todo]);
+
+    setTodoItems((currValue) => [...currValue, todo]);
 
     setItem("");
     setDate("");
