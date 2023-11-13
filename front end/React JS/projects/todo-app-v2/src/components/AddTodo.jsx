@@ -46,7 +46,7 @@ const AddTodo = ({ todoItems, setTodoItems }) => {
   return (
     <div className="container">
       {/* <div className="row"> */}
-      <form className="row">
+      <form className="row" onSubmit={addTodo}>
         <div className="col-6">
           {/* <input type="text" ref={item} placeholder="Enter data" /> */}
           <input
@@ -64,7 +64,7 @@ const AddTodo = ({ todoItems, setTodoItems }) => {
           <button
             className="btn btn-success add"
             // onClick={addTodo}
-            onSubmit={addTodo}
+            // onSubmit={addTodo}
           >
             <BiMessageSquareAdd />
           </button>
