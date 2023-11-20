@@ -64,3 +64,48 @@ header nav .client .book {
   font-size: 1.3vw;
   font-weight: 500;
 }
+/* Banner */
+.banner {
+  width: 100%;
+  padding: 5vw 0;
+  text-align: center;
+}
+.banner h1 {
+  font-size: 6vw;
+}
+
+.banner p {
+  padding: 1vw 0;
+  font-size: 1.5vw;
+  color: #6b5e5e;
+}
+.banner .work {
+  padding: 1vw 0;
+  display: flex;
+  justify-content: space-between;
+  width: 37vw;
+  margin: 0 auto;
+}
+.banner .work .plan {
+  color: #fff;
+  text-align: center;
+  background-color: #dd463d;
+  border-radius: 3vw;
+  padding: 1.6vw 2vw;
+  font-size: 1.7vw;
+  font-weight: 700;
+  border: none;
+}
+.banner .work a {
+  color: #333;
+  font-size: 2vw;
+  font-weight: 700;
+  padding: 1vw 0;
+}
+.banner .brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vw;
+  padding: 2vw 0;
+}
