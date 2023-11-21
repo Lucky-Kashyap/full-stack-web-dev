@@ -1,0 +1,17 @@
+.todo {
+  font-weight: 600;
+  font-size: 45px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+}
+.add {
+  width: 70px;
+  margin-left: 15px;
+}
+.delete {
+  margin: 10px 60px;
+}
