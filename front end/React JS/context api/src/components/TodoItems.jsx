@@ -3,10 +3,11 @@ import { TodoItemsContext } from "../store/todo-items-store";
 import TodoItem from "./TodoItem";
 import styles from "./TodoItems.module.css";
 
-const TodoItems = ({ todoItems, onDeleteClick }) => {
-  const todoItemsFromContext = useContext(TodoItemsContext);
+const TodoItems = () => {
+  // const todoItemsFromContext = useContext(TodoItemsContext);
+  const { todoItems } = useContext(TodoItemsContext);
 
-  console.log(todoItemsFromContext);
+  // console.log(todoItemsFromContext);
 
   return (
     <div className={styles.itemsContainer}>
@@ -15,7 +16,7 @@ const TodoItems = ({ todoItems, onDeleteClick }) => {
           key={i}
           todoDate={item.dueDate}
           todoName={item.name}
-          onDeleteClick={onDeleteClick}
+          // onDeleteClick={onDeleteClick}
         ></TodoItem>
       ))}
     </div>

@@ -1,12 +1,19 @@
+import { useContext } from "react";
 import styles from "./NoItems.module.css";
+import { TodoItemsContext } from "../store/todo-items-store";
 
-const NoITems = ({ todoItems }) => {
+const NoITems = () => {
+  const { todoItems } = useContext(TodoItemsContext);
+
   return (
     <>
       {" "}
-      <p className={styles.noitem}>Enjoy Your Day</p>
       {todoItems.length === 0 && (
-        <h2>There is nothing else to show you can add</h2>
+        <>
+          <p className={styles.noitem}>Enjoy Your Day</p>
+
+          <h2>There is nothing else to show you can add</h2>
+        </>
       )}
     </>
   );
