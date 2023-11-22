@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/img/bg_1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+.banner p{
+    /* color: rgba(255, 255, 255, 0.5); */
+    color: grey;
+
+}
+nav .btn-table{
+    background: #c8a97e;
+    border-radius: 5px;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+}
+.banner .bar{
+    background: transparent;
+}
+
+/* Mid section starts here */
+
+.mid-section .best {
+    text-align: center;
+    margin-top: 6rem;
+}
+.mid-section .best h1{
+    font-size: 8rem;
+    color: #c8a97e;
+    font-weight: normal;
+    font-family: "Great Vibes", cursive;
+    margin-bottom: 0;
+    line-height: 1;
+}
+.mid-section .best p{
+    font-size: 4rem;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: normal;
+    font-family: "Poppins", Arial, sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.mid-section .box h3{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.mid-section .box img{
+    text-align: center;
+    width: 30%;
+    border-radius: 100%;
+
+}
+
+/* About section */
+.about-section{
+    padding: 6rem 0;
+}
+.about-section .about-image-chef{
+    width: 100%;
+    background-image: url('../assets/img/about.jpg');
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; */
+}
+/* .about-section .about-image-food{
+    width: 100%;
+    background-image: url('../assets/img/about-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+} */
+.about-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-section h2{
+    font-size: 4rem;
+}
+.about-section .sub-heading{
+    position: absolute;
+    top: -86px;
+    left: 0;
+    right: 0;
+    font-family: "Great Vibes", cursive;
+    z-index: -1;
+    color: #c8a97e;
+    font-size: 8rem;
+   
+}
+
+
+.about-section p{
+    line-height: 2rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #666666;
+}
+.about-section .telephone{
+    font-size: 2.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: #c8a97e;
+    background-color: transparent;
+}
+.about-section .experience{
+    padding: 5rem 0;
+}
+.about-section .exp-text .number{
+    font-weight: 600;
+    font-size: 2.9rem;
+    color: #c8a97e;
+    display: block;
+}
+.about-section .experience .exp-data{
+    display: block;
+    font-size: 1rem;
+    color: #666666;
+    text-transform: uppercase;
+}
+
+/* Services section */
+
+.service-section{
+    background-color: #fafafa;
+    padding: 3rem 0;
+}
+.service-section .service-box{
+    text-align: center;
+    margin-top: 3rem;
+}
+.service-section .sub-heading{
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+    font-size: 100px;
+    display: block;
+    color: #c8a97e;
+    font-family: "Great Vibes", cursive;
+}
+.service-section .service-heading{
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.service-section .birthday-box{
+    margin-top: 3rem;
+}
+
+.service-section .fa{
+    font-size: 54px;
+    color: #c8a97e;
+    margin-bottom: 2rem;
+}
+
+.service-section .birthday-box h3{
+    font-weight: 500;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #000000;
+}
+.service-section .birthday-box p{
+    line-height: 1.3rem;
+    font-size: 1rem;
+    color: #666666;
+}
+
+/* Menu section starts here */
+
+.menu-section{
+    padding: 4rem 0;
+}
+
+.menu-section .sub-heading{
+    position: absolute;
+    top: -36px;
+    left: 0;
+    right: 0;
+    font-family: "Great Vibes", cursive;
+    z-index: -1;
+    color: #c8a97e;
+    font-size:5rem;
+}
+.menu-section p{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.menu-section .breakfast-box img{
+    width: 100%;
+}
+.menu-section .breakfast-box .order-box{
+    display: flex;
+    justify-content:space-between;
+}
+.menu-section .breakfast-box .order-box h3{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.menu-section .breakfast-box .order-box span{
+    color: #c8a97e;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.menu-section .breakfast-box .meat{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #666666;
+}
+.menu-section .breakfast-box .order-btn{
+    background: #c8a97e;
+    border: 1px solid #c8a97e;
+    color: #fff;
+    box-shadow: 0px 24px 48px -12px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+.menu-section .breakfast-box .order-btn:hover{
+    background: transparent;
+    color: #c8a97e;
+}
+
+.chef-section{
+    padding:5rem 0;
+}
+.chef-section .chef-box{
+    /* margin-top: 3rem; */
+    padding: 3rem 0;
+}
+.chef-section .chef{
+    position: absolute;
+    top: -86px;
+    left: 0;
+    right: 0;
+    font-family: "Great Vibes", cursive;
+    z-index: -1;
+    color: #c8a97e;
+    font-size: 8rem;
+}
+.chef-section h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.chef-section .chef-box img{
+    border-radius: 4px;
+    width: 100%;
+}
+.chef-section .chef-box h3{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.chef-section .chef-box p{
+    font-size: .9rem;
+    font-weight: 500;
+    /* color: #666666; */
+    color: rgba(0, 0, 0, 0.3);
+}
+.chef-section .chef-box .fa{
+    color: #c8a97e;
+    padding: 2px;
+}
+
+/* Reservation form */
+
+.reservation-form{
+    padding: 4rem 0;
+    background-image: url('../assets/img/bg_1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: scroll; */
+}
+.reservation-form .make-reservation{
+    height: 40rem;
+    padding:.2rem 0;
+    width: 100%;
+    background-color: #fff;
+}
+.reservation-form .make-reservation .book{
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    font-family: "Great Vibes", cursive;
+    color: #c8a97e;
+    font-size: 5.3rem;
+    font-weight: 400;
+}
+
+.reservation-form .make-reservation .reserve{
+    margin-top: 1rem;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+.reservation-form .make-reservation label{
+    font-weight: 600;
+    color: #000000;
+}
+
+.reservation-form .make-reserve{
+    background: #c8a97e;
+    border: 1px solid #c8a97e;
+    color: #fff;
+    box-shadow: 0px 24px 48px -12px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+.reservation-form .make-reserve:hover{
+    color: #c8a97e;
+    background: transparent;
+}
+
+/* Testimonial Section */
+
+.testimonial-section{
+    padding: 4rem 0;
+}
+.testimonial-section .testimonial-box span{
+    position: relative;
+    top: 70px;
+    left: 0;
+    right: 0;
+    font-family: "Great Vibes", cursive;
+    color: #c8a97e;
+    font-size: 5rem;
+}
+.testimonial-section .testimonial-box h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+/* Blog section */
+
+.blog-section{
+    padding: 4rem 0;
+    background-color: #fafafa;
+}
+.blog-section .post-box span{
+    position: relative;
+    top: 75px;
+    left: 0;
+    right: 0;
+    font-family: "Great Vibes", cursive;
+    color: #c8a97e;
+    font-size: 5rem;
+}
+.blog-section .post-box h2{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.blog-section .blog-box{
+    padding: 5rem 0;
+}
+.blog-section .post-one{
+    padding: 1rem;
+    /* width: 100%; */
+    padding-bottom: 2rem;
+    background-color: #fff;
+}
+.blog-section .blog-box img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.blog-section .blog-box .date{
+    line-height: 4rem;
+    padding: 1rem;
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+}
+.blog-section .blog-box .date:hover{
+    text-decoration: none;
+}
+.blog-section .blog-box h3{
+    font-size: 1.3rem;
+    margin-bottom: 1.1rem;
+    font-weight: 600;
+    padding: 0 1rem;
+}
+.blog-box p{
+    padding: 0 1rem;
+}
+.blog-section .blog-box .big-food-img{
+    width: 120%;
+}
+.blog-section .blog-box .small-food-img{
+    width: 100%;
+    height: 57%;
+}
+.blog-section .blog-box .read-more{
+    color: #000;
+    font-size: 1rem;
+    float: left;
+}
+.blog-section .blog-box .fa{
+    float: right;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+/* Footer section */
+
+footer{
+    padding: 3rem 0;
+    background-color: #000;
+}
+footer h2{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer ul li{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    list-style: none;
+    display: inline-block;
+}
+
+footer ul li a{
+    color: #fff;
+    padding: .6rem;
+    border-radius: 100%;
+    border: 2px solid bisque;
+}
+footer ul li .fa{
+    /* padding: .4rem; */
+    font-size: 1.3rem;
+}
+
+footer .hours ul li {
+    font-size: .9rem;
+    font-weight: 500;
+    color:#666666;
+display: flex;
+justify-content: space-between;
+}
+
+footer img{
+    width: 100%;
+    object-fit: contain;
+}
+footer input::placeholder{
+    text-align: center;
+    /* background-color: #000; */
+}
+footer input{
+   
+    margin: 1rem;
+}
+
+footer .submit{
+    color: #fff;
+    font-size: 16px;
+    background: #c8a97e;
+    border: none;
+    border-radius: 2px;
+
+}
+footer .copy{
+    margin: 2rem;
+}
+footer .copy .fa{
+    color: red;
+}
