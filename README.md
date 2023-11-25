@@ -92,3 +92,45 @@ Learning Advance topics:
 - react-redux & react-redux-toolkit
 - RTK
 - Many more...
+
+Now Move to Backend Part:
+
+- what is backend ?
+- why backend
+- why not frontend alone ?
+- what do we need ?
+- what should we make to hit big companies ?
+
+CONTENT
+
+- node js install
+- import and export
+- run the code
+
+-- node js core usage & usage & understanding - http
+
+- npm usage
+- express
+- express generator
+- mongodb
+
+-- intermediate mongodb
+
+-- api development
+
+-- authentication and authorization
+
+-- error handling
+
+- middleware
+
+-- session and cookies
+
+-- deployement
+-- testing
+
+-- realtime stuff
+
+### Self Learning And Building Things Up to Grow More..!!
+
+Happy Coding With ☕ Divyanshu Kashyap
