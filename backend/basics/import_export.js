@@ -2,4 +2,8 @@
 
 var d = 12345;
 
-module.exports = d;
+var a = 12;
+
+var c = 22;
+
+module.exports = { first: a, second: c, third: d };
