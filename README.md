@@ -214,13 +214,28 @@ sirf ek dikkat hai agar humara iddleware chl gya toh req jaam ho jati hai aur ro
 
 - node vs express :
 
-            node is the main thing express ke code se hum server ka code likh pate hein and server kaisa react karega wo bhi express ke help se likhte hai
-
+            node is the main thing express ke code se hum server ka code likh pate hein and
+            server kaisa react karega wo bhi express ke help se likhte hai
 
 - what is the real deal ?
 - what is express js ?
+
+            package, routing perform, server side management & many more....
+
 - why express js ?
+
+            http is difficult to use,
+            express makes this easier.
+
 - Routing
+
+            routes banaane ke process ko hum kahte hai routing.
+
+            /profile
+            /home
+            /contact
+            /profile/lucky/jhnvhjngb
+
 - Middleware
 - Request and Response
 - Route Parameters
