@@ -18,6 +18,12 @@ app.get("/profile", function (req, res) {
   res.send("Hello from profile");
 });
 
+app.get("/profile/:username", function (req, res) {
+  const { username } = req.params;
+  // res.send("Hello from profile");
+  res.send(`Hello ${username}`);
+});
+
 app.get("/contact", function (req, res) {
   res.send("hello from contact");
 });

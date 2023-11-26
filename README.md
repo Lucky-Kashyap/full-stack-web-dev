@@ -267,6 +267,10 @@ sirf ek dikkat hai agar humara iddleware chl gya toh req jaam ho jati hai aur ro
             /profile/ansh
             /profile/sachin
 
+URL mein jab bhi aapke paas ek aisa pattern ho
+
+      req.params
+
 - Templates engine
 - Static Files
 - HTTP Methods - get and post
