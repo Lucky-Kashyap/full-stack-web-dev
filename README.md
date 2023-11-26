@@ -200,7 +200,8 @@ npm package for text -> audio
 
 - middleware
 
-  middleware ek aisa function hai jo kisi bhi route se pehle chalta hai, jiska matlab aapka route chalne se pehle agar aap koi kaam karana chaahte ho to middleware ka upyog kiya jaa sakta hai
+  middleware ek aisa function hai jo kisi bhi route se pehle chalta hai, jiska matlab aapka route chalne se pehle agar aap koi kaam
+  karana chaahte ho to middleware ka upyog kiya jaa sakta hai
 
 route pe chalne se pehle print karo chala on console
 
@@ -245,6 +246,14 @@ sirf ek dikkat hai agar humara iddleware chl gya toh req jaam ho jati hai aur ro
       middleware par nahi jaayega, use agle par lejaane ke liyein aapko push karna padega aur ye push kahlaayega next ko chalaana
 
 - Request and Response
+
+              req mein saara data hota hai aane waale user ki request ki
+              taraf ka, jaise ki uski location, info and other things.
+
+        res mein controls hote hai jinke basis pe hum server se response bhej
+
+  paate hai
+
 - Route Parameters
 - Temlates
 - Statis Files

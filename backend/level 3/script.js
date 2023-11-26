@@ -3,11 +3,14 @@ const app = express();
 
 app.use((req, res, next) => {
   // res.send("middle ware");
+  // console.log(next);
+  // console.log(req);
   console.log("middle war");
   next();
 });
 
 app.get("/", function (req, res) {
+  // console.log(req);
   res.send("Hello World");
 });
 
