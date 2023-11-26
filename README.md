@@ -237,6 +237,11 @@ sirf ek dikkat hai agar humara iddleware chl gya toh req jaam ho jati hai aur ro
             /profile/lucky/jhnvhjngb
 
 - Middleware
+
+      middleware ek aisa function hota hai jo har route se pehle chalta hai, iska matlab saare routes mein koi bhi chale usse pehle middleware chalta hai and usmein likha code pehle execute hota hai
+
+      node ke saath ek dikkat hai ki agar control ek baar bhi kisi middleware par gaya to control khud se agle route/middleware par nahi jaayega, use agle par lejaane ke liyein aapko push karna padega aur ye push kahlaayega next ko chalaana
+
 - Request and Response
 - Route Parameters
 - Temlates
