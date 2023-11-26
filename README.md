@@ -96,21 +96,69 @@ Learning Advance topics:
 Now Move to Backend Part:
 
 - what is backend ?
+  backend developer wo banda hai jo ki server and db program karta hai
 - why backend
+
+      download now  par kuch ho
+      to make websites more usable and purpose ful for the audience, to make websites dynamic
+
 - why not frontend alone ?
+
+      with frontend websites are static and they are of not much use.
+
 - what do we need ?
+
+      node js, mongodb, mongoose js, express js
+
 - what should we make to hit big companies ?
 
 CONTENT
 
 - node js install
+
+      install ka matlab hota hai aapke laptop/computer/tablet usmein files ko copy karna
+
 - import and export
+
+      var figlet = require("figlet");
+      figlet("Hello World!!", function (err, data) {
+          if (err) {
+              console.log("Something went wrong...");
+              console.dir(err);
+              return;
+          }
+          console.log(data);
+      });
+
 - run the code
+
+      node ja hai khoob saara c++ ka code jo ki liya gaya hai chrome browser ke v8 engine ke code se aur is c++ code jisko liya gaya usey wrap kar diya gaya js code se and ye hume allow krta hai ke hum js code likhien aur ye js code accept karega and c++ ke basis par aapko ek server environmant bana kar deta hai, par sirf tab tak ye code chalayega  jab tak apka node (v8 engine and js wrapper) chaalu hai
 
 -- node js core usage & usage & understanding - http
 
 - npm usage
+
+         npm - naan paneer makhni
+         npm ek jagah hai jaha par khoob saare packages milte hai
+         bani banaai cheejein/features kehlaate hai packages
+
+      text -> voice
+
+      // hey hello
+
+npm package for text -> audio
+
 - express
+
+      // express fromework for node js
+      // express k use case => routing
+      // routing => GET POST PUT PATCH DELETE
+      // /profile = profile
+      // /contact = contact
+      // /like/hfvyhjgb = like post
+      // /comment/jhmvubhjn = comment
+      // /cart = cart
+
 - express generator
 - mongodb
 
@@ -123,6 +171,16 @@ CONTENT
 -- error handling
 
 - middleware
+
+  middleware ek aisa function hai jo kisi bhi route se pehle chalta hai, jiska matlab aapka route chalne se pehle agar aap koi kaam karana chaahte ho to middleware ka upyog kiya jaa sakta hai
+
+route pe chalne se pehle print karo chala on console
+
+route chalne se pehle route pe hits counter ki value badhegi
+
+iska matlab route chlne se pehle jo chalega woh hai middleware
+
+sirf ek dikkat hai agar humara iddleware chl gya toh req jaam ho jati hai aur route tak nahi pahuch paati
 
 -- session and cookies
 
