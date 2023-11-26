@@ -1,7 +1,18 @@
-var oneLinerJoke = require("one-liner-joke");
+var figlet = require("figlet");
 
-var getRandomJoke = oneLinerJoke.getRandomJoke();
-console.log(getRandomJoke);
+figlet("Hello World!!", function (err, data) {
+  if (err) {
+    console.log("Something went wrong...");
+    console.dir(err);
+    return;
+  }
+  console.log(data);
+});
+
+// var oneLinerJoke = require("one-liner-joke");
+
+// var getRandomJoke = oneLinerJoke.getRandomJoke();
+// console.log(getRandomJoke);
 
 // var chacha = require("./import_export");
 
