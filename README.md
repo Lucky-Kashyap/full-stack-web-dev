@@ -95,6 +95,34 @@ Learning Advance topics:
 
 Now Move to Backend Part:
 
+🚀 Backend (Node JS) Series - Learn What Matters 1: Understanding the Internet
+
+🌐 What is the Internet?
+
+◽Discover the origins and evolution of the Internet, and why it's such a crucial part of our daily lives.
+
+🌐 Ownership of the Internet
+
+◽Learn about the decentralized nature of the Internet and explore who owns and manages this vast global network.
+
+🌐 Data Transfer
+
+◽Dive into the fascinating mechanisms behind how your messages and data travel across the Internet. We explore the role of towers and undersea fiber optic cables.
+
+🌐 Packets and Servers
+
+◽Uncover the magic of data packets and how they ensure efficient communication across the web. We also touch on the role of servers in this process.
+
+🌐 HTTP vs. HTTPS
+
+◽Understand the importance of secure web browsing and the differences between HTTP and HTTPS protocols.
+
+🌐 Ports
+
+Explore the concept of ports in networking and how they facilitate the flow of data between your computer and web servers.
+
+🚀 Backend (Node JS) Series - Learn What Matters 2: Mastering Node.js Fundamentals
+
 - what is backend ?
   backend developer wo banda hai jo ki server and db program karta hai
 - why backend
@@ -182,6 +210,21 @@ iska matlab route chlne se pehle jo chalega woh hai middleware
 
 sirf ek dikkat hai agar humara iddleware chl gya toh req jaam ho jati hai aur route tak nahi pahuch paati
 
+🚀 Express.js - Learn What Matters: Mastering the Framework | Backend (Node JS) Series
+
+- node vs express,
+- what is the real deal ?
+- what is express js ?
+- why express js ?
+- Routing
+- Middleware
+- Request and Response
+- Route Parameters
+- Temlates
+- Statis Files
+- HTTP Methods - get and post
+- Error Handling
+
 -- session and cookies
 
 -- deployement
@@ -191,4 +234,4 @@ sirf ek dikkat hai agar humara iddleware chl gya toh req jaam ho jati hai aur ro
 
 ### Self Learning And Building Things Up to Grow More..!!
 
-Happy Coding With ☕ Divyanshu Kashyap
+Happy Coding With ☕ Divyanshu Kashyap 💻🚀
