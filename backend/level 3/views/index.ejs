@@ -4,9 +4,139 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EJS File</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .box {
+        width: 18vmax;
+        aspect-ratio: 3/ 2;
+        position: absolute;
+        transition: z-index 400ms ease;
+        animation: float 3s ease infinite;
+      }
+      .box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+      .box:nth-child(1) {
+        top: 20%;
+        left: 15%;
+        z-index: 1;
+        scale: 1.15;
+        animation-direction: forwards;
+      }
+      .box:nth-child(2) {
+        bottom: 15%;
+        left: 10%;
+        z-index: 2;
+        scale: 1.1;
+        animation-direction: reverse;
+      }
+      .box:nth-child(3) {
+        bottom: 20%;
+        right: 10%;
+        z-index: 3;
+        animation-direction: forwards;
+      }
+      .box:nth-child(4) {
+        top: 15%;
+        right: 20%;
+        animation-direction: reverse;
+        z-index: 3;
+        scale: 1.25;
+      }
+
+      @keyframes float {
+        0%,
+        100% {
+          transform: translatey(0);
+        }
+        50% {
+          transform: translatey(10%);
+        }
+      }
+      #slogan {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+        text-wrap: nowrap;
+        user-select: none;
+      }
+      .normal {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 5vmax;
+        line-height: 70%;
+      }
+      .fancy {
+        font-family: "Melodrama", serif;
+        font-style: italic;
+        padding: 0px 5px;
+        line-height: 70%;
+        color: #ef233c;
+      }
+    </style>
   </head>
   <body>
-    <h1>Template Engine</h1>
-    <p>Backend Journey</p>
+    <!-- <h1>Template Engine</h1> -->
+
+    <div class="box">
+      <img
+        src="https://images.pexels.com/photos/755992/pexels-photo-755992.jpeg"
+        alt="product image"
+      />
+    </div>
+    <div class="box">
+      <img
+        src="https://images.pexels.com/photos/3910071/pexels-photo-3910071.jpeg"
+        alt="product image"
+      />
+    </div>
+    <div class="box">
+      <img
+        src="https://images.pexels.com/photos/1961795/pexels-photo-1961795.jpeg"
+        alt="product image"
+      />
+    </div>
+    <div class="box">
+      <img
+        src="https://images.pexels.com/photos/8793476/pexels-photo-8793476.jpeg"
+        alt="product image"
+      />
+    </div>
+
+    <div id="slogan">
+      <h2 class="normal">
+        Scented Whispers of <span class="fancy">Luxury</span>
+      </h2>
+      <h2 class="normal">
+        Your <span class="fancy">Signature</span> Aesthetic
+      </h2>
+    </div>
+
+    <!-- font family -->
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=melodrama@400,600,700,1,500&f[]=plus-jakarta-sans@800,401,501,400,601,500,600,700,701&display=swap"
+      rel="stylesheet"
+    />
   </body>
 </html>

@@ -32,4 +32,9 @@ app.get("/contact", function (req, res) {
   res.send("hello from contact");
 });
 
+app.get("/about", function (req, res) {
+  // res.send("hello from contact");
+  res.render("about");
+});
+
 app.listen(5500);
