@@ -258,8 +258,17 @@ sirf ek dikkat hai agar humara iddleware chl gya toh req jaam ho jati hai aur ro
               should be executed.
 
 - Route Parameters
-- Temlates
-- Statis Files
+
+            aisa koi bhi route jiska koi hissa baar baar same rehta hai and kuch hissa baar
+            baar change hota hai iske liye aap ek dynamic route bana skte ho
+
+            /profile/:username
+            /profile/lucky
+            /profile/ansh
+            /profile/sachin
+
+- Templates engine
+- Static Files
 - HTTP Methods - get and post
 - Error Handling
 
