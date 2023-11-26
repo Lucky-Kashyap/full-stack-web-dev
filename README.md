@@ -212,7 +212,11 @@ sirf ek dikkat hai agar humara iddleware chl gya toh req jaam ho jati hai aur ro
 
 🚀 Express.js - Learn What Matters: Mastering the Framework | Backend (Node JS) Series
 
-- node vs express,
+- node vs express :
+
+            node is the main thing express ke code se hum server ka code likh pate hein and server kaisa react karega wo bhi express ke help se likhte hai
+
+
 - what is the real deal ?
 - what is express js ?
 - why express js ?
