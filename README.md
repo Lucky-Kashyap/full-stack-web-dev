@@ -304,6 +304,15 @@ ejs setup karne ke liyein
 
 5.  send ki jagah render karo => render karte waqt make sure aap views folder ke andar waali hi koi file kaa naam likhein, aur render fnc mein .ejs mention naa karein
 
+ye ek style of markup se convert krke apko html dete hai
+
+Template Engines : pug, handlebars, ejs, jade, etc...
+
+ejs is very very similar to html
+
+ek markup style jo ki baad mein convert
+hojaayegi html mein
+
 - Static Files
 - HTTP Methods - get and post
 - Error Handling
