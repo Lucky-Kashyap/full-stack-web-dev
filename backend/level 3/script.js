@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 
+app.set("view engine", "ejs");
+
 app.use((req, res, next) => {
   // res.send("middle ware");
   // console.log(next);
@@ -11,7 +13,9 @@ app.use((req, res, next) => {
 
 app.get("/", function (req, res) {
   // console.log(req);
-  res.send("Hello World");
+  // res.send("Hello World");
+
+  res.render("index");
 });
 
 app.get("/profile", function (req, res) {

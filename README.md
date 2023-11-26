@@ -271,7 +271,39 @@ URL mein jab bhi aapke paas ek aisa pattern ho
 
       req.params
 
+to make any route dynamic you can use :
+
+at the place where you want
+to make it dynamic, and to access there value use req.params
+
+      /author/books/issued/harsh
+      /author/books/issued/harsh
+      /author/books/issued/harshita
+      /author/books/issued/lucky
+      /author/books/issued/ajay
+      /author/books/issued/:username
+
 - Templates engine
+
+      html ke pass superpowers nahi hai calculation krne ki
+      ejs is html with superpower
+
+ejs setup karne ke liyein
+
+1.  ejs install
+
+             npm i ejs
+
+2.  configure ejs
+
+             app.set('view engine','ejs')
+
+3.  ek views folder banao
+
+4.  usmein ejs files banao
+
+5.  send ki jagah render karo => render karte waqt make sure aap views folder ke andar waali hi koi file kaa naam likhein, aur render fnc mein .ejs mention naa karein
+
 - Static Files
 - HTTP Methods - get and post
 - Error Handling
