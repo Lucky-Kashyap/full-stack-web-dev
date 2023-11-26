@@ -2,7 +2,11 @@ const express = require("express");
 const app = express();
 
 app.get("/", function (req, res) {
-  res.send("Hello World");
+  res.send("Learning Backend wih sheryians");
 });
 
-app.listen(3000);
+app.get("/profile", function (req, res) {
+  res.send("Profile Route");
+});
+
+app.listen(5000);
