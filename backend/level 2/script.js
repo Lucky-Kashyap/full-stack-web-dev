@@ -1,6 +1,10 @@
 const express = require("express");
 const app = express();
 
+app.use((req, res, next) => {
+  console.log("hello from Middle Ware...!");
+  next();
+});
 app.get("/", function (req, res) {
   res.send("Learning Backend wih sheryians");
 });
