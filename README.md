@@ -243,16 +243,19 @@ sirf ek dikkat hai agar humara iddleware chl gya toh req jaam ho jati hai aur ro
       saare routes mein koi bhi chale usse pehle middleware chalta hai and usmein likha code pehle execute hota hai
 
       node ke saath ek dikkat hai ki agar control ek baar bhi kisi middleware par gaya to control khud se agle route/
-      middleware par nahi jaayega, use agle par lejaane ke liyein aapko push karna padega aur ye push kahlaayega next ko chalaana
+      middleware par nahi jaayega, use agle par lejaane ke liyein aapko push karna padega aur
+      ye push kahlaayega next ko chalaana
 
 - Request and Response
 
               req mein saara data hota hai aane waale user ki request ki
               taraf ka, jaise ki uski location, info and other things.
 
-        res mein controls hote hai jinke basis pe hum server se response bhej
+              res mein controls hote hai jinke basis pe hum server se response bhej paate hai
 
-  paate hai
+              next is just a push so that our request moves to the next thing which
+
+              should be executed.
 
 - Route Parameters
 - Temlates
