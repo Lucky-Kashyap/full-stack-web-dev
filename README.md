@@ -95,7 +95,7 @@ Learning Advance topics:
 
 Now Move to Backend Part:
 
-🚀 Backend (Node JS) Series - Learn What Matters 1: Understanding the Internet
+### 🚀 Backend (Node JS) Series - Learn What Matters 1: Understanding the Internet
 
 🌐 What is the Internet?
 
@@ -121,7 +121,7 @@ Now Move to Backend Part:
 
 Explore the concept of ports in networking and how they facilitate the flow of data between your computer and web servers.
 
-🚀 Backend (Node JS) Series - Learn What Matters 2: Mastering Node.js Fundamentals
+### 🚀 Backend (Node JS) Series - Learn What Matters 2: Mastering Node.js Fundamentals
 
 - what is backend ?
   backend developer wo banda hai jo ki server and db program karta hai
@@ -160,7 +160,11 @@ CONTENT
 
 - run the code
 
-      node ja hai khoob saara c++ ka code jo ki liya gaya hai chrome browser ke v8 engine ke code se aur is c++ code jisko liya gaya usey wrap kar diya gaya js code se and ye hume allow krta hai ke hum js code likhien aur ye js code accept karega and c++ ke basis par aapko ek server environmant bana kar deta hai, par sirf tab tak ye code chalayega  jab tak apka node (v8 engine and js wrapper) chaalu hai
+      node ja hai khoob saara c++ ka code jo ki liya gaya hai chrome browser ke v8 engine ke code se
+      aur is c++ code jisko liya gaya usey wrap kar
+      diya gaya js code se and ye hume allow krta hai ke hum js code likhien aur ye js code accept karega and c++ ke basis par aapko ek server
+      environmant bana kar deta hai, par sirf tab tak
+       ye code chalayega  jab tak apka node (v8 engine and js wrapper) chaalu hai
 
 -- node js core usage & usage & understanding - http
 
@@ -201,7 +205,8 @@ npm package for text -> audio
 - middleware
 
   middleware ek aisa function hai jo kisi bhi route se pehle chalta hai, jiska matlab aapka route chalne se pehle agar aap koi kaam
-  karana chaahte ho to middleware ka upyog kiya jaa sakta hai
+  karana chaahte ho to middleware
+  ka upyog kiya jaa sakta hai
 
 route pe chalne se pehle print karo chala on console
 
@@ -211,7 +216,7 @@ iska matlab route chlne se pehle jo chalega woh hai middleware
 
 sirf ek dikkat hai agar humara iddleware chl gya toh req jaam ho jati hai aur route tak nahi pahuch paati
 
-🚀 Express.js - Learn What Matters: Mastering the Framework | Backend (Node JS) Series
+### 🚀 Express.js - Learn What Matters: Mastering the Framework | Backend (Node JS) Series
 
 - node vs express :
 
@@ -240,11 +245,11 @@ sirf ek dikkat hai agar humara iddleware chl gya toh req jaam ho jati hai aur ro
 - Middleware
 
       middleware ek aisa function hota hai jo har route se pehle chalta hai, iska matlab
-      saare routes mein koi bhi chale usse pehle middleware chalta hai and usmein likha code pehle execute hota hai
+      saare routes mein koi bhi chale usse pehle middleware chalta hai and usmein likha
+      code pehle execute hota hai
 
-      node ke saath ek dikkat hai ki agar control ek baar bhi kisi middleware par gaya to control khud se agle route/
-      middleware par nahi jaayega, use agle par lejaane ke liyein aapko push karna padega aur
-      ye push kahlaayega next ko chalaana
+      node ke saath ek dikkat hai ki agar control ek baar bhi kisi middleware par gaya to control khud se agle route/middleware par nahi
+      jaayega, use agle par lejaane ke liyein aapko push karna padega aur ye push kahlaayega next ko chalaana
 
 - Request and Response
 
@@ -352,6 +357,65 @@ static files setup karne ke liyein:
                   res.status(500);
                   res.render("error", { error: err });
             });
+
+### 🚀 Backend - The EndGame (Part-1) | Mastering Advanced Concepts | Backend (Node JS) Series
+
+express generator
+
+mondodb
+
+dbs, models, schema, collections, documents
+
+intermediate mongodb
+
+How can I perform a case-insensitive search in Mongoose?
+
+How do I find documents where an array field contains all of a set of values?
+
+How can I search for docuements with a specific date range in Mongoose?
+
+How can I filter documents based on the existence of a field in Mongoose?
+
+How can I filter documents based on a specific field's length in Mongoose?
+
+understanding sessions
+
+creating sessions, using sessions across routes and destroying sessions
+
+creating cookies, using cookies across routes and destroying cokkies
+
+Task 1:
+
+hume ek route banana hai, jismein ek page show ho aur waha par ek css use kra hua page dikhein
+
+express js
+install
+express js boilerplate code
+express js ejs setup
+install ejs
+set view engine
+create views folder
+create ejs files
+render ejs files inside route
+
+express static files setup
+architecture of public folder
+
+      const data =
+      {
+            name: "Lucky",
+            age: 23,
+            work: "Developer",
+            address: "Kalindi Vihar",
+      }
+
+      res.render('index',{data});
+
+
+      <h1>User Information</h1>
+      <p>Name: <%= data.name %></p>
+      <p>Age: <%= data.age %></p>
+      <p>Profession: <%= data.work %></p>
 
 -- session and cookies
 
