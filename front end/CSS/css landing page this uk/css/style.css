@@ -2,9 +2,78 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "gilroy";
 }
 html,
 body {
   width: 100%;
   height: 100%;
+}
+.main {
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main nav {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+.main nav h1 {
+  font-size: 30px;
+  font-weight: 300;
+}
+.main nav h1 span {
+  font-size: 40px;
+  color: rgb(0, 235, 143);
+}
+.main nav .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main nav .links a {
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+  margin: 20px 20px;
+}
+.main nav .links a:nth-last-child(1) {
+  /* background-color: yellow; */
+  padding: 7px 18px;
+  border-radius: 50px;
+  border: 1px solid #000;
+  overflow: hidden;
+  position: relative;
+}
+.main nav .links a:nth-last-child(1) h5 {
+  font-size: 20px;
+  font-weight: 300;
+  position: relative;
+  z-index: 1;
+}
+.main nav .links a:nth-last-child(1) h5 i {
+  width: 100px;
+}
+.main nav .links a:nth-last-child(1) .green {
+  width: 100%;
+  height: 100%;
+  background-color: springgreen;
+  position: absolute;
+  top: 0%;
+  left: -100%;
+  transition: left 0.4s ease;
+}
+
+.main nav .links a:nth-last-child(1):hover .green {
+  left: 0%;
 }
