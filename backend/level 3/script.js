@@ -15,7 +15,7 @@ app.get("/", function (req, res) {
   // console.log(req);
   // res.send("Hello World");
 
-  res.render("index");
+  res.render("index", { age: 23 });
 });
 
 app.get("/profile", function (req, res) {
@@ -34,7 +34,7 @@ app.get("/contact", function (req, res) {
 
 app.get("/about", function (req, res) {
   // res.send("hello from contact");
-  res.render("about");
+  res.render("about", { name: "lucky" });
 });
 
 app.listen(5500);
