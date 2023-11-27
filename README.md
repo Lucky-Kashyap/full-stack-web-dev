@@ -362,6 +362,29 @@ static files setup karne ke liyein:
 
 express generator
 
+hum lgo ko kaafi saara kaam karna padta hai express setup krne mein iska matlab har baar jab hum naya project bnaayege to har baar fir se utna hi kaam krna padega, matlab ki poora code likho and sab kuchh setup karo, is time ko bacha sakte ho with help of express generator, use express generator and it will make the folder structure for you and it will also write the basic code for the project.
+
+express genarator ek folder bana ke deta hai, jiska matlab aapko khudse folder nahi banana hai,to express generator saare files ko isi folder mein daal ke dega
+
+steps to use express generator
+
+sabse pehle jeevan mein ek baar laptop par install karo globally
+
+      npm i express-generator -g
+
+to create new app anywhere:
+open cmd move to desktop
+create new app:
+
+      express appname --view=ejs
+
+now use two commands
+
+      cd appname
+      npm i
+
+open it to vs code
+
 mondodb
 
 dbs, models, schema, collections, documents
