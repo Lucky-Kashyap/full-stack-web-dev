@@ -3,13 +3,15 @@ const app = express();
 
 app.set("view engine", "ejs");
 
-app.use((req, res, next) => {
-  // res.send("middle ware");
-  // console.log(next);
-  // console.log(req);
-  console.log("middle war");
-  next();
-});
+// app.use((req, res, next) => {
+// res.send("middle ware");
+// console.log(next);
+// console.log(req);
+// console.log("middle war");
+// next();
+// });
+
+app.use(express.static("./public"));
 
 app.get("/", function (req, res) {
   // console.log(req);

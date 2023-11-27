@@ -313,7 +313,26 @@ ejs is very very similar to html
 ek markup style jo ki baad mein convert
 hojaayegi html mein
 
+data send via EJS File
+
+      res.send('index',{age:23});
+
 - Static Files
+
+images, stylesheets, frontEnd js setup karna
+
+static files setup karne ke liyein:
+
+1.  create a folder called public
+
+2.  create three folders inside it, images, stylesheets, javascripts
+
+3.  configure the express static in script.js file
+
+4.  understand the path
+
+             app.use(express.static('./public'))
+
 - HTTP Methods - get and post
 - Error Handling
 
