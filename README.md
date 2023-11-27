@@ -46,6 +46,8 @@ Project 12: School UI (Figma Design)
 
 Project 13: SpiderMan UI (Figma Design)
 
+Project 14: Landing Page [[https://thisisdigital.co.uk/]]
+
 Started with JavaScript:
 
 Learn Basics of programming
