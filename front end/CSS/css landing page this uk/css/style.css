@@ -97,6 +97,10 @@ body {
   background: url("https://thisisdigital.co.uk/dist/images/underline-green.svg");
   background-size: cover;
 }
+.main img {
+  transition: margin 0.4s ease;
+}
+
 .main .img1 {
   width: 290px;
   height: 400px;
@@ -117,4 +121,10 @@ body {
   position: absolute;
   right: 7%;
   bottom: 6%;
+}
+.main img:hover {
+  margin-top: -30px;
+}
+.main .img3:hover {
+  margin-top: 30px;
 }
