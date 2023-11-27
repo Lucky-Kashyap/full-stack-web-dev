@@ -336,6 +336,23 @@ static files setup karne ke liyein:
 - HTTP Methods - get and post
 - Error Handling
 
+      Error Handling refers to how Express catches and processes errors that occur both synchronously and asynchronously. Express comes with a default error handler so you don’t need to write your own to get started.
+
+            app.get("/error", (req, res, next) => {
+                  throw Error("Something Went Wrong");
+            });
+
+
+
+            app.use(function errorHandler(err, req, res, next) {
+                  if (res.headersSent) {
+                        return next(err);
+                  }
+
+                  res.status(500);
+                  res.render("error", { error: err });
+            });
+
 -- session and cookies
 
 -- deployement
