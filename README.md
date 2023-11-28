@@ -552,6 +552,12 @@ Delete Session:
 
 creating cookies, using cookies across routes and destroying cokkies
 
+Create Cookie:
+
+By default package install hota hai
+
+            res.cookie("age", 23);
+
 Task 1:
 
 hume ek route banana hai, jismein ek page show ho aur waha par ek css use kra hua page dikhein

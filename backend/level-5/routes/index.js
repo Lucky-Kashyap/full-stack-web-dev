@@ -5,8 +5,10 @@ const userModel = require("./users");
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
+  res.cookie("age", 23);
+
   // req.session.koibhinam = "lucky kashyap";
-  req.session.ban = true;
+  // req.session.ban = true;
   res.render("index", { title: "Express" });
   // res.send("hello");
 });
