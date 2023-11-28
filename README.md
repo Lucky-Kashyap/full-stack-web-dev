@@ -442,6 +442,41 @@ Find User:
       res.send(user);
       });
 
+create seperate array of object for creating users:
+
+            const users = [
+                        {
+                        username: "lucky",
+                        age: 25,
+                        name: "divyanshu",
+                        },
+                        {
+                        username: "ajay",
+                        age: 22,
+                        name: "ajay",
+                        },
+                        {
+                        username: "rahul",
+                        age: 27,
+                        name: "rahul",
+                        },
+                        {
+                        username: "sachin",
+                        age: 23,
+                        name: "sachin",
+                        },
+            ];
+
+Delete User:
+
+            router.get("/delete", async (req, res) => {
+                        let deletedUser = await userModel.findOneAndDelete({
+                        username: "lucky",
+                        });
+
+                        res.send(deletedUser);
+            });
+
 dbs, models, schema, collections, documents
 
 dbs, models, schema, collections, documents
