@@ -497,7 +497,15 @@ understanding sessions
 
 creating sessions, using sessions across routes and destroying sessions
 
+resave :
+
 // agar session ki value change na huyi ho toh fir se save mat krna
+
+saveUninitialized:false
+
+//esa data baar baar save na kro
+
+secret -> data encrypt kiya jayega
 
             app.use(
                   session({
