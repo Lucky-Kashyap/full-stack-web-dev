@@ -14,9 +14,20 @@ router.get("/", function (req, res, next) {
 router.get("/checksession", (req, res) => {
   if (req.session.ban === true) {
     res.send("You are banned");
+  } else {
+    res.send("nahi hua banned");
   }
   // console.log(req.session);
   // res.send("check kiya hai console dekho");
+});
+
+router.get("/removeban", (req, res) => {
+  req.session.destroy((err) => {
+    if (err) throw Error(err);
+
+    console.log(err);
+    res.send("ban remove");
+  });
 });
 
 const users = [

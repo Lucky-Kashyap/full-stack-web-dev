@@ -487,7 +487,7 @@ How can I perform a case-insensitive search in Mongoose?
 
 How do I find documents where an array field contains all of a set of values?
 
-How can I search for docuements with a specific date range in Mongoose?
+How can I search for documents with a specific date range in Mongoose?
 
 How can I filter documents based on the existence of a field in Mongoose?
 
@@ -529,6 +529,26 @@ secret -> data encrypt kiya jayega
             // console.log(req.session);
             // res.send("check kiya hai console dekho");
             });
+
+create -> req.session.koibhinaam = koibhivalue
+
+read
+req.session.koibhinaam
+
+delete
+req.session.destroy(()=>{
+})
+
+Delete Session:
+
+      router.get("/removeban", (req, res) => {
+            req.session.destroy((err) => {
+            if (err) throw Error(err);
+
+            console.log(err);
+            res.send("ban remove");
+            });
+      });
 
 creating cookies, using cookies across routes and destroying cokkies
 
