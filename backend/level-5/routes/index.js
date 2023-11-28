@@ -5,8 +5,18 @@ const userModel = require("./users");
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
+  // req.session.koibhinam = "lucky kashyap";
+  req.session.ban = true;
   res.render("index", { title: "Express" });
   // res.send("hello");
+});
+
+router.get("/checksession", (req, res) => {
+  if (req.session.ban === true) {
+    res.send("You are banned");
+  }
+  // console.log(req.session);
+  // res.send("check kiya hai console dekho");
 });
 
 const users = [
