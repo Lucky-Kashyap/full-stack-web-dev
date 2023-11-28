@@ -19,6 +19,12 @@ router.get("/read", (req, res) => {
   res.send("check");
 });
 
+router.get("/remove", (req, res) => {
+  res.clearCookie("age");
+
+  res.send("clear cookie");
+});
+
 router.get("/checksession", (req, res) => {
   if (req.session.ban === true) {
     res.send("You are banned");

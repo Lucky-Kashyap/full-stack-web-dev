@@ -566,6 +566,15 @@ Read Cookie:
                   res.send("check");
             });
 
+Delete Cookie:
+
+            router.get("/remove", (req, res) => {
+                  res.clearCookie("age");
+
+                  res.send("clear cookie");
+            });
+
+
 Task 1:
 
 hume ek route banana hai, jismein ek page show ho aur waha par ek css use kra hua page dikhein
