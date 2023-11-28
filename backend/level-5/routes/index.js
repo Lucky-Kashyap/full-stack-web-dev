@@ -19,4 +19,10 @@ router.get("/create", async (req, res) => {
   res.send(createdUser);
 });
 
+router.get("/allusers", async (req, res) => {
+  let user = await userModel.find();
+
+  res.send(user);
+});
+
 module.exports = router;

@@ -415,6 +415,8 @@ collection malab ki bola users ka data, ek user pe baat kri to hua document
 
 schema matlab aapko ye batana hai banne waala har document mein kya kya hoga
 
+create User :
+
       const userSchema = mongoose.Schema({
             username:String,
             name:String,
@@ -428,6 +430,14 @@ schema matlab aapko ye batana hai banne waala har document mein kya kya hoga
 // naam se bnega collection
 
 // make collection
+
+Find User:
+
+      router.get("/allusers", async (req, res) => {
+      let user = await userModel.find();
+
+      res.send(user);
+      });
 
 dbs, models, schema, collections, documents
 
