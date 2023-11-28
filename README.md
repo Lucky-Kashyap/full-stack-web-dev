@@ -389,6 +389,48 @@ open it to vs code
 
 mondodb
 
+har naye app ka data store hoga storage mein, par usey directly rakne ki jagah ek container mein rakhenge, us container mein sirf us app ka data aayega.
+
+models (code) => collection (db)
+
+schema (code) => documents (db)
+
+ek app ka poora data => db
+
+ek app mein variety of data hota hai par poora data hota app ka hi hai, par us data ka sub category kehlata hai collection
+
+collection malab ki bola users ka data, ek user pe baat kri to hua document
+
+// install mongodb
+// install mongoosejs
+// require and setup connection
+// make schema
+// create model and export
+
+      const mongoose = require('mongoose');
+
+      mongoose.connect('mongodb://127.0.0.1:27017/dbname');
+
+// db create
+
+schema matlab aapko ye batana hai banne waala har document mein kya kya hoga
+
+      const userSchema = mongoose.Schema({
+            username:String,
+            name:String,
+            age:Number
+      })
+
+// har docuement kesa hoga document data
+
+      module.exports = mongoose.model(naam,schema);
+
+// naam se bnega collection
+
+// make collection
+
+dbs, models, schema, collections, documents
+
 dbs, models, schema, collections, documents
 
 intermediate mongodb
