@@ -20,7 +20,8 @@ router.get("/create", async (req, res) => {
 });
 
 router.get("/allusers", async (req, res) => {
-  let user = await userModel.find();
+  // let user = await userModel.find();
+  let user = await userModel.findOne({ username: "lucky" });
 
   res.send(user);
 });

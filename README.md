@@ -434,7 +434,10 @@ create User :
 Find User:
 
       router.get("/allusers", async (req, res) => {
-      let user = await userModel.find();
+      // let user = await userModel.find();
+
+      // find one user (specific)
+      let user = await userModel.findOne({username:''lucky});
 
       res.send(user);
       });
