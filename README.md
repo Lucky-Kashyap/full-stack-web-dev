@@ -558,6 +558,14 @@ By default package install hota hai
 
             res.cookie("age", 23);
 
+Read Cookie:
+
+            router.get("/read", (req, res) => {
+                   console.log(req.cookies);
+
+                  res.send("check");
+            });
+
 Task 1:
 
 hume ek route banana hai, jismein ek page show ho aur waha par ek css use kra hua page dikhein

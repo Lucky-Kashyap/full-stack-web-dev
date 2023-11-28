@@ -13,6 +13,12 @@ router.get("/", function (req, res, next) {
   // res.send("hello");
 });
 
+router.get("/read", (req, res) => {
+  console.log(req.cookies);
+
+  res.send("check");
+});
+
 router.get("/checksession", (req, res) => {
   if (req.session.ban === true) {
     res.send("You are banned");
