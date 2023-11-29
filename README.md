@@ -101,7 +101,7 @@ Project 3: Todo APP
 
 Project 4: Social Media APP
 
-Project 5: Food-App (Category Wise Filter)
+Project 5: Food-App (Search by input & Category Wise Filter)
 
 Learning Advance topics:
 
