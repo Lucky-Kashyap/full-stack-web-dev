@@ -22,31 +22,74 @@ Landing page :
 
 Project 1: Urban Women Wear
 
+![screencapture-127-0-0-1-5500-index-html-2023-10-11-21_40_42](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/11518969-d00b-4307-af79-13f592e4899b)
+
+
+
 Project 2: Peanut butter get silvs (Inspiration) [[https://getsilvs.webflow.io/]]
+
+![screencapture-127-0-0-1-5500-index-html-2023-10-16-19_23_17](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/2fa8bbe3-3001-4618-8847-0dd2f6d20a01)
+
 
 Project 3: Simple Landing Page
 
+![screencapture-file-D-New-folder-3-Full-stack-Web-dev-front-end-CSS-index-html-2023-11-29-18_14_42](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/70f5c00a-92c5-42ae-92c6-7b3303cbdad6)
+
+
 Project 4: Block Practice
+
+![screencapture-file-D-New-folder-3-Full-stack-Web-dev-front-end-CSS-Block-practice-index-html-2023-11-29-18_15_55](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/17fa9fce-fd72-409a-9699-d7d37d625b16)
+
 
 Project 5: Fashion Arrival From (Adobe XD) Design
 
+![screencapture-file-D-New-folder-3-Full-stack-Web-dev-front-end-CSS-Project-1-index-html-2023-11-29-18_16_53](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/0b2f8294-e935-41bb-a7a2-f9667f24b5a1)
+
+
 Project 6: Maria Michno From (Adobe XD) Design
+
+![screencapture-file-D-New-folder-3-Full-stack-Web-dev-front-end-CSS-Project-2-index-html-2023-11-29-18_17_40](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/3966e750-3bdb-456b-9b25-00ddcf95a5ea)
+
 
 Project 7: Apna College Website Landing Page [[https://www.apnacollege.in/course/delta]]
 
+![screencapture-file-D-New-folder-3-Full-stack-Web-dev-front-end-CSS-Project-Apna-college-index-html-2023-11-29-18_18_23](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/fbcfe28a-ad62-438f-82de-541786169440)
+
+
 Project 8: Blog Post
+
+![screencapture-127-0-0-1-5500-2023-11-04-17_38_20](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/c06e20a0-b02c-4813-89ff-7df30d1098af)
+
 
 Project 9: Microsoft UI Design (Home Page clone) [[https://www.microsoft.com/en-in/]]
 
+![screencapture-127-0-0-1-5500-index-html-2023-10-24-17_01_57](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/47097d8a-bb85-438c-9736-548444ffb282)
+
+
 Project 10: Pentaclay (Home Page) [[https://pentaclay.com/]]
+
+![screencapture-127-0-0-1-5500-index-html-2023-11-20-12_28_45](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/5789c98a-1480-4098-b5f1-130dc0469175)
+
 
 Project 11: Vmake Fashion Model (Complete Home page with CSS Effects) [[https://vmake.ai/?utm_source=dribbble_designer09]]
 
+![screencapture-file-D-New-folder-3-Full-stack-Web-dev-front-end-CSS-Project-v-make-index-html-2023-11-29-18_22_24](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/82657f23-0c7f-440f-98ff-21b97c935e19)
+
+
 Project 12: School UI (Figma Design) [[https://www.figma.com/file/sfmVzdPgFIWblLk3qzRdL1/Railway-school-ui?node-id=736%3A1418&mode=dev]]
+
+![screencapture-file-D-New-folder-3-Full-stack-Web-dev-front-end-CSS-school-ui-index-html-2023-11-29-18_23_36](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/898e8ad7-32a0-4630-9482-536b4a49dc82)
+
 
 Project 13: SpiderMan UI (Figma Design) [[https://www.figma.com/file/ypa9bzTvujICcbDbD8vDFb/test-(Copy)?type=design&node-id=0-1&mode=design&t=NBKJVyzpQBPd0h0Z-0]]
 
+![screencapture-file-D-New-folder-3-Full-stack-Web-dev-front-end-CSS-Spiderman-landing-page-index-html-2023-11-29-18_24_26](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/49a5efc8-c143-4a30-8e84-2a6f0a8b0faf)
+
+
 Project 14: Landing Page [[https://thisisdigital.co.uk/]]
+
+![screencapture-file-D-New-folder-3-Full-stack-Web-dev-front-end-CSS-css-landing-page-this-uk-index-html-2023-11-29-18_26_09](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/df2cd02c-47ae-47ba-bedd-92edce6a2eaa)
+
 
 Started with JavaScript:
 
@@ -56,11 +99,22 @@ Build small-small projects
 
 Project 1: Bulb on off
 
+![screencapture-file-D-New-folder-3-Full-stack-Web-dev-front-end-Javascript-Bulb-on-OFF-index-html-2023-11-29-18_26_57](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/4d5a37ed-6f29-4ed9-b63d-f7197a9618cf)
+
+
 Project 2: Event Timer
+
+![screencapture-file-D-New-folder-3-Full-stack-Web-dev-front-end-Javascript-Event-Timer-index-html-2023-11-29-18_27_27](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/a8ab52c0-a376-44c4-a9ac-5999fb335f33)
+
 
 Project 3: Modal
 
+![screencapture-file-D-New-folder-3-Full-stack-Web-dev-front-end-Javascript-Modal-index-html-2023-11-29-18_28_05](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/6edae9f2-b288-46fc-9d4a-27a69da9393e)
+
+
 Project 4: Login-signup
+
+![screencapture-file-D-New-folder-3-Full-stack-Web-dev-front-end-Javascript-login-signup-index-html-2023-11-29-18_28_33](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/77ad73c7-a092-46ec-ba58-eb34e60937ee)
 
 Move to React JS Library:
 
