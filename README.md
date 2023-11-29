@@ -76,7 +76,25 @@ Learn Basics of react-js
 
 Implement all these learning inside project:
 
-Project 1: Bharat clock APP
+Project 1: Bharat clock APP v1
+
+Updated Version v2:
+
+Use React Hooks: to calculate correct date & time , with time clear it
+
+            const [timer, setTimer] = useState(new Date());
+
+            useEffect(() => {
+
+                  const intervalId = setInterval(() => {
+                        setTimer(new Date());
+                  }, 1000);
+
+                  return () => {
+                        clearInterval(intervalId);
+                  };
+            }, []);
+
 
 Project 2: Calculator APP
 
@@ -573,7 +591,6 @@ Delete Cookie:
 
                   res.send("clear cookie");
             });
-
 
 Task 1:
 
