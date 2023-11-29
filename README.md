@@ -22,7 +22,7 @@ Landing page :
 
 Project 1: Urban Women Wear
 
-Project 2: Peanut butter get silvs
+Project 2: Peanut butter get silvs (Inspiration) [[https://getsilvs.webflow.io/]]
 
 Project 3: Simple Landing Page
 
@@ -32,19 +32,19 @@ Project 5: Fashion Arrival From (Adobe XD) Design
 
 Project 6: Maria Michno From (Adobe XD) Design
 
-Project 7: Apna College Website Landing Page
+Project 7: Apna College Website Landing Page [[https://www.apnacollege.in/course/delta]]
 
 Project 8: Blog Post
 
-Project 9: Microsoft UI Design (Home Page clone)
+Project 9: Microsoft UI Design (Home Page clone) [[https://www.microsoft.com/en-in/]]
 
-Project 10: Pentaclay (Home Page)
+Project 10: Pentaclay (Home Page) [[https://pentaclay.com/]]
 
-Project 11: Vmake Fashion Model (Complete Home page with CSS Effects)
+Project 11: Vmake Fashion Model (Complete Home page with CSS Effects) [[https://vmake.ai/?utm_source=dribbble_designer09]]
 
-Project 12: School UI (Figma Design)
+Project 12: School UI (Figma Design) [[https://www.figma.com/file/sfmVzdPgFIWblLk3qzRdL1/Railway-school-ui?node-id=736%3A1418&mode=dev]]
 
-Project 13: SpiderMan UI (Figma Design)
+Project 13: SpiderMan UI (Figma Design) [[https://www.figma.com/file/ypa9bzTvujICcbDbD8vDFb/test-(Copy)?type=design&node-id=0-1&mode=design&t=NBKJVyzpQBPd0h0Z-0]]
 
 Project 14: Landing Page [[https://thisisdigital.co.uk/]]
 
@@ -102,6 +102,8 @@ Project 3: Todo APP
 Project 4: Social Media APP
 
 Project 5: Food-App (Search by input & Category Wise Filter)
+
+Design Link : [[https://www.figma.com/file/rephrU2FVgN8MFz6XhnP51/Learn-React-with-10-Projects?node-id=342%3A52&mode=dev]]
 
 Learning Advance topics:
 
