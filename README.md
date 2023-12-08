@@ -72,6 +72,8 @@ Project 13: SpiderMan UI (Figma Design) [[https://www.figma.com/file/ypa9bzTvujI
 
 ![screencapture-file-D-New-folder-3-Full-stack-Web-dev-front-end-CSS-Spiderman-landing-page-index-html-2023-11-29-18_24_26](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/49a5efc8-c143-4a30-8e84-2a6f0a8b0faf)
 
+Visit Link : [[https://spiderman-landing-page.netlify.app/]]
+
 Project 14: Landing Page [[https://thisisdigital.co.uk/]]
 
 ![screencapture-file-D-New-folder-3-Full-stack-Web-dev-front-end-CSS-css-landing-page-this-uk-index-html-2023-11-29-18_26_09](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/df2cd02c-47ae-47ba-bedd-92edce6a2eaa)
@@ -114,6 +116,11 @@ Implement all these learning inside project:
 
 Project 1: Bharat clock APP v1
 
+Features:
+
+- show date & time
+- using Date method
+
 Updated Version v2:
 
 Use React Hooks: to calculate correct date & time , with time clear it
@@ -133,11 +140,32 @@ Use React Hooks: to calculate correct date & time , with time clear it
 
 Project 2: Calculator APP
 
+Features:
+
+- create input box
+- create different types of buttons of calculator UI
+- implement functionality to calculate things
+- use functions
+
+Visit Link : [[https://calculator-app-v.netlify.app/]]
+
 Project 3: Todo APP
+
+Features:
+
+- create two input boxes (item & date)
+- add items to todo
+- remove item from todo
 
 Project 4: Social Media APP
 
 Project 5: Food-App (Search by input & Category Wise Filter)
+
+Features:
+
+- Use server for data
+- implement search functionality
+- filter food items via category buttons
 
 Design Link : [[https://www.figma.com/file/rephrU2FVgN8MFz6XhnP51/Learn-React-with-10-Projects?node-id=342%3A52&mode=dev]]
 
