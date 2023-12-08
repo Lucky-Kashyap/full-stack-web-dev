@@ -143,6 +143,15 @@ Design Link : [[https://www.figma.com/file/rephrU2FVgN8MFz6XhnP51/Learn-React-wi
 
 Project 6: Mini-Docs-App
 
+Features:
+
+- Use Tailwind CSS for UI.
+- Quick practice of react components
+- Use array of object & map through it with dynamic data
+- create Foreground, Background & Card component
+- Use react icons library to use icons in docs app
+- also use Framer motion library to move card here & there according to drag values (motion)
+
 Learning Advance topics:
 
 - state management library
