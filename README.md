@@ -138,6 +138,12 @@ Use React Hooks: to calculate correct date & time , with time clear it
                   };
             }, []);
 
+
+Project ShowCase :
+
+![ezgif com-video-to-gif (2)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/88f475b7-d959-40d7-958b-74006cc8079d)
+
+
 Project 2: Calculator APP
 
 Features:
@@ -146,6 +152,12 @@ Features:
 - create different types of buttons of calculator UI
 - implement functionality to calculate things
 - use functions
+
+
+Project ShowCase :
+
+![ezgif com-video-to-gif (3)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/51fa8f2f-0d5b-4202-897a-8e0e13962cb2)
+
 
 Visit Link : [[https://calculator-app-v.netlify.app/]]
 
@@ -157,6 +169,12 @@ Features:
 - add items to todo
 - remove item from todo
 
+
+Project ShowCase :
+
+![ezgif com-video-to-gif (4)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/4082f548-59d0-4abe-b2a5-19a5fa589085)
+
+
 Project 4: Social Media APP
 
 Project 5: Food-App (Search by input & Category Wise Filter)
@@ -166,6 +184,12 @@ Features:
 - Use server for data
 - implement search functionality
 - filter food items via category buttons
+
+
+Project ShowCase :
+
+![ezgif com-video-to-gif (5)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/5724ce85-b869-4316-a742-c7e797d9fa64)
+
 
 Design Link : [[https://www.figma.com/file/rephrU2FVgN8MFz6XhnP51/Learn-React-with-10-Projects?node-id=342%3A52&mode=dev]]
 
