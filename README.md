@@ -152,6 +152,12 @@ Features:
 - Use react icons library to use icons in docs app
 - also use Framer motion library to move card here & there according to drag values (motion)
 
+
+Project ShowCase :
+
+![ezgif com-video-to-gif](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/c97aa6a7-3dc5-4534-aeb9-248efec0ae30)
+
+
 Learning Advance topics:
 
 - state management library
