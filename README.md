@@ -131,13 +131,34 @@ Use React Hooks: to calculate correct date & time , with time clear it
                   };
             }, []);
 
+Project ShowCase :
+
+![ezgif com-video-to-gif (2)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/5967407a-d228-461f-968a-fc2a93768b3e)
+
+
 Project 2: Calculator APP
 
+Project ShowCase :
+
+![ezgif com-video-to-gif (3)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/4ec89382-ee79-45c9-96fd-f8de0cd29704)
+
+
 Project 3: Todo APP
+
+Project ShowCase :
+
+![ezgif com-video-to-gif (4)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/814cfc38-11c1-4146-a907-194838305e7a)
+
 
 Project 4: Social Media APP
 
 Project 5: Food-App (Search by input & Category Wise Filter)
+
+Project ShowCase :
+
+![ezgif com-video-to-gif (5)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/ce159de5-26cf-42ee-bff8-b2545f74920b)
+
+
 
 Design Link : [[https://www.figma.com/file/rephrU2FVgN8MFz6XhnP51/Learn-React-with-10-Projects?node-id=342%3A52&mode=dev]]
 
