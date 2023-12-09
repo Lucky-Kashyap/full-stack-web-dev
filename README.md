@@ -111,6 +111,7 @@ Learn Basics of react-js
 - state variables
 - react Hooks.
 - Event Handling
+- context API
 
 Implement all these learning inside project:
 
@@ -138,11 +139,9 @@ Use React Hooks: to calculate correct date & time , with time clear it
                   };
             }, []);
 
-
 Project ShowCase :
 
 ![ezgif com-video-to-gif (2)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/88f475b7-d959-40d7-958b-74006cc8079d)
-
 
 Project 2: Calculator APP
 
@@ -153,11 +152,9 @@ Features:
 - implement functionality to calculate things
 - use functions
 
-
 Project ShowCase :
 
 ![ezgif com-video-to-gif (3)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/51fa8f2f-0d5b-4202-897a-8e0e13962cb2)
-
 
 Visit Link : [[https://calculator-app-v.netlify.app/]]
 
@@ -169,13 +166,18 @@ Features:
 - add items to todo
 - remove item from todo
 
-
 Project ShowCase :
 
 ![ezgif com-video-to-gif (4)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/4082f548-59d0-4abe-b2a5-19a5fa589085)
 
-
 Project 4: Social Media APP
+
+Features:
+
+- create UI with Bootstrap
+- use context API for managing posts
+- ADD Post
+- Delete Post
 
 Project 5: Food-App (Search by input & Category Wise Filter)
 
@@ -185,11 +187,9 @@ Features:
 - implement search functionality
 - filter food items via category buttons
 
-
 Project ShowCase :
 
 ![ezgif com-video-to-gif (5)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/5724ce85-b869-4316-a742-c7e797d9fa64)
-
 
 Design Link : [[https://www.figma.com/file/rephrU2FVgN8MFz6XhnP51/Learn-React-with-10-Projects?node-id=342%3A52&mode=dev]]
 
@@ -204,16 +204,13 @@ Features:
 - Use react icons library to use icons in docs app
 - also use Framer motion library to move card here & there according to drag values (motion)
 
-
 Project ShowCase :
 
 ![ezgif com-video-to-gif](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/71c963c0-e185-4807-877f-d0b1d4a29136)
 
-
 Learning Advance topics:
 
 - state management library
-- context API
 - advance hooks
 - react-routing
 - API Handling

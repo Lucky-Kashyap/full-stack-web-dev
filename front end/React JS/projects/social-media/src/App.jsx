@@ -3,7 +3,7 @@ import "./App.css";
 import CreatePost from "./components/CreatePost";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Post from "./components/Post";
+// import Post from "./components/Post";
 import PostList from "./components/PostList";
 import Sidebar from "./components/Sidebar";
 import PostListProvider from "./store/post-list-store";
