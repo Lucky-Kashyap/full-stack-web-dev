@@ -1,4 +1,4 @@
-const Sidebar = ({ selectedTab }) => {
+const Sidebar = ({ selectedTab, setSelectedTab }) => {
   return (
     <div
       className="d-flex flex-column flex-shrink-0 p-3 text-bg-dark sidebar"
@@ -15,10 +15,12 @@ const Sidebar = ({ selectedTab }) => {
       </a>
       <hr />
       <ul className="nav nav-pills flex-column mb-auto">
-        <li className="nav-item">
+        <li className="nav-item" onClick={() => setSelectedTab("Home")}>
           <a
             href="#"
-            className={`nav-link text-white ${selectedTab} === 'Home' && active `}
+            className={`nav-link text-white ${
+              selectedTab === "Home" && "active"
+            }`}
             aria-current="page"
           >
             <svg className="bi pe-none me-2" width="16" height="16">
@@ -27,10 +29,12 @@ const Sidebar = ({ selectedTab }) => {
             Home
           </a>
         </li>
-        <li>
+        <li onClick={() => setSelectedTab("CreatePost")}>
           <a
             href="#"
-            className={`nav-link text-white ${selectedTab} === 'CreatePost' && "active" `}
+            className={`nav-link text-white ${
+              selectedTab === "CreatePost" && "active"
+            } `}
           >
             <svg className="bi pe-none me-2" width="16" height="16">
               <use xlinkHref="#speedometer2"></use>
