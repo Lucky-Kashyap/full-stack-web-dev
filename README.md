@@ -178,6 +178,7 @@ Features:
 - use context API for managing posts
 - ADD Post
 - Delete Post
+- Use API to add post & delete post (Dummy JSON API)
 
 Project 5: Food-App (Search by input & Category Wise Filter)
 
