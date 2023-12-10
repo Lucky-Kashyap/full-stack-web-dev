@@ -824,6 +824,14 @@ mongoose setup
 
 - How can I search for documents with a specific date range in Mongoose?
 
+       let date1 = new Date("2023-12-10");
+
+       let date2 = new Date("2023-12-12");
+
+      let user = await userModel.find({
+            datecreated: { $gte: date1, $lte: date2 },
+      });
+
 - How can I filter documents based on the existence of a field in Mongoose?
 
 - How can I filter documents based on a specific field's length in Mongoose?
