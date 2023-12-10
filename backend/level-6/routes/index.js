@@ -30,7 +30,8 @@ router.post("/register", (req, res) => {
 });
 
 router.get("/profile", isLoggedIn, (req, res) => {
-  res.send("welcome to profile");
+  // res.send("welcome to profile");
+  res.render("profile");
 });
 
 router.post(

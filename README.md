@@ -849,6 +849,14 @@ mongoose setup
 
 authentication and authorization
 
+      npm i passport passport-local passport-local-mongoose
+
+- write app.js code first in app.js file and write it after view engine & before looger
+
+- setup user.js
+
+- in index.js try register first & then other code as well
+
 choosing project:
 
 pinterest
