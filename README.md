@@ -820,6 +820,8 @@ mongoose setup
 
 - How do I find documents where an array field contains all of a set of values?
 
+      let user = await userModel.find({ categories: { $all: ["wwe"] } });
+
 - How can I search for documents with a specific date range in Mongoose?
 
 - How can I filter documents based on the existence of a field in Mongoose?

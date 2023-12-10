@@ -48,9 +48,15 @@ router.get("/find", async (req, res) => {
 
   // let regex = new RegExp("Ajay", "i");
 
-  let regex = new RegExp("^harsh$", "i");
+  // let regex = new RegExp("^harsh$", "i");
 
-  let user = await userModel.find({ username: regex });
+  // let user = await userModel.find({ username: regex });
+
+  // let user = await userModel.findOne({ username: regex });
+
+  // let user = await userModel.find();
+
+  let user = await userModel.find({ categories: { $all: ["wwe"] } });
 
   res.send(user);
 });
