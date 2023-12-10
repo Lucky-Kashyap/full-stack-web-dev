@@ -24,6 +24,20 @@ router.get("/create", async (req, res) => {
     categories: ["js", "node", "react", "gsap", "modern animations"],
   });
 
+  // let userData = await userModel.create({
+  //   username: "harsh",
+  //   nickname: "async javascriptor",
+  //   description: "I am guy of 25 and i love everything about js, node & react",
+  //   categories: ["js", "node", "modern animations"],
+  // });
+
+  // let userData = await userModel.create({
+  //   username: "ajay",
+  //   nickname: "ajju",
+  //   description: "ajay bhai hu mein",
+  //   categories: ["fight", "wwe", "life"],
+  // });
+
   res.send(userData);
 });
 

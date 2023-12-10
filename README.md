@@ -799,6 +799,11 @@ jab bhi aap ejs page ko dekhenge waha par aapko kisi prakaar ka koi info dena ha
 
 intermediate mongodb
 
+mongoose setup
+
+      npm i mongoose
+      mongoose.connect('mongodb://127.0.0.1:27017/testingendgame2);
+
 - How can I perform a case-insensitive search in Mongoose?
 
 - How do I find documents where an array field contains all of a set of values?
