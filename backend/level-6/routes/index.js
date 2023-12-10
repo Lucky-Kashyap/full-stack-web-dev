@@ -16,6 +16,17 @@ router.get("/failed", function (req, res) {
   res.send("ban gaya data");
 });
 
+router.get("/create", async (req, res) => {
+  let userData = await userModel.create({
+    username: "Lucky",
+    nickname: "Divyanshu",
+    description: "I am guy of 23 and i love everything about js, node & react",
+    categories: ["js", "node", "react", "gsap", "modern animations"],
+  });
+
+  res.send(userData);
+});
+
 // router.get("/checkkaro", (req, res) => {
 //   console.log(req.flash("age"));
 //   console.log(req.flash("name"));
