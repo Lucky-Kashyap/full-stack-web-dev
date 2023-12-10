@@ -184,7 +184,6 @@ Project ShowCase :
 
 ![ezgif com-video-to-gif](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/cbce161c-a923-4e5c-b938-d2062be718ad)
 
-
 Project 5: Food-App (Search by input & Category Wise Filter)
 
 Features:
@@ -610,19 +609,9 @@ dbs, models, schema, collections, documents
 
 dbs, models, schema, collections, documents
 
-intermediate mongodb
-
-How can I perform a case-insensitive search in Mongoose?
-
-How do I find documents where an array field contains all of a set of values?
-
-How can I search for documents with a specific date range in Mongoose?
-
-How can I filter documents based on the existence of a field in Mongoose?
-
-How can I filter documents based on a specific field's length in Mongoose?
-
 understanding sessions
+
+- session and cookies
 
 creating sessions, using sessions across routes and destroying sessions
 
@@ -736,7 +725,33 @@ architecture of public folder
       <p>Age: <%= data.age %></p>
       <p>Profession: <%= data.work %></p>
 
--- session and cookies
+### 🚀 Backend - The EndGame (Part-2) | ElevateYour Skills | Backend (Node JS) Series
+
+flash messages
+
+jab bhi aap ejs page ko dekhenge waha par aapko kisi prakaar ka koi info dena hai, wo kehlata hai flash message, they are more like good looking alerts, warning and descriptions
+
+intermediate mongodb
+
+- How can I perform a case-insensitive search in Mongoose?
+
+- How do I find documents where an array field contains all of a set of values?
+
+- How can I search for documents with a specific date range in Mongoose?
+
+- How can I filter documents based on the existence of a field in Mongoose?
+
+- How can I filter documents based on a specific field's length in Mongoose?
+
+authentication and authorization
+
+choosing project:
+
+pinterest
+youtube music
+instagram
+google photos
+flipkart
 
 -- deployement
 -- testing
