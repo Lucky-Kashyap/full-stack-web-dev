@@ -838,6 +838,15 @@ mongoose setup
 
 - How can I filter documents based on a specific field's length in Mongoose?
 
+      let user = await userModel.find({
+            $expr: {
+                  $and: [
+                  { $gte: [{ $strLenCP: "$nickname" }, 0] },
+                  { $lte: [{ $strLenCP: "$nickname" }, 12] },
+                  ],
+            },
+      });
+
 authentication and authorization
 
 choosing project:
