@@ -834,6 +834,8 @@ mongoose setup
 
 - How can I filter documents based on the existence of a field in Mongoose?
 
+      let user = await userModel.find({ categories: { $exists: true } });
+
 - How can I filter documents based on a specific field's length in Mongoose?
 
 authentication and authorization

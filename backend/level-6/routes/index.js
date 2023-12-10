@@ -60,13 +60,15 @@ router.get("/find", async (req, res) => {
 
   // let date1 = new Date('yy-mm-dd');
 
-  let date1 = new Date("2023-12-10");
+  // let date1 = new Date("2023-12-10");
 
-  let date2 = new Date("2023-12-12");
+  // let date2 = new Date("2023-12-12");
 
-  let user = await userModel.find({
-    datecreated: { $gte: date1, $lte: date2 },
-  });
+  // let user = await userModel.find({
+  //   datecreated: { $gte: date1, $lte: date2 },
+  // });
+
+  let user = await userModel.find({ categories: { $exists: true } });
 
   res.send(user);
 });
