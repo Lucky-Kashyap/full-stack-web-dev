@@ -41,6 +41,20 @@ router.get("/create", async (req, res) => {
   res.send(userData);
 });
 
+// find
+
+router.get("/find", async (req, res) => {
+  // let user = await userModel.find({ username: "ajay" });
+
+  // let regex = new RegExp("Ajay", "i");
+
+  let regex = new RegExp("^harsh$", "i");
+
+  let user = await userModel.find({ username: regex });
+
+  res.send(user);
+});
+
 // router.get("/checkkaro", (req, res) => {
 //   console.log(req.flash("age"));
 //   console.log(req.flash("name"));

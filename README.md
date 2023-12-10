@@ -806,6 +806,18 @@ mongoose setup
 
 - How can I perform a case-insensitive search in Mongoose?
 
+      router.get("/find", async (req, res) => {
+      // let user = await userModel.find({ username: "ajay" });
+
+      // let regex = new RegExp("Ajay", "i");
+
+      let regex = new RegExp("^harsh$", "i");
+
+      let user = await userModel.find({ username: regex });
+
+      res.send(user);
+      });
+
 - How do I find documents where an array field contains all of a set of values?
 
 - How can I search for documents with a specific date range in Mongoose?
