@@ -3,10 +3,61 @@ var router = express.Router();
 
 const userModel = require("./users");
 
+const localStrategy = require("passport-local");
+const passport = require("passport");
+
+passport.use(new localStrategy(userModel.authenticate()));
+
 /* GET home page. */
 router.get("/", function (req, res) {
   res.render("index");
 });
+
+router.post("/register", (req, res) => {
+  let userdata = new userModel({
+    username: req.body.username,
+    password: req.body.password,
+    secret: req.body.secret,
+  });
+
+  userModel
+    .register(userdata, req.body.password)
+    .then(function (registeredUser) {
+      passport.authenticate("local")(req, res, function () {
+        res.redirect("/profile");
+      });
+    });
+});
+
+router.get("/profile", isLoggedIn, (req, res) => {
+  res.send("welcome to profile");
+});
+
+router.post(
+  "/login",
+  passport.authenticate("local", {
+    successRedirect: "/profile",
+    failureRedirect: "/",
+  }),
+  function (req, res) {}
+);
+
+router.get("/logout", (req, res, next) => {
+  req.logOut(function (err) {
+    if (err) {
+      return next(err);
+    }
+    res.redirect("/");
+  });
+});
+
+function isLoggedIn(req, res, next) {
+  if (req.isAuthenticated()) {
+    return next();
+  } else {
+    res.redirect("/");
+  }
+}
 
 router.get("/failed", function (req, res) {
   // req.flash("age", 23);
