@@ -731,6 +731,72 @@ flash messages
 
 jab bhi aap ejs page ko dekhenge waha par aapko kisi prakaar ka koi info dena hai, wo kehlata hai flash message, they are more like good looking alerts, warning and descriptions
 
+      install connect-flash
+
+- make sure you put connect flash in app.use function
+
+- kisi bhi route mein aap ko flash create karna hai
+
+- kisi bhi doosre route par app use chalane ka try karein
+
+- aap connect flash ko use nahi kr skte bina express session
+
+      express level-6 --view=ejs
+
+
+      cd level-6
+      npm i
+
+      npm i connect-flash
+
+      npm i express-session
+
+// setup express session
+
+      const expressSession = require("express-session");
+      const flash = require("connect-flash");
+
+
+      app.use(
+      expressSession({
+      resave: false,
+      saveUninitialized: false,
+      secret: "hello you connect with flash",
+      })
+      );
+
+      app.use(flash());
+
+// to run
+
+      npx nodemon
+
+
+      localhost:3000
+
+- hum log chahte hai ki jab ham kisi route par jaayein jaise ki /failed us route par ek flash message bane aur wo flash message hum logo ko/ route par dikhein ejs mein
+
+- flash message ka matlab server ke kisi route mein koi data banana and us data ko doosre route kar paana
+
+- flash message aapko ye allow krte hai ki aap is route mein bane huye data ko doosre route mein use kr sko
+
+- agar login hojayein to login page ke baad profile page dikhado
+- agar naa ho to fir, mujhe is route se kisi aur route lejao jaise ki /error aur wha par dikhao failed
+
+      router.get("/failed", function (req, res) {
+      req.flash("age", 23);
+      req.flash("name", "Lucky Kashyap");
+      // res.render("index");
+
+      res.send("ban gaya data");
+      });
+
+      router.get("/checkkaro", (req, res) => {
+      console.log(req.flash("age"));
+      console.log(req.flash("name"));
+      res.send("check karlo backend ke terminal par");
+      });
+
 intermediate mongodb
 
 - How can I perform a case-insensitive search in Mongoose?
