@@ -1,0 +1,60 @@
+.app {
+  text-align: center;
+  color: black;
+  padding: 3rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  font-size: 2rem;
+  color: coral;
+  transition: all ease-in-out 0.4s;
+  text-decoration: underline;
+}
+.title {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  color: rgb(224, 136, 64);
+}
+.items {
+  display: grid;
+  row-gap: 16px;
+}
+h2 {
+  font-size: 3rem;
+  color: rgb(252, 113, 0);
+}
+.loading {
+  color: gray;
+  font-weight: bold;
+}
+.load-morebutton {
+  background-color: tomato;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+.load-morebutton:hover {
+  font-size: 1.8rem;
+  transition: all ease-in 0.8s;
+}
+/* .load-morebutton:not(:disabled) {
+  background-color: gray;
+} */
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 2.4rem;
+  }
+  .load-morebutton {
+    padding: 13px 20px;
+    font-size: 1rem;
+  }
+}

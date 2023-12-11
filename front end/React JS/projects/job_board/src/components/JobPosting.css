@@ -1,0 +1,31 @@
+.inactive-link {
+  pointer-events: none;
+  cursor: default;
+}
+.post {
+  background-color: #fff;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 16px;
+  display: grid;
+  row-gap: 8px;
+}
+.post-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 0;
+  color: rgb(196, 23, 89);
+}
+.post-metadata {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #444;
+}
+@media (max-width: 500px) {
+  .post {
+    padding: 10px;
+  }
+  .post-title {
+    font-size: 1.2rem;
+  }
+}
