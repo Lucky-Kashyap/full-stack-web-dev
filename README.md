@@ -253,8 +253,6 @@ Project ShowCase :
 
 ![ezgif com-video-to-gif](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/ee117ea0-dac6-4bca-a75f-dbe14a06aaee)
 
-
-
 Visit Link : [[https://job-on-board.netlify.app/]]
 
 Learning Advance topics:
@@ -903,11 +901,16 @@ authentication and authorization
 
 choosing project:
 
-pinterest
-youtube music
-instagram
-google photos
-flipkart
+Project Creating :
+
+### [PROJECT🚀] Pinterest Clone Tutorial Part 1: Building Your Own Social Inspiration Platform!
+
+data association
+
+- youtube music
+- instagram
+- google photos
+- flipkart
 
 -- deployement
 -- testing
