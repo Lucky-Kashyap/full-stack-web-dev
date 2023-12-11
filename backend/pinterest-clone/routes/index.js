@@ -21,6 +21,9 @@ router.get("/profile", isLoggedIn, (req, res) => {
   res.send("profile");
 });
 
+router.get("/feed", (req, res) => {
+  res.render("feed");
+});
 router.post("/register", (req, res) => {
   const { username, email, fullName } = req.body;
 
