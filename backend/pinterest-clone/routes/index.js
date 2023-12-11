@@ -6,11 +6,15 @@ const passport = require("passport");
 
 const localStrategy = require("passport-local");
 
-passport.authenticate(new localStrategy(userModel.authenticate()));
+passport.use(new localStrategy(userModel.authenticate()));
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
-  res.render("index", { title: "Express" });
+  res.render("index");
+});
+
+router.get("/login", function (req, res, next) {
+  res.render("login");
 });
 
 router.get("/profile", isLoggedIn, (req, res) => {
@@ -26,7 +30,7 @@ router.post("/register", (req, res) => {
     fullName,
   });
 
-  userModel.register(userData, req, body.password).then(() => {
+  userModel.register(userData, req.body.password).then(() => {
     passport.authenticate("local")(req, res, () => {
       res.redirect("/profile");
     });
