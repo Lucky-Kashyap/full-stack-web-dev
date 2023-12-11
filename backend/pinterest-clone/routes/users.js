@@ -12,7 +12,12 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  posts: [],
+  posts: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Post",
+    },
+  ],
   dp: {
     type: String, // Assuming the profile picture is stored as a URL or file path
   },
