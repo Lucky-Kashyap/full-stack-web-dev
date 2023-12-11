@@ -20,6 +20,14 @@ router.get("/createuser", async (req, res, next) => {
   res.send(user);
 });
 
+router.get("/allposts", async (req, res, next) => {
+  const user = await userModel
+    .findOne({ _id: "6576f5da9536c8221d360d2c" })
+    .populate("posts");
+
+  res.send(user);
+});
+
 router.get("/createpost", async (req, res, next) => {
   const post = await postModel.create({
     postText: "Learning MERN Stack from sheryians coding school",
