@@ -45,9 +45,6 @@ h2 {
   font-size: 1.8rem;
   transition: all ease-in 0.8s;
 }
-/* .load-morebutton:not(:disabled) {
-  background-color: gray;
-} */
 
 @media (max-width: 500px) {
   .title {
