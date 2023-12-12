@@ -15,14 +15,15 @@
         />
         <p class="header">Login account to see more</p>
 
-        <% if(wrong.length > 0){ %>
-        <p class="error"><%= wrong %></p>
+        <% if(error.length > 0) { %>
+        <p class="error"><%= error %></p>
         <% } %>
 
         <form action="/login" method="post">
           <input
             type="text"
             name="username"
+            required
             placeholder="username"
             class="detail"
           /><br />
@@ -30,11 +31,12 @@
           <input
             type="password"
             name="password"
+            required
             placeholder="Password"
             class="detail"
           />
 
-          <input class="btn int" type="submit" value="Login Account" />
+          <button type="submit" class="btn int">Login Account</button>
         </form>
 
         <a href="/forgot">Forgot your password?</a>

@@ -15,11 +15,17 @@ router.get("/", function (req, res, next) {
 
 router.get("/login", function (req, res, next) {
   console.log(req.flash("error"));
-  res.render("login", { wrong: req.flash("error") });
+  res.render("login", { error: req.flash("error") });
 });
 
-router.get("/profile", isLoggedIn, (req, res) => {
+router.get("/profile", isLoggedIn, async (req, res) => {
   // res.send("profile");
+
+  const user = await userModel.findOne({
+    username: req.session.passport.user,
+  });
+
+  console.log(user);
 
   res.render("profile");
 });
