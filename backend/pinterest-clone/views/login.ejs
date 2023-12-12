@@ -15,6 +15,10 @@
         />
         <p class="header">Login account to see more</p>
 
+        <% if(wrong.length > 0){ %>
+        <p class="error"><%= wrong %></p>
+        <% } %>
+
         <form action="/login" method="post">
           <input
             type="text"

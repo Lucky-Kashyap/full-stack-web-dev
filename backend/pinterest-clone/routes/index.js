@@ -14,7 +14,8 @@ router.get("/", function (req, res, next) {
 });
 
 router.get("/login", function (req, res, next) {
-  res.render("login");
+  console.log(req.flash("error"));
+  res.render("login", { wrong: req.flash("error") });
 });
 
 router.get("/profile", isLoggedIn, (req, res) => {
@@ -47,6 +48,7 @@ router.post(
   passport.authenticate("local", {
     successRedirect: "/profile",
     failureRedirect: "/login",
+    failureFlash: true,
   }),
   function (req, res) {}
 );
