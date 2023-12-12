@@ -36,7 +36,7 @@ const PostListProvider = ({ children }) => {
     // DEFAULT_POST_LIST
   );
 
-  const [fetching, setFetchingData] = useState(false);
+  // const [fetching, setFetchingData] = useState(false);
 
   const addPost = (post) => {
     dispatchPostList({
@@ -66,23 +66,23 @@ const PostListProvider = ({ children }) => {
     [dispatchPostList]
   );
 
-  useEffect(() => {
-    setFetchingData(true);
-    const controller = new AbortController();
-    const signal = controller.signal;
+  // useEffect(() => {
+  //   setFetchingData(true);
+  //   const controller = new AbortController();
+  //   const signal = controller.signal;
 
-    fetch("https://dummyjson.com/posts", { signal })
-      .then((res) => res.json())
-      .then((data) => {
-        addInitialPosts(data.posts);
-        setFetchingData(false);
-      });
+  //   fetch("https://dummyjson.com/posts", { signal })
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       addInitialPosts(data.posts);
+  //       setFetchingData(false);
+  //     });
 
-    return () => {
-      // console.log("Cleaning up UseEffect.");
-      controller.abort();
-    };
-  }, []);
+  //   return () => {
+  //     // console.log("Cleaning up UseEffect.");
+  //     controller.abort();
+  //   };
+  // }, []);
   // use memo
 
   const arr = [5, 12, 43, 54, 56, 98];
@@ -90,7 +90,7 @@ const PostListProvider = ({ children }) => {
   const sortedArr = useMemo(() => arr.sort(), [arr]);
 
   return (
-    <PostList.Provider value={{ postList, fetching, addPost, deletePost }}>
+    <PostList.Provider value={{ postList, addPost, deletePost }}>
       {children}
     </PostList.Provider>
   );
