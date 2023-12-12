@@ -18,6 +18,18 @@ router.get("/login", function (req, res, next) {
   res.render("login", { error: req.flash("error") });
 });
 
+router.get("/logout", (req, res, next) => {
+  req.logout((err) => {
+    if (err) next(err);
+
+    res.redirect("/login");
+  });
+});
+
+router.get("/feed", (req, res) => {
+  res.render("feed");
+});
+
 router.get("/profile", isLoggedIn, async (req, res) => {
   // res.send("profile");
 
@@ -25,14 +37,19 @@ router.get("/profile", isLoggedIn, async (req, res) => {
     username: req.session.passport.user,
   });
 
-  console.log(user);
-
-  res.render("profile");
+  res.render("profile", { user });
 });
 
-router.get("/feed", (req, res) => {
-  res.render("feed");
-});
+router.post(
+  "/login",
+  passport.authenticate("local", {
+    successRedirect: "/profile",
+    failureRedirect: "/login",
+    failureFlash: true,
+  }),
+  function (req, res) {}
+);
+
 router.post("/register", (req, res) => {
   const { username, email, fullName } = req.body;
 
@@ -49,28 +66,10 @@ router.post("/register", (req, res) => {
   });
 });
 
-router.post(
-  "/login",
-  passport.authenticate("local", {
-    successRedirect: "/profile",
-    failureRedirect: "/login",
-    failureFlash: true,
-  }),
-  function (req, res) {}
-);
-
-router.get("/logout", (req, res, next) => {
-  req.logout((err) => {
-    if (err) next(err);
-
-    res.redirect("/");
-  });
-});
-
 function isLoggedIn(req, res, next) {
   if (req.isAuthenticated()) next();
 
-  res.redirect("/login");
+  res.redirect("/");
 }
 
 // router.get("/createuser", async (req, res, next) => {
