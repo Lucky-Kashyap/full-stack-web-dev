@@ -18,7 +18,7 @@ function App() {
 
           {/* <Post /> */}
 
-          <Outlet />
+          {/* <Outlet /> */}
 
           <Footer />
         </div>
