@@ -5,27 +5,27 @@ import ShimmerUI from "./ShimmerUI";
 import WelcomeMessage from "./WelcomeMessage";
 
 const PostList = () => {
-  const { postList, addInitialPosts } = useContext(PostListData);
+  const { postList, fetching } = useContext(PostListData);
 
-  const [fetching, setFetchingData] = useState(false);
+  // const [fetching, setFetchingData] = useState(false);
 
-  useEffect(() => {
-    setFetchingData(true);
-    const controller = new AbortController();
-    const signal = controller.signal;
+  // useEffect(() => {
+  //   setFetchingData(true);
+  //   const controller = new AbortController();
+  //   const signal = controller.signal;
 
-    fetch("https://dummyjson.com/posts", { signal })
-      .then((res) => res.json())
-      .then((data) => {
-        addInitialPosts(data.posts);
-        setFetchingData(false);
-      });
+  //   fetch("https://dummyjson.com/posts", { signal })
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       addInitialPosts(data.posts);
+  //       setFetchingData(false);
+  //     });
 
-    return () => {
-      // console.log("Cleaning up UseEffect.");
-      controller.abort();
-    };
-  }, []);
+  //   return () => {
+  //     // console.log("Cleaning up UseEffect.");
+  //     controller.abort();
+  //   };
+  // }, []);
 
   return (
     <>
