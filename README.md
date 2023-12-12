@@ -905,7 +905,43 @@ Project Creating :
 
 ### [PROJECT🚀] Pinterest Clone Tutorial Part 1: Building Your Own Social Inspiration Platform!
 
-data association
+Learning data association
+
+- ek model se doosre model ke data ko jod dena id ke through, matlab ki agar aap ke pass ek user hai to wo post bnaayeha hi, jab post banega to wo user ke dwaara hi banega, to hum kya krte hai jab do aise data aapas mein closely related hote hai to hum dono ko jod dete hai, ki ek model ke bane huyein data ki id doosre model ke data ko dedete hai aur is model ke data ki id pichhle model ke data ko de dete hai.
+
+- do models bnao
+
+- make a mongoose model for me which contains user details, as such username,password,posts which is an array,dp,email and full name.
+
+- make another model for me, this time for posts,every post contains, post text, current date & time, likes
+
+- ab ek route bnao jisme ek user ban jaayein
+
+      express pinterest --view=ejs
+
+- /route par login and signup hoga
+
+- / route par aapko aapki profile dikhegi and aapke saved posts dikhege, aur ek uploaded section hoga jo abhi nahi bana rahe
+
+- Install mongoose
+
+      npm i mongoose
+
+- / feed yaha par saari images dikhegi
+
+- /click karke image open hojaayegi save kr skte ho
+
+- Use Passport JS for login/register/signUp
+
+      npm i passport passport-local passport-local-mongoose express-session
+
+- configure login/register/signup functionality
+
+- create /profile route & redirect user when register successfully
+
+- /board/:boardname poora board dikhega
+
+### Upcoming Projects:
 
 - youtube music
 - instagram
