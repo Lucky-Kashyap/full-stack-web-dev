@@ -1,4 +1,31 @@
 <% include ./partials/header.ejs %>
+  <div class="profile w-full min-h-screen text-white bg-zinc-800 pt-1">
+    <form method="post" enctype="multipart/form-data" id="uploadform" hidden>
 
+    </form>
+
+    <div class="profdets flex items-center flex-col mt-28">
+      <div class="relative">
+        <span id="uploadicon"
+          class="w-8 h-8 absolute bottom-0 right-0 rounded-full flex items-center justify-center bg-zinc-200">
+          <i class="text-zinc-800 ri-pencil-fill"></i>
+        </span>
+        <div class="w-28 h-28 bg-zinc-200 rounded-full overflow-hidden">
+
+        </div>
+      </div>
+      <h1 class="text-3xl mt-5 font-semibold">Lucky</h1>
+      <h3 class="text-md">@</h3>
+
+    </div>
+    <div class="cards px-10 flex flex-wrap gap-10 mt-10">
+      <div>
+        <div class="w-52 h-40 bg-zinc-200 rounded-lg overflow-hidden">
+
+        </div>
+        <h5>Pins</h5>
+      </div>
+    </div>
+  </div>
 
   <% include ./partials/footer.ejs %>
