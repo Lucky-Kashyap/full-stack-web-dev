@@ -27,7 +27,7 @@ router.post("/register", (req, res, next) => {
     contact: req.body.contact,
   });
 
-  userModel.register(data, req.body.password).then(() => {
+  userModel.register(data, req.body.password).then(function () {
     passport.authenticate("local")(req, res, function () {
       res.redirect("/profile");
     });
