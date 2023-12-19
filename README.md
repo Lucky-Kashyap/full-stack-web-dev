@@ -100,6 +100,8 @@ Project 4: Login-signup
 
 ![screencapture-file-D-New-folder-3-Full-stack-Web-dev-front-end-Javascript-login-signup-index-html-2023-11-29-18_28_33](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/77ad73c7-a092-46ec-ba58-eb34e60937ee)
 
+🚀 [GAMECHANGER ] Create Modern Landing Page with HTML CSS JS | Shery.js Launch 🌟
+
 Move to React JS Library:
 
 Learn Basics of react-js
