@@ -104,6 +104,9 @@ Project 4: Login-signup
 
 - UI Created.
 - Use Shery JS to add animation
+- Follow Shery JS Github and apply Shery JS in Application
+
+      Shery.imageEffect(element,configurations)
 
 Move to React JS Library:
 

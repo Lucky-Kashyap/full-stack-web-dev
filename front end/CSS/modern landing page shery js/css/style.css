@@ -83,7 +83,7 @@ nav a {
 }
 
 .hero .heroleft {
-  min-width: 50%;
+  min-width: 60%;
   /* height: 70px; */
   /* background-color: yellow; */
 }
@@ -113,7 +113,7 @@ nav a {
   cursor: pointer;
   pointer-events: all;
   padding: 0.8vw 1.5vw;
-  margin-top: 1vw;
+  margin-top: 3vw;
   font-family: "Kajiro Bold";
   font-size: 3vw;
   letter-spacing: 0.2vw;
