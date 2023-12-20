@@ -13,12 +13,17 @@ body {
 .main {
   width: 100%;
   height: 100vh;
-  background-color: black;
+  /* background-color: black; */
 }
 .back {
   width: 100%;
   height: 100vh;
   background-color: black;
+}
+.back img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .top {
   pointer-events: none;
@@ -27,7 +32,7 @@ body {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: black;
+  /* background-color: black; */
 }
 .working-area {
   position: relative;
@@ -72,7 +77,7 @@ nav a {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-top: 1vw;
+  /* margin-top: 1vw; */
   /* height: 100px; */
   /* background-color: red; */
 }
@@ -84,18 +89,25 @@ nav a {
 }
 
 .hero .heroleft .elem {
+  position: relative;
   height: 9vw;
   overflow: hidden;
   /* background-color: red; */
 }
 
 .hero .heroleft .elem h1 {
+  position: absolute;
+  top: 100%;
+  left: 0;
   margin-top: 1.5vw;
   color: #fff;
   font-family: "Kajiro Bold";
   font-weight: 300;
   font-size: 9vw;
   line-height: 0.9;
+}
+.hero .heroleft .elem h1:nth-child(1) {
+  top: 0;
 }
 .hero .heroleft button {
   cursor: pointer;
@@ -112,11 +124,13 @@ nav a {
   align-items: flex-end;
   width: 17%;
   color: #fff;
+
   /* height: 70px; */
   /* background-color: aqua; */
 }
 .hero .heroright p {
   text-align: center;
+  letter-spacing: 0.5px;
   font-size: 12px;
   font-weight: 300;
 }
@@ -125,6 +139,7 @@ nav a {
   height: 160px;
   margin-top: 30px;
   margin-bottom: 20px;
+  border-radius: 1%;
   /* background-color: green; */
   background: url("https://images.unsplash.com/photo-1527203561188-dae1bc1a417f?q=80&w=1430&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
