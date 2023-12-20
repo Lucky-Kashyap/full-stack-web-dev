@@ -102,6 +102,9 @@ Project 4: Login-signup
 
 🚀 [GAMECHANGER ] Create Modern Landing Page with HTML CSS JS | Shery.js Launch 🌟
 
+- UI Created.
+- Use Shery JS to add animation
+
 Move to React JS Library:
 
 Learn Basics of react-js
