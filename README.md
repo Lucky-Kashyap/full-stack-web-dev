@@ -268,6 +268,18 @@ Project ShowCase :
 
 ![ezgif com-video-to-gif-converted (1)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/417ca101-3dfc-440c-bd81-fd5246370d63)
 
+Project 8: React-Image-Slider
+
+Features:
+
+- Implement carousel functionality.
+- Slide Images using react-slick
+
+      npm install react-slick slick-carousel
+
+- Use Images inside Slider component to implement functionality & config settings of slick to use it
+
+Project ShowCase :
 
 ### Solving Challenge Job Board
 
