@@ -108,16 +108,13 @@ Project 4: Login-signup
 
       Shery.imageEffect(element,configurations)
 
-
 Project ShowCase :
 
 ![Screenshot (3352)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/38580b9c-6d27-4dc8-8449-83e29fce916b)
 
-
 ![Screenshot (3354)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/624345dc-d878-4fea-9d88-8bc5564d5a1d)
 
 ![Screenshot (3355)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/19e13936-608c-46aa-8211-ace1a9202ffc)
-
 
 Move to React JS Library:
 
@@ -231,6 +228,12 @@ Features:
 Project ShowCase :
 
 ![ezgif com-video-to-gif](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/71c963c0-e185-4807-877f-d0b1d4a29136)
+
+Project 7: Tic-Tac-Toe Game
+
+Feature:
+
+-
 
 ### Solving Challenge Job Board
 
