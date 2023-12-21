@@ -1,7 +1,13 @@
 import React from "react";
-
-const Icon = () => {
-  return <div>Icon</div>;
+import { FaPen, FaRegCircle, FaTimes } from "react-icons/fa";
+const Icon = ({ name }) => {
+  if (name === "circle") {
+    return <FaRegCircle />;
+  } else if (name === "cross") {
+    return <FaTimes />;
+  } else {
+    return <FaPen />;
+  }
 };
 
 export default Icon;

@@ -1,0 +1,8 @@
+.grid-board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+}
