@@ -40,10 +40,16 @@ const Grid = ({ numberOfCards }) => {
           </button>
         </>
       )}
-      <h1 className="turn-highlight">Current trun :{turn ? "O" : "X"}</h1>
+      <h1 className="turn-highlight">Current turn : {turn ? "O" : "X"}</h1>
       <div className="grid-board">
         {board.map((el, index) => (
-          <Card key={index} onPlay={play} player={el} index={index} />
+          <Card
+            key={index}
+            gameEnd={winner ? true : false}
+            onPlay={play}
+            player={el}
+            index={index}
+          />
         ))}
       </div>
     </div>
