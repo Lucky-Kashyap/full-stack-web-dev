@@ -281,6 +281,9 @@ Features:
 
 Project ShowCase :
 
+![ezgif com-optimize (1)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/910af0db-3acf-4c0c-93de-72b4dd32e7e0)
+
+
 ### Solving Challenge Job Board
 
 Build a job board that displays the latest job postings fetched from the Hacker News API, with each posting displaying the job title, poster, and date posted.
