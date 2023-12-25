@@ -86,7 +86,6 @@ Project ShowCase :
 
 ![Screenshot (3397)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/97c175f5-1b15-4d86-87b5-1d5304c17f46)
 
-
 Started with JavaScript:
 
 Learn Basics of programming
@@ -291,6 +290,12 @@ Features:
 Project ShowCase :
 
 ![ezgif com-optimize (1)](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/910af0db-3acf-4c0c-93de-72b4dd32e7e0)
+
+Project 9: React Multi Language Support Application
+
+- Use i18 Next technology for knowing the current language and change it accordingly
+
+Project ShowCase :
 
 ### Solving Challenge Job Board
 
