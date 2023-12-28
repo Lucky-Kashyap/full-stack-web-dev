@@ -1,9 +1,11 @@
+import { useTransition } from "react";
 import "./App.css";
 
 function App() {
+  const { t } = useTransition();
   return (
     <div className="main">
-      <h1>Hello World..!!</h1>
+      <h1>{t("greeting")}</h1>
     </div>
   );
 }

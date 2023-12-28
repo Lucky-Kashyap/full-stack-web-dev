@@ -293,7 +293,11 @@ Project ShowCase :
 
 Project 9: React Multi Language Support Application
 
+Features:
+
 - Use i18 Next technology for knowing the current language and change it accordingly
+
+- Give interalization language feature to the app
 
 Project ShowCase :
 
