@@ -101,6 +101,10 @@ Project ShowCase :
 
 - Use Post CSS to use tailwind
 
+- generate package.json via
+
+      npm init -y
+
 - Install via these commands
 
       npm install -D tailwindcss postcss autoprefixer
@@ -119,7 +123,7 @@ Project ShowCase :
 
             /** @type {import('tailwindcss').Config} */
                   module.exports = {
-                        content: ["./src/**/*.{html,js}"],
+                        content: ["*"],
                         theme: {
                         extend: {},
                         },
