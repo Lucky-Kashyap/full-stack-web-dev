@@ -95,6 +95,57 @@ Project ShowCase :
 
 - Customization Also possible
 
+- via CDN
+
+      <script src="https://cdn.tailwindcss.com" defer></script>
+
+- Use Post CSS to use tailwind
+
+- Install via these commands
+
+      npm install -D tailwindcss postcss autoprefixer
+      npx tailwindcss init -p
+
+- postcss.config.js
+
+       module.exports = {
+            plugins: {
+            tailwindcss: {},
+            autoprefixer: {},
+            }
+      }
+
+- tailwind.config.js
+
+            /** @type {import('tailwindcss').Config} */
+                  module.exports = {
+                        content: ["./src/**/*.{html,js}"],
+                        theme: {
+                        extend: {},
+                        },
+                        plugins: [],
+            }
+
+- style.css
+
+            @tailwind base;
+            @tailwind components;
+            @tailwind utilities;
+
+- install vite
+
+            npm i vite
+
+- in package.json
+
+            "dev":"vite"
+
+- to run project
+
+      npm run dev
+
+- It will start the project on localhost
+
 Started with JavaScript:
 
 Learn Basics of programming
