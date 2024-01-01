@@ -150,6 +150,14 @@ Project ShowCase :
 
 - It will start the project on localhost
 
+## Tailwind CSS Customization:
+
+- Customized tailwind.config.js file
+
+  - give customized color
+  - background color according to our need
+  - many things we can customize
+
 Started with JavaScript:
 
 Learn Basics of programming
