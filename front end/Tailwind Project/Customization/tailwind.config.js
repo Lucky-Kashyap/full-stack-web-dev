@@ -23,6 +23,9 @@ module.exports = {
       gray: "#8492a6",
       "gray-light": "#d3dce6",
     },
+    borderColor: {
+      black: "#ffff00",
+    },
     extend: {
       fontSize: {
         "10xl": "5rem",
