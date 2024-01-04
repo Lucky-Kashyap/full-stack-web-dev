@@ -199,6 +199,10 @@ Project ShowCase :
                   },
             },
 
+## Project Using Tailwind CSS (Paytm Clone):
+
+- SetUp files for building paytm Clone
+
 Started with JavaScript:
 
 Learn Basics of programming
