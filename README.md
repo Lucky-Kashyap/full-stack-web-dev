@@ -418,6 +418,10 @@ Features:
 
 Project ShowCase :
 
+Project 10 (Dark/Light Mode) :
+
+- Implement Dark/Light Mode Feature
+
 ### Solving Challenge Job Board
 
 Build a job board that displays the latest job postings fetched from the Hacker News API, with each posting displaying the job title, poster, and date posted.
