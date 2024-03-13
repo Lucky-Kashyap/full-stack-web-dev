@@ -203,6 +203,12 @@ Project ShowCase :
 
 - SetUp files for building paytm Clone
 
+- Use tailwind utility classes to power up project
+
+- Completed Paytm Clone Using Tailwind CSS (Build)
+
+#### Project Showcase :
+
 Started with JavaScript:
 
 Learn Basics of programming
