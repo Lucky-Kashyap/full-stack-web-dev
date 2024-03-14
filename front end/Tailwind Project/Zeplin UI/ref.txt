@@ -1,0 +1,8 @@
+https://extensions.zeplin.io/
+
+https://dev.to/devwares/10-awesome-projects-built-with-tailwind-css-4mmf
+Zeplin Config & Class generator
+
+This tool makes it easy to generate Tailwind CSS configurations. A well-organized workspace where developers and designers can come together to collaborate to create and deploy products. This tool generates snippets of code from designers made by designers.
+
+

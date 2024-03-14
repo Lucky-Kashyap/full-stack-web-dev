@@ -211,6 +211,19 @@ Project ShowCase :
 
 ![screencapture-localhost-5173-2024-03-13-21_25_32](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/c53d5f40-8c79-4ee4-9d75-db5a0602d94b)
 
+## Project Using Tailwind CSS (Zeplin Extensions)
+
+- Take reference from [[https://extensions.zeplin.io/]]
+
+- Use Customzation to set the UI
+
+- In tailwind.config.js set own colors and shadow of an element
+
+- Zeplin Config & Class generator
+
+- This tool makes it easy to generate Tailwind CSS configurations. A well-organized workspace where developers and designers can come together to collaborate to create and deploy products. This tool generates snippets of code from designers made by designers.
+
+#### Project Showcase :
 
 Started with JavaScript:
 
