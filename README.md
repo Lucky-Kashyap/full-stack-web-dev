@@ -227,7 +227,6 @@ Project ShowCase :
 
 ![screencapture-localhost-5173-2024-03-14-20_54_24](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/c7f4cf22-c2db-4481-a32d-8617daa1687c)
 
-
 Started with JavaScript:
 
 Learn Basics of programming
@@ -488,6 +487,92 @@ Project ShowCase :
 ![ezgif com-video-to-gif](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/ee117ea0-dac6-4bca-a75f-dbe14a06aaee)
 
 Visit Link : [[https://job-on-board.netlify.app/]]
+
+### Project Registration Form Using MySql:
+
+- create simple Form with fields username,email,mobile,password and a save button
+
+- save button will show data on UI in the table form.
+
+- while clicking on save button trigger post request through axios to save data inside mysql database
+
+- firstly we have to configure mysql with project and start server
+
+- Then post data and check on mysql workbench whether data save or not
+
+- server code :
+
+            const express = require("express");
+            const bodyParser = require("body-parser");
+            const mysql = require("mysql");
+            const cors = require("cors");
+
+            const app = express();
+
+            const port = 3000;
+            app.use(cors());
+
+            app.use(bodyParser.json());
+
+            const connection = mysql.createConnection({
+            host: "localhost",
+            user: "root",
+            password: "rootlucky",
+            database: "registration",
+            });
+
+            // Connect to MySQL
+            connection.connect((err) => {
+            if (err) {
+            console.error("Error connecting to MySQL:", err);
+            return;
+            }
+            console.log("Connected to MySQL database");
+            });
+
+            // POST endpoint for user registration
+            app.post("/userReg", (req, res) => {
+            const { username, email, mobile, password } = req.body;
+            const sql =
+            "INSERT INTO TestUser2 (username, email, mobile, password) VALUES  (?,?,?,?)";
+            const values = [username, email, mobile, password];
+
+            connection.query(sql, values, (err, result) => {
+            if (err) {
+                  console.error("Error executing SQL query:", err);
+                  res.status(500).json({ message: "Registration failed" });
+                  return;
+            }
+            console.log("User registered successfully");
+            res.status(200).json({ message: "User registered successfully" });
+            });
+            });
+
+            // Start the server
+            app.listen(port, () => {
+            console.log(`Server is running on port ${port}`);
+            });
+
+- on save button this function runs that save the data and post data into mysql table
+
+            const handleClick = async () => {
+            setRegisteredUsers([...registeredUsers, formData]);
+            setFormData({ username: "", email: "", mobile: "", password: "" });
+
+            try {
+                  const response = await axios.post(
+                  "http://localhost:3000/userReg",
+                  formData
+                  );
+                  console.log(response.data); // Assuming server sends back success message
+                  // You can handle success message here
+            } catch (error) {
+                  console.error("Error:", error.message);
+                  // Handle error here
+            }
+            };
+
+#### Project Showcase :
 
 Learning Advance topics:
 
