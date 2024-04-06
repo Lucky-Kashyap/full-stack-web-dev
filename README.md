@@ -238,70 +238,16 @@ Project ShowCase :
 - Bootstrap Typography
 
   - we can write classes according to our text size we want (h1,h2,h3,h4,h5,h6) these are classes for text size
-
-           <h1 class="h6">Learning Bootstrap Typography</h1>
-           <h2 class="h5">Learning Bootstrap Typography</h2>
-           <h3 class="h4">Learning Bootstrap Typography</h3>
-           <h4 class="h3">Learning Bootstrap Typography</h4>
-           <h5 class="h2">Learning Bootstrap Typography</h5>
-           <h6 class="h1">Learning Bootstrap Typography</h6>
-
   - Display Heading
-
-           <h1 class="display-1">
-           Display 1 Heading
-           </h1>
-           <h1 class="display-2">
-           Display 2 Heading
-           </h1>
-           <h1 class="display-3">
-           Display 3 Heading
-           </h1>
-           <h1 class="display-4">
-           Display 4 Heading
-           </h1>
-
   - Lead Text and Alignment
-
-            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur cupiditate
-            ipsum autem.</p>
-
-            <p class="text-center">Center</p>
-            <p class="text-end">Align End</p>
-
   - Text decoration & font-weight
-
-            <p class="text-decoration-underline">This is a underline text</p>
-
-            <p class="text-decoration-line-through">This is a line to text</p>
-
-            <p class="fw-bold">This is a bold text</p>
-            <p class="fw-light">This is a light text</p>
-
   - Text Colors
-
-                  <p class="text-primary">Lorem ipsum dolor sit amet </p>
-
-                  <p class="text-secondary">Secondary Color</p>
-
-                  <p class="text-info">Info Color</p>
-
-                  <p class="text-warning">Warning Color</p>
-
-                  <p class="text-success">Success Color</p>
-
-                  <p class="text-danger">Danger Color</p>
-
-                  <p class="text-muted">Muted Color</p>
-
   - BG Colors
-
-            <p class="text-white bg-primary">White text on primary BG</p>
-            <p class="text-white bg-secondary">White text on secondary BG</p>
-            <p class="text-white bg-danger">White text on danger BG</p>
-            <p class="text-white bg-info">White text on info BG</p>
-            <p class="text-white bg-success">White text on success BG</p>
-            <p class="text-white bg-warning">White text on warning BG</p>
+  - Buttons
+  - Button sizes
+  - Outlined Style
+  - Button Groups
+  - Links as buttons
 
 ## Started with JavaScript:
 
