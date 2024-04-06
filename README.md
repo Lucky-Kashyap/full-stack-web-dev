@@ -278,6 +278,31 @@ Project ShowCase :
             <p class="fw-bold">This is a bold text</p>
             <p class="fw-light">This is a light text</p>
 
+  - Text Colors
+
+                  <p class="text-primary">Lorem ipsum dolor sit amet </p>
+
+                  <p class="text-secondary">Secondary Color</p>
+
+                  <p class="text-info">Info Color</p>
+
+                  <p class="text-warning">Warning Color</p>
+
+                  <p class="text-success">Success Color</p>
+
+                  <p class="text-danger">Danger Color</p>
+
+                  <p class="text-muted">Muted Color</p>
+
+  - BG Colors
+
+            <p class="text-white bg-primary">White text on primary BG</p>
+            <p class="text-white bg-secondary">White text on secondary BG</p>
+            <p class="text-white bg-danger">White text on danger BG</p>
+            <p class="text-white bg-info">White text on info BG</p>
+            <p class="text-white bg-success">White text on success BG</p>
+            <p class="text-white bg-warning">White text on warning BG</p>
+
 ## Started with JavaScript:
 
 Learn Basics of programming
