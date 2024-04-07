@@ -235,19 +235,26 @@ Project ShowCase :
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-- Bootstrap Typography
+### Basic Intro about Bootstrap
 
-  - we can write classes according to our text size we want (h1,h2,h3,h4,h5,h6) these are classes for text size
-  - Display Heading
-  - Lead Text and Alignment
-  - Text decoration & font-weight
-  - Text Colors
-  - BG Colors
-  - Buttons
-  - Button sizes
-  - Outlined Style
-  - Button Groups
-  - Links as buttons
+- Bootstrap Typography
+- we can write classes according to our text size we want (h1,h2,h3,h4,h5,h6) these are classes for text size
+- Display Heading
+- Lead Text and Alignment
+- Text decoration & font-weight
+- Text Colors
+- BG Colors
+- Buttons
+- Button sizes
+- Outlined Style
+- Button Groups
+- Links as buttons
+- Utilities classees
+
+  - Margin and padding it goes from 0 to 5
+  - Borders
+  - Box Shadow
+  - Font weight
 
 ## Started with JavaScript:
 
