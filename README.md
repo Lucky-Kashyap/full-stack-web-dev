@@ -256,6 +256,17 @@ Project ShowCase :
   - Box Shadow
   - Font weight
 
+### More Classes
+
+#### Container Classes:
+
+- Container
+- Container Fluid
+- Container Small
+- Container Medium
+- Container Large
+- Container Extra Large
+
 ## Started with JavaScript:
 
 Learn Basics of programming
