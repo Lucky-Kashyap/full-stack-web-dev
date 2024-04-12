@@ -272,6 +272,13 @@ Project ShowCase :
 - Use Navigation of bootstrap
 - Responsive
 
+#### Bootstrap Cards:
+
+- Use card class to make Bootstrap Card
+- Use image title description and a beautiful button
+
+## Card Design:
+
 ## Started with JavaScript:
 
 Learn Basics of programming
