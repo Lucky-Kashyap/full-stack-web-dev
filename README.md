@@ -267,6 +267,11 @@ Project ShowCase :
 - Container Large
 - Container Extra Large
 
+#### Bootstrap Navigation:
+
+- Use Navigation of bootstrap
+- Responsive
+
 ## Started with JavaScript:
 
 Learn Basics of programming
