@@ -279,6 +279,9 @@ Project ShowCase :
 
 ## Card Design:
 
+![screencapture-127-0-0-1-5500-cards-html-2024-04-12-20_43_15](https://github.com/Lucky-Kashyap/full-stack-web-dev/assets/88204554/56918daf-dfd1-4d8a-959c-407a56c64126)
+
+
 ## Started with JavaScript:
 
 Learn Basics of programming
