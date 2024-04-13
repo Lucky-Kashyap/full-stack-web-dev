@@ -285,13 +285,15 @@ Project ShowCase :
 
 - Use Bootstrap Slider for sliding images
 - We can customize it whenever we need
-
-##### Bootstrap Carousel
-
 - Auto Slide
 - Carouel Slider Buttons
 - Carousel Indicators
 - Carousel Caption
+
+#### Bootstrap Modal
+
+- Button trigger modal
+- Modal Header , Modal Body , Modal Footer
 
 ## Started with JavaScript:
 
