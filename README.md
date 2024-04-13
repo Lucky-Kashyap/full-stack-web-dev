@@ -290,10 +290,17 @@ Project ShowCase :
 - Carousel Indicators
 - Carousel Caption
 
-#### Bootstrap Modal
+#### Bootstrap Modal:
 
 - Button trigger modal
 - Modal Header , Modal Body , Modal Footer
+
+#### Bootstrap Dropdown:
+
+- we can modiy dropdown button and add dropdown links according to our need
+
+- Example single danger button with Dropdown Menu
+- Example split danger button with Dropdown Menu
 
 ## Started with JavaScript:
 
