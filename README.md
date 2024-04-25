@@ -665,6 +665,14 @@ Learning Advance topics:
 
 Now Move to Backend Part:
 
+### 🚀 Node JS Basics:
+
+##### Process:
+
+- process: this object provides information about, and control over, the current Node.js process.
+
+- process.argv: returns an array containing the command-line arguments passed when the node.js process was launched.
+
 ### 🚀 Backend (Node JS) Series - Learn What Matters 1: Understanding the Internet
 
 🌐 What is the Internet?

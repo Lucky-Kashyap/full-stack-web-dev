@@ -25,3 +25,16 @@
 // var c = 45;
 
 // console.log(chacha);
+
+// Process object
+
+// console.log(process);
+// console.log(process.cwd());
+
+let args = process.argv;
+
+for (let i = 0; i < args.length; i++) {
+  console.log(args[i]);
+}
+
+// console.log(process.argv);
