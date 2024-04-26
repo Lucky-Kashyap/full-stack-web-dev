@@ -673,6 +673,29 @@ Now Move to Backend Part:
 
 - process.argv: returns an array containing the command-line arguments passed when the node.js process was launched.
 
+##### module.exports
+
+- requiring files
+
+- require() a build-in function to include external modules that exist in seperate files. module.exports a special object
+
+- installing packages
+
+- node_modules: The node_modules folder contains every installed dependency for your project.
+
+- package-lock.json: It records the exact version of every installed dependency, including its sub-dependencies and their version
+
+- package.json the package.json file contains descriptive and functional meta data about a project such as a name,version and dependencies
+
+- npm init
+
+- require vs import
+
+- import {sum} from './math.js';
+
+- we can't selectively load only the piece we need with require but with import, we can selectively load only the piece we need, which can save memory.
+  Loading is asynchronous for 'require' butt can be asynchronous for 'import'
+
 ### 🚀 Backend (Node JS) Series - Learn What Matters 1: Understanding the Internet
 
 🌐 What is the Internet?

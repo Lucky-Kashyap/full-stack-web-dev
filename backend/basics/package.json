@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "dependencies": {
     "figlet": "^1.7.0",
     "one-liner-joke": "^1.2.2"
