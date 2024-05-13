@@ -663,6 +663,12 @@ Learning Advance topics:
 - RTK
 - Many more...
 
+## IPL Project:
+
+- Start creating basic IPL Proj Which displays matches, team, table points and many more...
+
+- Use cricbuzz API for data
+
 Now Move to Backend Part:
 
 ### 🚀 Node JS Basics:
