@@ -302,6 +302,20 @@ Project ShowCase :
 - Example single danger button with Dropdown Menu
 - Example split danger button with Dropdown Menu
 
+#### Bootstrap Popover:
+
+- we can show small popup/dialog with next to element
+- we can set its position also
+
+#### Bootstrap ScrollSpy:
+
+- we can use this when we have large text and we want to move over that text
+
+#### Bootstrap Pagination:
+
+- we can set size, disable, pagination icons
+- we can also set its alignment
+
 ## Started with JavaScript:
 
 Learn Basics of programming
@@ -668,6 +682,10 @@ Learning Advance topics:
 - Start creating basic IPL Proj Which displays matches, team, table points and many more...
 
 - Use cricbuzz API for data
+
+## Learning Redux:
+
+#### Redux Fundamentals
 
 Now Move to Backend Part:
 
