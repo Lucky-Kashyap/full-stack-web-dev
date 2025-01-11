@@ -683,6 +683,8 @@ Learning Advance topics:
 
 - Use cricbuzz API for data
 
+- Added MatchDetail feature
+
 ## Learning Redux:
 
 #### Redux Fundamentals
