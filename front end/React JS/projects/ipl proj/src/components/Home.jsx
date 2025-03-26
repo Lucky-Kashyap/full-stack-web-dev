@@ -4272,11 +4272,14 @@ function Home() {
     setMatchData(filterData);
   }, []);
   return (
-    <div>
+    <div className="flex flex-wrap w-full">
       {matchData?.map((data, index) =>
         // <h2 key={index}>{data.matchDetailsMap.key}</h2>
         data.matchDetailsMap.match.map((singleMatch, index) => (
-          <Link to={`/match-detail/${singleMatch.matchInfo.matchId}`}>
+          <Link
+            to={`/match-detail/${singleMatch.matchInfo.matchId}`}
+            key={index}
+          >
             <h2 key={index}>
               {singleMatch.matchInfo.team1.teamSName} vs{"  "}
               {singleMatch.matchInfo.team2.teamSName} {data.matchDetailsMap.key}

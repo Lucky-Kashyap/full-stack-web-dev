@@ -685,6 +685,14 @@ Learning Advance topics:
 
 - Added MatchDetail feature
 
+## React Assignment (Validate OTP):
+
+- ✅ Auto-focus Navigation: Moves focus to the next input field after entering a digit.
+- ✅ Backspace Handling: Deletes the digit first, then moves focus back when pressed again.
+- ✅ Dynamic Input Fields: Supports different OTP lengths.
+- ✅ Optimized with useRef: Uses React's useRef for direct input control.
+- ✅ User-friendly Experience: Smooth transitions between fields.
+
 ## Learning Redux:
 
 #### Redux Fundamentals

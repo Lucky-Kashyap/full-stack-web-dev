@@ -1,0 +1,15 @@
+.app {
+  text-align: center;
+  padding: 2rem;
+}
+
+.app .otp-input {
+  width: 40px;
+  height: 40px;
+  margin-top: 2rem;
+  margin-inline: 0.1rem;
+  border: 1px solid grey;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 24px;
+}
